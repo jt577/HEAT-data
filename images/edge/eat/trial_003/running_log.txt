@@ -1,0 +1,1159 @@
+2026-10-30 05:47:20 | ga_start seed=460488632
+2026-10-30 05:47:20 | generation_start generation=0
+2026-10-30 05:47:27 | relaxing run_kind=ga_generation_0_member_0_random stage=1 iter=1 Eform=+4.198372 score=+4.198372 err=1.978e+00
+2026-10-30 05:49:19 | member_done generation=0 member=0 kind=random score=+0.230561 energy_evaluations=530 energy_eval_s=112.35 member_wall_s=112.82
+2026-10-30 05:49:27 | relaxing run_kind=ga_generation_0_member_1_random stage=1 iter=1 Eform=+4.464235 score=+4.464235 err=2.177e+00
+2026-10-30 05:51:00 | member_done generation=0 member=1 kind=random score=+0.234866 energy_evaluations=423 energy_eval_s=93.28 member_wall_s=93.72
+2026-10-30 05:51:07 | relaxing run_kind=ga_generation_0_member_2_random stage=1 iter=1 Eform=+4.430742 score=+4.430742 err=2.161e+00
+2026-10-30 05:52:54 | member_done generation=0 member=2 kind=random score=+0.262717 energy_evaluations=528 energy_eval_s=107.54 member_wall_s=108.00
+2026-10-30 05:52:59 | relaxing run_kind=ga_generation_0_member_3_random stage=1 iter=1 Eform=+3.667414 score=+3.667414 err=1.810e+00
+2026-10-30 05:54:40 | member_done generation=0 member=3 kind=random score=+0.306008 energy_evaluations=525 energy_eval_s=100.74 member_wall_s=101.16
+2026-10-30 05:54:46 | relaxing run_kind=ga_generation_0_member_4_random stage=1 iter=1 Eform=+3.713356 score=+3.713356 err=1.982e+00
+2026-10-30 05:56:32 | member_done generation=0 member=4 kind=random score=+0.261330 energy_evaluations=526 energy_eval_s=106.41 member_wall_s=107.05
+2026-10-30 05:56:39 | relaxing run_kind=ga_generation_0_member_5_random stage=1 iter=1 Eform=+3.852170 score=+3.852170 err=1.991e+00
+2026-10-30 05:58:27 | member_done generation=0 member=5 kind=random score=+0.264770 energy_evaluations=529 energy_eval_s=108.53 member_wall_s=109.00
+2026-10-30 05:58:34 | relaxing run_kind=ga_generation_0_member_6_random stage=1 iter=1 Eform=+4.446313 score=+4.446313 err=2.267e+00
+2026-10-30 06:00:22 | member_done generation=0 member=6 kind=random score=+0.244332 energy_evaluations=526 energy_eval_s=108.84 member_wall_s=109.27
+2026-10-30 06:00:28 | relaxing run_kind=ga_generation_0_member_7_random stage=1 iter=1 Eform=+4.026787 score=+4.026787 err=1.998e+00
+2026-10-30 06:02:15 | member_done generation=0 member=7 kind=random score=+0.261610 energy_evaluations=527 energy_eval_s=107.36 member_wall_s=107.82
+2026-10-30 06:02:22 | relaxing run_kind=ga_generation_0_member_8_random stage=1 iter=1 Eform=+3.321590 score=+3.321590 err=1.482e+00
+2026-10-30 06:04:07 | member_done generation=0 member=8 kind=random score=+0.261127 energy_evaluations=524 energy_eval_s=105.93 member_wall_s=106.35
+2026-10-30 06:04:14 | relaxing run_kind=ga_generation_0_member_9_random stage=1 iter=1 Eform=+3.781760 score=+3.781760 err=1.796e+00
+2026-10-30 06:06:03 | member_done generation=0 member=9 kind=random score=+0.255297 energy_evaluations=527 energy_eval_s=109.54 member_wall_s=109.97
+2026-10-30 06:06:10 | relaxing run_kind=ga_generation_0_member_10_random stage=1 iter=1 Eform=+3.863788 score=+3.863788 err=1.976e+00
+2026-10-30 06:07:54 | member_done generation=0 member=10 kind=random score=+0.273914 energy_evaluations=524 energy_eval_s=104.84 member_wall_s=105.25
+2026-10-30 06:08:00 | relaxing run_kind=ga_generation_0_member_11_random stage=1 iter=1 Eform=+3.853798 score=+3.853798 err=1.952e+00
+2026-10-30 06:09:45 | member_done generation=0 member=11 kind=random score=+0.270667 energy_evaluations=525 energy_eval_s=105.72 member_wall_s=106.13
+2026-10-30 06:09:52 | relaxing run_kind=ga_generation_0_member_12_random stage=1 iter=1 Eform=+3.758262 score=+3.758262 err=1.826e+00
+2026-10-30 06:11:34 | member_done generation=0 member=12 kind=random score=+0.285175 energy_evaluations=525 energy_eval_s=102.57 member_wall_s=102.98
+2026-10-30 06:11:42 | relaxing run_kind=ga_generation_0_member_13_random stage=1 iter=1 Eform=+3.715575 score=+3.715575 err=1.799e+00
+2026-10-30 06:13:27 | member_done generation=0 member=13 kind=random score=+0.267531 energy_evaluations=526 energy_eval_s=105.29 member_wall_s=105.72
+2026-10-30 06:13:33 | relaxing run_kind=ga_generation_0_member_14_random stage=1 iter=1 Eform=+4.216721 score=+4.216721 err=2.064e+00
+2026-10-30 06:15:20 | member_done generation=0 member=14 kind=random score=+0.261421 energy_evaluations=527 energy_eval_s=107.05 member_wall_s=107.50
+2026-10-30 06:15:26 | relaxing run_kind=ga_generation_0_member_15_random stage=1 iter=1 Eform=+3.617649 score=+3.617649 err=1.947e+00
+2026-10-30 06:17:08 | member_done generation=0 member=15 kind=random score=+0.296601 energy_evaluations=525 energy_eval_s=102.29 member_wall_s=102.71
+2026-10-30 06:17:14 | relaxing run_kind=ga_generation_0_member_16_random stage=1 iter=1 Eform=+4.353709 score=+4.353709 err=2.273e+00
+2026-10-30 06:19:00 | member_done generation=0 member=16 kind=random score=+0.281668 energy_evaluations=527 energy_eval_s=106.57 member_wall_s=107.03
+2026-10-30 06:19:06 | relaxing run_kind=ga_generation_0_member_17_random stage=1 iter=1 Eform=+3.684618 score=+3.684618 err=1.784e+00
+2026-10-30 06:20:50 | member_done generation=0 member=17 kind=random score=+0.275183 energy_evaluations=525 energy_eval_s=104.10 member_wall_s=104.53
+2026-10-30 06:20:57 | relaxing run_kind=ga_generation_0_member_18_random stage=1 iter=1 Eform=+4.347692 score=+4.347692 err=2.180e+00
+2026-10-30 06:22:43 | member_done generation=0 member=18 kind=random score=+0.266656 energy_evaluations=527 energy_eval_s=107.09 member_wall_s=107.55
+2026-10-30 06:22:50 | relaxing run_kind=ga_generation_0_member_19_random stage=1 iter=1 Eform=+4.038137 score=+4.038137 err=2.000e+00
+2026-10-30 06:24:37 | member_done generation=0 member=19 kind=random score=+0.257504 energy_evaluations=528 energy_eval_s=107.46 member_wall_s=108.14
+2026-10-30 06:24:44 | relaxing run_kind=ga_generation_0_member_20_random stage=1 iter=1 Eform=+4.495677 score=+4.495677 err=2.191e+00
+2026-10-30 06:26:32 | member_done generation=0 member=20 kind=random score=+0.269922 energy_evaluations=530 energy_eval_s=109.05 member_wall_s=109.54
+2026-10-30 06:26:39 | relaxing run_kind=ga_generation_0_member_21_random stage=1 iter=1 Eform=+4.297383 score=+4.297383 err=2.180e+00
+2026-10-30 06:28:11 | member_done generation=0 member=21 kind=random score=+0.248423 energy_evaluations=432 energy_eval_s=92.64 member_wall_s=93.04
+2026-10-30 06:28:18 | relaxing run_kind=ga_generation_0_member_22_random stage=1 iter=1 Eform=+3.607116 score=+3.607116 err=1.817e+00
+2026-10-30 06:30:03 | member_done generation=0 member=22 kind=random score=+0.267170 energy_evaluations=526 energy_eval_s=105.87 member_wall_s=106.30
+2026-10-30 06:30:09 | relaxing run_kind=ga_generation_0_member_23_random stage=1 iter=1 Eform=+4.158840 score=+4.158840 err=2.096e+00
+2026-10-30 06:31:53 | member_done generation=0 member=23 kind=random score=+0.287216 energy_evaluations=526 energy_eval_s=104.24 member_wall_s=104.68
+2026-10-30 06:32:00 | relaxing run_kind=ga_generation_0_member_24_random stage=1 iter=1 Eform=+4.599544 score=+4.599544 err=2.205e+00
+2026-10-30 06:33:48 | member_done generation=0 member=24 kind=random score=+0.262372 energy_evaluations=529 energy_eval_s=108.52 member_wall_s=108.99
+2026-10-30 06:33:55 | relaxing run_kind=ga_generation_0_member_25_random stage=1 iter=1 Eform=+4.230581 score=+4.230581 err=2.047e+00
+2026-10-30 06:35:42 | member_done generation=0 member=25 kind=random score=+0.267248 energy_evaluations=527 energy_eval_s=107.14 member_wall_s=107.59
+2026-10-30 06:35:48 | relaxing run_kind=ga_generation_0_member_26_random stage=1 iter=1 Eform=+4.043311 score=+4.043311 err=1.750e+00
+2026-10-30 06:37:29 | member_done generation=0 member=26 kind=random score=+0.297353 energy_evaluations=524 energy_eval_s=101.95 member_wall_s=102.38
+2026-10-30 06:37:36 | relaxing run_kind=ga_generation_0_member_27_random stage=1 iter=1 Eform=+4.302942 score=+4.302942 err=2.071e+00
+2026-10-30 06:39:21 | member_done generation=0 member=27 kind=random score=+0.284194 energy_evaluations=526 energy_eval_s=104.96 member_wall_s=105.41
+2026-10-30 06:39:27 | relaxing run_kind=ga_generation_0_member_28_random stage=1 iter=1 Eform=+3.556536 score=+3.556536 err=1.893e+00
+2026-10-30 06:41:14 | member_done generation=0 member=28 kind=random score=+0.260924 energy_evaluations=527 energy_eval_s=107.43 member_wall_s=107.87
+2026-10-30 06:41:21 | relaxing run_kind=ga_generation_0_member_29_random stage=1 iter=1 Eform=+4.345117 score=+4.345117 err=2.063e+00
+2026-10-30 06:43:12 | member_done generation=0 member=29 kind=random score=+0.245580 energy_evaluations=529 energy_eval_s=111.24 member_wall_s=111.73
+2026-10-30 06:43:12 | generation_done generation=0 best=+0.230561 global_best=+0.230561 energy_evaluations=15600 energy_eval_s=3166.57 generation_wall_s=3351.88
+2026-10-30 06:43:12 | generation_start generation=1
+2026-10-30 06:43:12 | elite_copied generation=1 member=0 kind=elite_copy score=+0.230561 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 06:43:12 | elite_copied generation=1 member=1 kind=elite_copy score=+0.234866 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 06:43:12 | elite_copied generation=1 member=2 kind=elite_copy score=+0.244332 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 06:43:18 | relaxing run_kind=ga_generation_1_member_3_random_immigrant stage=1 iter=1 Eform=+4.125712 score=+4.125712 err=2.429e+00
+2026-10-30 06:45:01 | member_done generation=1 member=3 kind=random_immigrant score=+0.275518 energy_evaluations=525 energy_eval_s=103.18 member_wall_s=103.62
+2026-10-30 06:45:07 | relaxing run_kind=ga_generation_1_member_4_random_immigrant stage=1 iter=1 Eform=+3.321854 score=+3.321854 err=1.793e+00
+2026-10-30 06:46:58 | member_done generation=1 member=4 kind=random_immigrant score=+0.238202 energy_evaluations=528 energy_eval_s=110.77 member_wall_s=111.22
+2026-10-30 06:47:04 | relaxing run_kind=ga_generation_1_member_5_random_immigrant stage=1 iter=1 Eform=+4.085137 score=+4.085137 err=2.043e+00
+2026-10-30 06:48:52 | member_done generation=1 member=5 kind=random_immigrant score=+0.257088 energy_evaluations=530 energy_eval_s=108.33 member_wall_s=108.81
+2026-10-30 06:48:59 | relaxing run_kind=ga_generation_1_member_6_random_immigrant stage=1 iter=1 Eform=+3.812571 score=+3.812571 err=1.855e+00
+2026-10-30 06:50:48 | member_done generation=1 member=6 kind=random_immigrant score=+0.252474 energy_evaluations=529 energy_eval_s=109.27 member_wall_s=109.75
+2026-10-30 06:50:56 | relaxing run_kind=ga_generation_1_member_7_random_immigrant stage=1 iter=1 Eform=+3.899440 score=+3.899440 err=2.072e+00
+2026-10-30 06:52:42 | member_done generation=1 member=7 kind=random_immigrant score=+0.266097 energy_evaluations=527 energy_eval_s=106.92 member_wall_s=107.36
+2026-10-30 06:52:50 | relaxing run_kind=ga_generation_1_member_8_random_immigrant stage=1 iter=1 Eform=+4.094943 score=+4.094943 err=2.029e+00
+2026-10-30 06:54:36 | member_done generation=1 member=8 kind=random_immigrant score=+0.255541 energy_evaluations=526 energy_eval_s=106.84 member_wall_s=107.28
+2026-10-30 06:54:43 | relaxing run_kind=ga_generation_1_member_9_random_immigrant stage=1 iter=1 Eform=+4.343853 score=+4.343853 err=2.107e+00
+2026-10-30 06:56:33 | member_done generation=1 member=9 kind=random_immigrant score=+0.246943 energy_evaluations=527 energy_eval_s=110.48 member_wall_s=110.94
+2026-10-30 06:56:39 | relaxing run_kind=ga_generation_1_member_10_random_immigrant stage=1 iter=1 Eform=+3.742153 score=+3.742153 err=1.871e+00
+2026-10-30 06:58:22 | member_done generation=1 member=10 kind=random_immigrant score=+0.283462 energy_evaluations=525 energy_eval_s=103.11 member_wall_s=103.54
+2026-10-30 06:58:25 | relaxing run_kind=ga_generation_1_member_11_crossover_child stage=1 iter=1 Eform=+1.382938 score=+1.382938 err=3.599e-01
+2026-10-30 07:00:41 | member_done generation=1 member=11 kind=crossover_child score=+0.161096 energy_evaluations=456 energy_eval_s=138.95 member_wall_s=139.41
+2026-10-30 07:00:45 | relaxing run_kind=ga_generation_1_member_12_crossover_child stage=1 iter=1 Eform=+1.423652 score=+1.423652 err=3.758e-01
+2026-10-30 07:03:19 | member_done generation=1 member=12 kind=crossover_child score=+0.148665 energy_evaluations=531 energy_eval_s=156.84 member_wall_s=157.34
+2026-10-30 07:03:23 | relaxing run_kind=ga_generation_1_member_13_crossover_child stage=1 iter=1 Eform=+1.397263 score=+1.397263 err=3.743e-01
+2026-10-30 07:05:56 | member_done generation=1 member=13 kind=crossover_child score=+0.160521 energy_evaluations=530 energy_eval_s=157.01 member_wall_s=157.53
+2026-10-30 07:06:00 | relaxing run_kind=ga_generation_1_member_14_crossover_child stage=1 iter=1 Eform=+1.441573 score=+1.441573 err=3.967e-01
+2026-10-30 07:08:18 | member_done generation=1 member=14 kind=crossover_child score=+0.155453 energy_evaluations=446 energy_eval_s=140.57 member_wall_s=141.29
+2026-10-30 07:08:22 | relaxing run_kind=ga_generation_1_member_15_crossover_child stage=1 iter=1 Eform=+1.349597 score=+1.349597 err=3.580e-01
+2026-10-30 07:10:59 | member_done generation=1 member=15 kind=crossover_child score=+0.162056 energy_evaluations=532 energy_eval_s=160.05 member_wall_s=160.55
+2026-10-30 07:11:02 | relaxing run_kind=ga_generation_1_member_16_crossover_child stage=1 iter=1 Eform=+1.471241 score=+1.471241 err=3.927e-01
+2026-10-30 07:13:31 | member_done generation=1 member=16 kind=crossover_child score=+0.159077 energy_evaluations=529 energy_eval_s=151.81 member_wall_s=152.31
+2026-10-30 07:13:35 | relaxing run_kind=ga_generation_1_member_17_crossover_child stage=1 iter=1 Eform=+1.397629 score=+1.397629 err=3.793e-01
+2026-10-30 07:16:18 | member_done generation=1 member=17 kind=crossover_child score=+0.140451 energy_evaluations=536 energy_eval_s=166.48 member_wall_s=167.04
+2026-10-30 07:16:22 | relaxing run_kind=ga_generation_1_member_18_crossover_child stage=1 iter=1 Eform=+1.440364 score=+1.440364 err=4.015e-01
+2026-10-30 07:18:52 | member_done generation=1 member=18 kind=crossover_child score=+0.161393 energy_evaluations=529 energy_eval_s=153.04 member_wall_s=153.54
+2026-10-30 07:18:56 | relaxing run_kind=ga_generation_1_member_19_crossover_child stage=1 iter=1 Eform=+1.377661 score=+1.377661 err=3.810e-01
+2026-10-30 07:21:27 | member_done generation=1 member=19 kind=crossover_child score=+0.152089 energy_evaluations=530 energy_eval_s=153.54 member_wall_s=154.28
+2026-10-30 07:21:31 | relaxing run_kind=ga_generation_1_member_20_crossover_child stage=1 iter=1 Eform=+1.339839 score=+1.339839 err=3.376e-01
+2026-10-30 07:24:04 | member_done generation=1 member=20 kind=crossover_child score=+0.161895 energy_evaluations=530 energy_eval_s=156.63 member_wall_s=157.12
+2026-10-30 07:24:08 | relaxing run_kind=ga_generation_1_member_21_crossover_child stage=1 iter=1 Eform=+1.423428 score=+1.423428 err=3.606e-01
+2026-10-30 07:26:33 | member_done generation=1 member=21 kind=crossover_child score=+0.161714 energy_evaluations=527 energy_eval_s=148.23 member_wall_s=148.68
+2026-10-30 07:26:37 | relaxing run_kind=ga_generation_1_member_22_crossover_child stage=1 iter=1 Eform=+1.387065 score=+1.387065 err=3.509e-01
+2026-10-30 07:29:05 | member_done generation=1 member=22 kind=crossover_child score=+0.143699 energy_evaluations=527 energy_eval_s=151.45 member_wall_s=152.16
+2026-10-30 07:29:09 | relaxing run_kind=ga_generation_1_member_23_crossover_child stage=1 iter=1 Eform=+1.396003 score=+1.396003 err=3.827e-01
+2026-10-30 07:31:43 | member_done generation=1 member=23 kind=crossover_child score=+0.160453 energy_evaluations=530 energy_eval_s=156.81 member_wall_s=157.31
+2026-10-30 07:31:46 | relaxing run_kind=ga_generation_1_member_24_crossover_child stage=1 iter=1 Eform=+1.415515 score=+1.415515 err=3.733e-01
+2026-10-30 07:34:22 | member_done generation=1 member=24 kind=crossover_child score=+0.155195 energy_evaluations=532 energy_eval_s=158.66 member_wall_s=159.15
+2026-10-30 07:34:26 | relaxing run_kind=ga_generation_1_member_25_crossover_child stage=1 iter=1 Eform=+1.357281 score=+1.357281 err=3.445e-01
+2026-10-30 07:35:27 | relaxing run_kind=ga_generation_1_member_25_crossover_child stage=1 iter=34 Eform=+0.182041 score=+0.182041 err=5.147e-03
+2026-10-30 07:37:12 | member_done generation=1 member=25 kind=crossover_child score=+0.150442 energy_evaluations=538 energy_eval_s=169.34 member_wall_s=169.91
+2026-10-30 07:37:16 | relaxing run_kind=ga_generation_1_member_26_crossover_child stage=1 iter=1 Eform=+1.399119 score=+1.399119 err=3.620e-01
+2026-10-30 07:39:49 | member_done generation=1 member=26 kind=crossover_child score=+0.160968 energy_evaluations=531 energy_eval_s=156.45 member_wall_s=156.94
+2026-10-30 07:39:53 | relaxing run_kind=ga_generation_1_member_27_crossover_child stage=1 iter=1 Eform=+1.347315 score=+1.347315 err=3.252e-01
+2026-10-30 07:42:28 | member_done generation=1 member=27 kind=crossover_child score=+0.163348 energy_evaluations=532 energy_eval_s=158.37 member_wall_s=159.14
+2026-10-30 07:42:32 | relaxing run_kind=ga_generation_1_member_28_crossover_child stage=1 iter=1 Eform=+1.380148 score=+1.380148 err=3.528e-01
+2026-10-30 07:43:34 | relaxing run_kind=ga_generation_1_member_28_crossover_child stage=1 iter=17 Eform=+1.379750 score=+1.379750 err=3.525e-01
+2026-10-30 07:44:36 | relaxing run_kind=ga_generation_1_member_28_crossover_child stage=1 iter=42 Eform=+0.266857 score=+0.266857 err=2.104e-02
+2026-10-30 07:46:47 | member_done generation=1 member=28 kind=crossover_child score=+0.158893 energy_evaluations=582 energy_eval_s=256.81 member_wall_s=258.07
+2026-10-30 07:46:51 | relaxing run_kind=ga_generation_1_member_29_crossover_child stage=1 iter=1 Eform=+1.424063 score=+1.424063 err=3.717e-01
+2026-10-30 07:49:21 | member_done generation=1 member=29 kind=crossover_child score=+0.158360 energy_evaluations=531 energy_eval_s=153.57 member_wall_s=154.07
+2026-10-30 07:49:21 | generation_done generation=1 best=+0.140451 global_best=+0.140451 energy_evaluations=14196 energy_eval_s=3903.50 generation_wall_s=3969.12
+2026-10-30 07:49:21 | generation_start generation=2
+2026-10-30 07:49:21 | elite_copied generation=2 member=0 kind=elite_copy score=+0.140451 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 07:49:21 | elite_copied generation=2 member=1 kind=elite_copy score=+0.143699 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 07:49:21 | elite_copied generation=2 member=2 kind=elite_copy score=+0.148665 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 07:49:29 | relaxing run_kind=ga_generation_2_member_3_random_immigrant stage=1 iter=1 Eform=+4.583403 score=+4.583403 err=2.185e+00
+2026-10-30 07:51:17 | member_done generation=2 member=3 kind=random_immigrant score=+0.248569 energy_evaluations=526 energy_eval_s=108.97 member_wall_s=109.44
+2026-10-30 07:51:23 | relaxing run_kind=ga_generation_2_member_4_random_immigrant stage=1 iter=1 Eform=+3.931781 score=+3.931781 err=2.031e+00
+2026-10-30 07:53:07 | member_done generation=2 member=4 kind=random_immigrant score=+0.284983 energy_evaluations=526 energy_eval_s=104.09 member_wall_s=104.53
+2026-10-30 07:53:13 | relaxing run_kind=ga_generation_2_member_5_random_immigrant stage=1 iter=1 Eform=+3.949900 score=+3.949900 err=2.043e+00
+2026-10-30 07:55:01 | member_done generation=2 member=5 kind=random_immigrant score=+0.264149 energy_evaluations=529 energy_eval_s=108.16 member_wall_s=108.63
+2026-10-30 07:55:08 | relaxing run_kind=ga_generation_2_member_6_random_immigrant stage=1 iter=1 Eform=+3.668856 score=+3.668856 err=1.916e+00
+2026-10-30 07:56:55 | member_done generation=2 member=6 kind=random_immigrant score=+0.263295 energy_evaluations=527 energy_eval_s=108.11 member_wall_s=108.56
+2026-10-30 07:57:01 | relaxing run_kind=ga_generation_2_member_7_random_immigrant stage=1 iter=1 Eform=+3.618717 score=+3.618717 err=1.840e+00
+2026-10-30 07:58:43 | member_done generation=2 member=7 kind=random_immigrant score=+0.284738 energy_evaluations=524 energy_eval_s=103.01 member_wall_s=103.42
+2026-10-30 07:58:49 | relaxing run_kind=ga_generation_2_member_8_random_immigrant stage=1 iter=1 Eform=+3.085185 score=+3.085185 err=1.575e+00
+2026-10-30 08:00:29 | member_done generation=2 member=8 kind=random_immigrant score=+0.294668 energy_evaluations=525 energy_eval_s=100.79 member_wall_s=101.22
+2026-10-30 08:00:35 | relaxing run_kind=ga_generation_2_member_9_random_immigrant stage=1 iter=1 Eform=+3.949460 score=+3.949460 err=2.074e+00
+2026-10-30 08:02:18 | member_done generation=2 member=9 kind=random_immigrant score=+0.275756 energy_evaluations=526 energy_eval_s=104.00 member_wall_s=104.46
+2026-10-30 08:02:24 | relaxing run_kind=ga_generation_2_member_10_random_immigrant stage=1 iter=1 Eform=+3.707679 score=+3.707679 err=1.984e+00
+2026-10-30 08:04:06 | member_done generation=2 member=10 kind=random_immigrant score=+0.279723 energy_evaluations=525 energy_eval_s=102.64 member_wall_s=103.07
+2026-10-30 08:04:10 | relaxing run_kind=ga_generation_2_member_11_crossover_child stage=1 iter=1 Eform=+1.402943 score=+1.402943 err=3.735e-01
+2026-10-30 08:05:24 | member_done generation=2 member=11 kind=crossover_child score=+0.137001 energy_evaluations=212 energy_eval_s=76.80 member_wall_s=77.07
+2026-10-30 08:05:27 | relaxing run_kind=ga_generation_2_member_12_crossover_child stage=1 iter=1 Eform=+1.380141 score=+1.380141 err=3.906e-01
+2026-10-30 08:06:35 | member_done generation=2 member=12 kind=crossover_child score=+0.134787 energy_evaluations=181 energy_eval_s=71.27 member_wall_s=71.54
+2026-10-30 08:06:39 | relaxing run_kind=ga_generation_2_member_13_crossover_child stage=1 iter=1 Eform=+1.469306 score=+1.469306 err=3.946e-01
+2026-10-30 08:07:27 | member_done generation=2 member=13 kind=crossover_child score=+0.137369 energy_evaluations=92 energy_eval_s=51.29 member_wall_s=51.48
+2026-10-30 08:07:40 | relaxing run_kind=ga_generation_2_member_14_crossover_child stage=1 iter=7 Eform=+0.739131 score=+0.739131 err=1.101e-01
+2026-10-30 08:08:53 | member_done generation=2 member=14 kind=crossover_child score=+0.131355 energy_evaluations=263 energy_eval_s=85.89 member_wall_s=86.20
+2026-10-30 08:08:57 | relaxing run_kind=ga_generation_2_member_15_crossover_child stage=1 iter=1 Eform=+1.393922 score=+1.393922 err=3.972e-01
+2026-10-30 08:10:00 | member_done generation=2 member=15 kind=crossover_child score=+0.125339 energy_evaluations=160 energy_eval_s=66.18 member_wall_s=66.44
+2026-10-30 08:10:03 | relaxing run_kind=ga_generation_2_member_16_crossover_child stage=1 iter=1 Eform=+1.412948 score=+1.412948 err=3.818e-01
+2026-10-30 08:11:39 | member_done generation=2 member=16 kind=crossover_child score=+0.136598 energy_evaluations=310 energy_eval_s=98.52 member_wall_s=98.86
+2026-10-30 08:11:42 | relaxing run_kind=ga_generation_2_member_17_crossover_child stage=1 iter=1 Eform=+1.406947 score=+1.406947 err=3.833e-01
+2026-10-30 08:12:28 | member_done generation=2 member=17 kind=crossover_child score=+0.131403 energy_evaluations=86 energy_eval_s=48.58 member_wall_s=48.79
+2026-10-30 08:12:42 | relaxing run_kind=ga_generation_2_member_18_crossover_child stage=1 iter=8 Eform=+0.723519 score=+0.723519 err=1.028e-01
+2026-10-30 08:13:22 | member_done generation=2 member=18 kind=crossover_child score=+0.129707 energy_evaluations=124 energy_eval_s=53.32 member_wall_s=53.55
+2026-10-30 08:13:44 | relaxing run_kind=ga_generation_2_member_19_crossover_child stage=1 iter=13 Eform=+0.253518 score=+0.253518 err=3.601e-02
+2026-10-30 08:14:39 | member_done generation=2 member=19 kind=crossover_child score=+0.136799 energy_evaluations=223 energy_eval_s=76.95 member_wall_s=77.25
+2026-10-30 08:14:44 | relaxing run_kind=ga_generation_2_member_20_crossover_child stage=1 iter=2 Eform=+1.196746 score=+1.196746 err=3.143e-01
+2026-10-30 08:15:36 | member_done generation=2 member=20 kind=crossover_child score=+0.131198 energy_evaluations=121 energy_eval_s=56.83 member_wall_s=57.03
+2026-10-30 08:15:46 | relaxing run_kind=ga_generation_2_member_21_crossover_child stage=1 iter=4 Eform=+1.239555 score=+1.239555 err=2.813e-01
+2026-10-30 08:18:12 | member_done generation=2 member=21 kind=crossover_child score=+0.174982 energy_evaluations=531 energy_eval_s=154.49 member_wall_s=154.99
+2026-10-30 08:18:15 | relaxing run_kind=ga_generation_2_member_22_crossover_child stage=1 iter=1 Eform=+1.435217 score=+1.435217 err=4.014e-01
+2026-10-30 08:19:13 | member_done generation=2 member=22 kind=crossover_child score=+0.127180 energy_evaluations=152 energy_eval_s=60.91 member_wall_s=61.41
+2026-10-30 08:19:16 | relaxing run_kind=ga_generation_2_member_23_crossover_child stage=1 iter=1 Eform=+1.353199 score=+1.353199 err=3.666e-01
+2026-10-30 08:20:27 | member_done generation=2 member=23 kind=crossover_child score=+0.133836 energy_evaluations=216 energy_eval_s=73.14 member_wall_s=73.41
+2026-10-30 08:20:30 | relaxing run_kind=ga_generation_2_member_24_crossover_child stage=1 iter=1 Eform=+1.418957 score=+1.418957 err=4.021e-01
+2026-10-30 08:21:55 | member_done generation=2 member=24 kind=crossover_child score=+0.134366 energy_evaluations=269 energy_eval_s=87.78 member_wall_s=88.08
+2026-10-30 08:21:59 | relaxing run_kind=ga_generation_2_member_25_crossover_child stage=1 iter=1 Eform=+1.364569 score=+1.364569 err=3.766e-01
+2026-10-30 08:22:59 | relaxing run_kind=ga_generation_2_member_25_crossover_child stage=1 iter=18 Eform=+1.364213 score=+1.364213 err=3.764e-01
+2026-10-30 08:24:00 | relaxing run_kind=ga_generation_2_member_25_crossover_child stage=1 iter=35 Eform=+1.363859 score=+1.363859 err=3.762e-01
+2026-10-30 08:25:00 | relaxing run_kind=ga_generation_2_member_25_crossover_child stage=1 iter=52 Eform=+1.363507 score=+1.363507 err=3.760e-01
+2026-10-30 08:26:01 | relaxing run_kind=ga_generation_2_member_25_crossover_child stage=1 iter=69 Eform=+1.363155 score=+1.363155 err=3.758e-01
+2026-10-30 08:27:01 | relaxing run_kind=ga_generation_2_member_25_crossover_child stage=1 iter=86 Eform=+1.362805 score=+1.362805 err=3.756e-01
+2026-10-30 08:29:08 | member_done generation=2 member=25 kind=crossover_child score=+0.407347 energy_evaluations=702 energy_eval_s=429.45 member_wall_s=432.87
+2026-10-30 08:29:11 | relaxing run_kind=ga_generation_2_member_26_crossover_child stage=1 iter=1 Eform=+1.458380 score=+1.458380 err=3.952e-01
+2026-10-30 08:29:59 | member_done generation=2 member=26 kind=crossover_child score=+0.129171 energy_evaluations=115 energy_eval_s=50.99 member_wall_s=51.19
+2026-10-30 08:30:14 | relaxing run_kind=ga_generation_2_member_27_crossover_child stage=1 iter=7 Eform=+0.815247 score=+0.815247 err=1.067e-01
+2026-10-30 08:30:56 | member_done generation=2 member=27 kind=crossover_child score=+0.132096 energy_evaluations=115 energy_eval_s=56.28 member_wall_s=56.47
+2026-10-30 08:31:15 | relaxing run_kind=ga_generation_2_member_28_crossover_child stage=1 iter=11 Eform=+0.484944 score=+0.484944 err=7.151e-02
+2026-10-30 08:31:41 | member_done generation=2 member=28 kind=crossover_child score=+0.125785 energy_evaluations=82 energy_eval_s=44.42 member_wall_s=44.60
+2026-10-30 08:32:16 | relaxing run_kind=ga_generation_2_member_29_crossover_child stage=1 iter=21 Eform=+0.145629 score=+0.145629 err=5.135e-03
+2026-10-30 08:32:36 | member_done generation=2 member=29 kind=crossover_child score=+0.137966 energy_evaluations=102 energy_eval_s=54.55 member_wall_s=54.76
+2026-10-30 08:32:36 | generation_done generation=2 best=+0.125339 global_best=+0.125339 energy_evaluations=8264 energy_eval_s=2537.39 generation_wall_s=2594.54
+2026-10-30 08:32:36 | generation_start generation=3
+2026-10-30 08:32:36 | elite_copied generation=3 member=0 kind=elite_copy score=+0.125339 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 08:32:36 | elite_copied generation=3 member=1 kind=elite_copy score=+0.125785 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 08:32:36 | elite_copied generation=3 member=2 kind=elite_copy score=+0.127180 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 08:34:34 | member_done generation=3 member=3 kind=random_immigrant score=+0.247608 energy_evaluations=528 energy_eval_s=110.47 member_wall_s=110.92
+2026-10-30 08:34:40 | relaxing run_kind=ga_generation_3_member_4_random_immigrant stage=1 iter=1 Eform=+4.674626 score=+4.674626 err=2.244e+00
+2026-10-30 08:36:28 | member_done generation=3 member=4 kind=random_immigrant score=+0.259727 energy_evaluations=527 energy_eval_s=108.18 member_wall_s=108.63
+2026-10-30 08:36:34 | relaxing run_kind=ga_generation_3_member_5_random_immigrant stage=1 iter=1 Eform=+3.431604 score=+3.431604 err=1.650e+00
+2026-10-30 08:38:23 | member_done generation=3 member=5 kind=random_immigrant score=+0.253824 energy_evaluations=528 energy_eval_s=108.92 member_wall_s=109.38
+2026-10-30 08:38:29 | relaxing run_kind=ga_generation_3_member_6_random_immigrant stage=1 iter=1 Eform=+3.873570 score=+3.873570 err=1.875e+00
+2026-10-30 08:40:16 | member_done generation=3 member=6 kind=random_immigrant score=+0.265943 energy_evaluations=526 energy_eval_s=107.50 member_wall_s=107.94
+2026-10-30 08:40:23 | relaxing run_kind=ga_generation_3_member_7_random_immigrant stage=1 iter=1 Eform=+4.435406 score=+4.435406 err=2.105e+00
+2026-10-30 08:42:10 | member_done generation=3 member=7 kind=random_immigrant score=+0.265344 energy_evaluations=527 energy_eval_s=107.53 member_wall_s=108.01
+2026-10-30 08:42:16 | relaxing run_kind=ga_generation_3_member_8_random_immigrant stage=1 iter=1 Eform=+3.734100 score=+3.734100 err=2.052e+00
+2026-10-30 08:44:00 | member_done generation=3 member=8 kind=random_immigrant score=+0.276564 energy_evaluations=525 energy_eval_s=104.34 member_wall_s=104.81
+2026-10-30 08:44:07 | relaxing run_kind=ga_generation_3_member_9_random_immigrant stage=1 iter=1 Eform=+4.420037 score=+4.420037 err=2.112e+00
+2026-10-30 08:45:58 | member_done generation=3 member=9 kind=random_immigrant score=+0.230559 energy_evaluations=530 energy_eval_s=111.77 member_wall_s=112.26
+2026-10-30 08:46:05 | relaxing run_kind=ga_generation_3_member_10_random_immigrant stage=1 iter=1 Eform=+4.016072 score=+4.016072 err=1.899e+00
+2026-10-30 08:47:52 | member_done generation=3 member=10 kind=random_immigrant score=+0.265730 energy_evaluations=527 energy_eval_s=108.01 member_wall_s=108.47
+2026-10-30 08:47:55 | relaxing run_kind=ga_generation_3_member_11_crossover_child stage=1 iter=1 Eform=+1.431440 score=+1.431440 err=4.013e-01
+2026-10-30 08:48:35 | member_done generation=3 member=11 kind=crossover_child score=+0.130656 energy_evaluations=63 energy_eval_s=42.28 member_wall_s=42.45
+2026-10-30 08:48:56 | relaxing run_kind=ga_generation_3_member_12_crossover_child stage=1 iter=11 Eform=+0.713867 score=+0.713867 err=8.145e-02
+2026-10-30 08:49:23 | member_done generation=3 member=12 kind=crossover_child score=+0.129318 energy_evaluations=58 energy_eval_s=47.84 member_wall_s=48.03
+2026-10-30 08:50:04 | member_done generation=3 member=13 kind=crossover_child score=+0.126689 energy_evaluations=75 energy_eval_s=40.92 member_wall_s=41.09
+2026-10-30 08:50:07 | relaxing run_kind=ga_generation_3_member_14_crossover_child stage=1 iter=1 Eform=+1.413055 score=+1.413055 err=3.937e-01
+2026-10-30 08:51:03 | member_done generation=3 member=14 kind=crossover_child score=+0.123544 energy_evaluations=161 energy_eval_s=58.24 member_wall_s=58.48
+2026-10-30 08:51:08 | relaxing run_kind=ga_generation_3_member_15_crossover_child stage=1 iter=2 Eform=+1.203127 score=+1.203127 err=3.067e-01
+2026-10-30 08:51:41 | member_done generation=3 member=15 kind=crossover_child score=+0.131112 energy_evaluations=58 energy_eval_s=37.35 member_wall_s=37.53
+2026-10-30 08:52:09 | relaxing run_kind=ga_generation_3_member_16_crossover_child stage=1 iter=17 Eform=+0.140044 score=+0.140044 err=9.786e-03
+2026-10-30 08:52:23 | member_done generation=3 member=16 kind=crossover_child score=+0.126587 energy_evaluations=81 energy_eval_s=41.98 member_wall_s=42.17
+2026-10-30 08:53:09 | member_done generation=3 member=17 kind=crossover_child score=+0.131604 energy_evaluations=67 energy_eval_s=45.12 member_wall_s=45.30
+2026-10-30 08:53:12 | relaxing run_kind=ga_generation_3_member_18_crossover_child stage=1 iter=1 Eform=+1.411262 score=+1.411262 err=3.954e-01
+2026-10-30 08:54:06 | member_done generation=3 member=18 kind=crossover_child score=+0.144214 energy_evaluations=119 energy_eval_s=57.22 member_wall_s=57.42
+2026-10-30 08:54:13 | relaxing run_kind=ga_generation_3_member_19_crossover_child stage=1 iter=3 Eform=+1.116158 score=+1.116158 err=2.706e-01
+2026-10-30 08:54:50 | member_done generation=3 member=19 kind=crossover_child score=+0.129019 energy_evaluations=57 energy_eval_s=43.60 member_wall_s=43.81
+2026-10-30 08:55:13 | relaxing run_kind=ga_generation_3_member_20_crossover_child stage=1 iter=13 Eform=+0.624975 score=+0.624975 err=7.928e-02
+2026-10-30 08:55:34 | member_done generation=3 member=20 kind=crossover_child score=+0.138946 energy_evaluations=54 energy_eval_s=43.44 member_wall_s=43.65
+2026-10-30 08:56:21 | member_done generation=3 member=21 kind=crossover_child score=+0.126892 energy_evaluations=66 energy_eval_s=46.03 member_wall_s=46.21
+2026-10-30 08:56:24 | relaxing run_kind=ga_generation_3_member_22_crossover_child stage=1 iter=1 Eform=+1.447562 score=+1.447562 err=4.062e-01
+2026-10-30 08:57:01 | member_done generation=3 member=22 kind=crossover_child score=+0.123559 energy_evaluations=46 energy_eval_s=40.31 member_wall_s=40.47
+2026-10-30 08:57:24 | relaxing run_kind=ga_generation_3_member_23_crossover_child stage=1 iter=13 Eform=+0.408218 score=+0.408218 err=6.620e-02
+2026-10-30 08:57:46 | member_done generation=3 member=23 kind=crossover_child score=+0.126474 energy_evaluations=74 energy_eval_s=44.17 member_wall_s=44.33
+2026-10-30 08:58:31 | member_done generation=3 member=24 kind=crossover_child score=+0.139322 energy_evaluations=69 energy_eval_s=45.21 member_wall_s=45.38
+2026-10-30 08:58:35 | relaxing run_kind=ga_generation_3_member_25_crossover_child stage=1 iter=1 Eform=+1.449459 score=+1.449459 err=3.878e-01
+2026-10-30 08:59:14 | member_done generation=3 member=25 kind=crossover_child score=+0.129104 energy_evaluations=57 energy_eval_s=42.27 member_wall_s=42.43
+2026-10-30 08:59:36 | relaxing run_kind=ga_generation_3_member_26_crossover_child stage=1 iter=11 Eform=+0.574886 score=+0.574886 err=7.688e-02
+2026-10-30 09:01:15 | member_done generation=3 member=26 kind=crossover_child score=+0.133632 energy_evaluations=335 energy_eval_s=120.21 member_wall_s=120.62
+2026-10-30 09:01:18 | relaxing run_kind=ga_generation_3_member_27_crossover_child stage=1 iter=1 Eform=+1.382543 score=+1.382543 err=3.880e-01
+2026-10-30 09:02:00 | member_done generation=3 member=27 kind=crossover_child score=+0.129281 energy_evaluations=76 energy_eval_s=44.16 member_wall_s=44.65
+2026-10-30 09:02:18 | relaxing run_kind=ga_generation_3_member_28_crossover_child stage=1 iter=11 Eform=+0.467759 score=+0.467759 err=7.090e-02
+2026-10-30 09:02:41 | member_done generation=3 member=28 kind=crossover_child score=+0.126402 energy_evaluations=72 energy_eval_s=40.92 member_wall_s=41.09
+2026-10-30 09:03:33 | member_done generation=3 member=29 kind=crossover_child score=+0.131172 energy_evaluations=103 energy_eval_s=52.19 member_wall_s=52.38
+2026-10-30 09:03:33 | generation_done generation=3 best=+0.123544 global_best=+0.123544 energy_evaluations=5909 energy_eval_s=1800.18 generation_wall_s=1857.76
+2026-10-30 09:03:33 | generation_start generation=4
+2026-10-30 09:03:34 | elite_copied generation=4 member=0 kind=elite_copy score=+0.123544 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 09:03:34 | elite_copied generation=4 member=1 kind=elite_copy score=+0.123559 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 09:03:34 | elite_copied generation=4 member=2 kind=elite_copy score=+0.125339 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 09:03:40 | relaxing run_kind=ga_generation_4_member_3_random_immigrant stage=1 iter=1 Eform=+3.572499 score=+3.572499 err=1.897e+00
+2026-10-30 09:05:24 | member_done generation=4 member=3 kind=random_immigrant score=+0.284544 energy_evaluations=526 energy_eval_s=103.94 member_wall_s=104.38
+2026-10-30 09:05:30 | relaxing run_kind=ga_generation_4_member_4_random_immigrant stage=1 iter=1 Eform=+4.477861 score=+4.477861 err=2.135e+00
+2026-10-30 09:07:15 | member_done generation=4 member=4 kind=random_immigrant score=+0.276002 energy_evaluations=526 energy_eval_s=105.29 member_wall_s=105.73
+2026-10-30 09:07:22 | relaxing run_kind=ga_generation_4_member_5_random_immigrant stage=1 iter=1 Eform=+4.192944 score=+4.192944 err=1.962e+00
+2026-10-30 09:09:09 | member_done generation=4 member=5 kind=random_immigrant score=+0.267268 energy_evaluations=526 energy_eval_s=106.91 member_wall_s=107.35
+2026-10-30 09:09:16 | relaxing run_kind=ga_generation_4_member_6_random_immigrant stage=1 iter=1 Eform=+4.580611 score=+4.580611 err=2.106e+00
+2026-10-30 09:11:10 | member_done generation=4 member=6 kind=random_immigrant score=+0.225040 energy_evaluations=530 energy_eval_s=114.54 member_wall_s=115.02
+2026-10-30 09:11:17 | relaxing run_kind=ga_generation_4_member_7_random_immigrant stage=1 iter=1 Eform=+3.986332 score=+3.986332 err=1.929e+00
+2026-10-30 09:13:02 | member_done generation=4 member=7 kind=random_immigrant score=+0.274233 energy_evaluations=524 energy_eval_s=105.53 member_wall_s=105.99
+2026-10-30 09:13:09 | relaxing run_kind=ga_generation_4_member_8_random_immigrant stage=1 iter=1 Eform=+4.127136 score=+4.127136 err=1.905e+00
+2026-10-30 09:14:54 | member_done generation=4 member=8 kind=random_immigrant score=+0.275239 energy_evaluations=525 energy_eval_s=105.91 member_wall_s=106.36
+2026-10-30 09:15:01 | relaxing run_kind=ga_generation_4_member_9_random_immigrant stage=1 iter=1 Eform=+3.758262 score=+3.758262 err=2.042e+00
+2026-10-30 09:16:49 | member_done generation=4 member=9 kind=random_immigrant score=+0.260826 energy_evaluations=528 energy_eval_s=107.94 member_wall_s=108.41
+2026-10-30 09:16:56 | relaxing run_kind=ga_generation_4_member_10_random_immigrant stage=1 iter=1 Eform=+4.608702 score=+4.608702 err=2.096e+00
+2026-10-30 09:18:42 | member_done generation=4 member=10 kind=random_immigrant score=+0.229830 energy_evaluations=494 energy_eval_s=106.25 member_wall_s=106.73
+2026-10-30 09:18:45 | relaxing run_kind=ga_generation_4_member_11_crossover_child stage=1 iter=1 Eform=+1.403433 score=+1.403433 err=3.807e-01
+2026-10-30 09:19:18 | member_done generation=4 member=11 kind=crossover_child score=+0.123557 energy_evaluations=54 energy_eval_s=35.86 member_wall_s=36.35
+2026-10-30 09:19:45 | relaxing run_kind=ga_generation_4_member_12_crossover_child stage=1 iter=16 Eform=+0.194844 score=+0.194844 err=2.621e-02
+2026-10-30 09:19:57 | member_done generation=4 member=12 kind=crossover_child score=+0.129663 energy_evaluations=45 energy_eval_s=38.43 member_wall_s=38.62
+2026-10-30 09:20:39 | member_done generation=4 member=13 kind=crossover_child score=+0.128963 energy_evaluations=52 energy_eval_s=41.45 member_wall_s=41.61
+2026-10-30 09:20:46 | relaxing run_kind=ga_generation_4_member_14_crossover_child stage=1 iter=3 Eform=+1.066723 score=+1.066723 err=1.923e-01
+2026-10-30 09:22:33 | member_done generation=4 member=14 kind=crossover_child score=+0.120940 energy_evaluations=343 energy_eval_s=113.80 member_wall_s=114.20
+2026-10-30 09:22:36 | relaxing run_kind=ga_generation_4_member_15_crossover_child stage=1 iter=1 Eform=+1.474868 score=+1.474868 err=4.083e-01
+2026-10-30 09:23:11 | member_done generation=4 member=15 kind=crossover_child score=+0.128850 energy_evaluations=50 energy_eval_s=37.26 member_wall_s=37.44
+2026-10-30 09:23:38 | relaxing run_kind=ga_generation_4_member_16_crossover_child stage=1 iter=16 Eform=+0.261322 score=+0.261322 err=3.736e-02
+2026-10-30 09:23:52 | member_done generation=4 member=16 kind=crossover_child score=+0.133904 energy_evaluations=56 energy_eval_s=40.93 member_wall_s=41.10
+2026-10-30 09:24:34 | member_done generation=4 member=17 kind=crossover_child score=+0.126838 energy_evaluations=52 energy_eval_s=41.77 member_wall_s=41.95
+2026-10-30 09:24:39 | relaxing run_kind=ga_generation_4_member_18_crossover_child stage=1 iter=2 Eform=+1.205990 score=+1.205990 err=3.091e-01
+2026-10-30 09:25:21 | member_done generation=4 member=18 kind=crossover_child score=+0.121029 energy_evaluations=70 energy_eval_s=45.52 member_wall_s=46.03
+2026-10-30 09:25:41 | relaxing run_kind=ga_generation_4_member_19_crossover_child stage=1 iter=10 Eform=+0.445674 score=+0.445674 err=6.425e-02
+2026-10-30 09:26:51 | member_done generation=4 member=19 kind=crossover_child score=+0.145077 energy_evaluations=258 energy_eval_s=89.54 member_wall_s=89.87
+2026-10-30 09:26:54 | relaxing run_kind=ga_generation_4_member_20_crossover_child stage=1 iter=1 Eform=+1.328917 score=+1.328917 err=3.521e-01
+2026-10-30 09:27:57 | relaxing run_kind=ga_generation_4_member_20_crossover_child stage=1 iter=18 Eform=+1.328519 score=+1.328519 err=3.519e-01
+2026-10-30 09:29:01 | relaxing run_kind=ga_generation_4_member_20_crossover_child stage=1 iter=35 Eform=+1.328122 score=+1.328122 err=3.516e-01
+2026-10-30 09:30:01 | relaxing run_kind=ga_generation_4_member_20_crossover_child stage=1 iter=64 Eform=+0.155820 score=+0.155820 err=6.706e-03
+2026-10-30 09:30:49 | member_done generation=4 member=20 kind=crossover_child score=+0.133001 energy_evaluations=317 energy_eval_s=235.91 member_wall_s=237.78
+2026-10-30 09:31:02 | relaxing run_kind=ga_generation_4_member_21_crossover_child stage=1 iter=8 Eform=+0.701300 score=+0.701300 err=9.582e-02
+2026-10-30 09:31:27 | member_done generation=4 member=21 kind=crossover_child score=+0.139736 energy_evaluations=59 energy_eval_s=38.12 member_wall_s=38.30
+2026-10-30 09:32:03 | relaxing run_kind=ga_generation_4_member_22_crossover_child stage=1 iter=21 Eform=+0.133905 score=+0.133905 err=5.707e-03
+2026-10-30 09:32:11 | member_done generation=4 member=22 kind=crossover_child score=+0.130676 energy_evaluations=48 energy_eval_s=43.22 member_wall_s=43.39
+2026-10-30 09:32:55 | member_done generation=4 member=23 kind=crossover_child score=+0.128273 energy_evaluations=71 energy_eval_s=44.61 member_wall_s=44.77
+2026-10-30 09:33:03 | relaxing run_kind=ga_generation_4_member_24_crossover_child stage=1 iter=4 Eform=+0.998689 score=+0.998689 err=2.340e-01
+2026-10-30 09:33:38 | member_done generation=4 member=24 kind=crossover_child score=+0.138625 energy_evaluations=55 energy_eval_s=41.85 member_wall_s=42.07
+2026-10-30 09:34:04 | relaxing run_kind=ga_generation_4_member_25_crossover_child stage=1 iter=16 Eform=+0.159718 score=+0.159718 err=1.847e-02
+2026-10-30 09:34:15 | member_done generation=4 member=25 kind=crossover_child score=+0.136670 energy_evaluations=51 energy_eval_s=37.26 member_wall_s=37.44
+2026-10-30 09:35:05 | relaxing run_kind=ga_generation_4_member_26_crossover_child stage=1 iter=26 Eform=+0.161399 score=+0.161399 err=5.165e-03
+2026-10-30 09:35:58 | member_done generation=4 member=26 kind=crossover_child score=+0.134417 energy_evaluations=272 energy_eval_s=101.90 member_wall_s=102.30
+2026-10-30 09:36:05 | relaxing run_kind=ga_generation_4_member_27_crossover_child stage=1 iter=2 Eform=+1.351141 score=+1.351141 err=3.341e-01
+2026-10-30 09:37:06 | relaxing run_kind=ga_generation_4_member_27_crossover_child stage=1 iter=28 Eform=+0.195030 score=+0.195030 err=1.209e-02
+2026-10-30 09:38:18 | member_done generation=4 member=27 kind=crossover_child score=+0.131578 energy_evaluations=322 energy_eval_s=139.23 member_wall_s=140.14
+2026-10-30 09:38:21 | relaxing run_kind=ga_generation_4_member_28_crossover_child stage=1 iter=1 Eform=+1.452247 score=+1.452247 err=4.085e-01
+2026-10-30 09:39:00 | member_done generation=4 member=28 kind=crossover_child score=+0.122898 energy_evaluations=67 energy_eval_s=41.07 member_wall_s=41.25
+2026-10-30 09:39:22 | relaxing run_kind=ga_generation_4_member_29_crossover_child stage=1 iter=13 Eform=+0.566120 score=+0.566120 err=7.724e-02
+2026-10-30 09:39:42 | member_done generation=4 member=29 kind=crossover_child score=+0.123535 energy_evaluations=67 energy_eval_s=42.47 member_wall_s=42.64
+2026-10-30 09:39:42 | generation_done generation=4 best=+0.120940 global_best=+0.120940 energy_evaluations=6488 energy_eval_s=2106.53 generation_wall_s=2168.96
+2026-10-30 09:39:42 | generation_start generation=5
+2026-10-30 09:39:43 | elite_copied generation=5 member=0 kind=elite_copy score=+0.120940 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 09:39:43 | elite_copied generation=5 member=1 kind=elite_copy score=+0.121029 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 09:39:43 | elite_copied generation=5 member=2 kind=elite_copy score=+0.122898 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 09:41:37 | member_done generation=5 member=3 kind=random_immigrant score=+0.257200 energy_evaluations=528 energy_eval_s=108.32 member_wall_s=108.78
+2026-10-30 09:41:45 | relaxing run_kind=ga_generation_5_member_4_random_immigrant stage=1 iter=1 Eform=+4.298854 score=+4.298854 err=2.200e+00
+2026-10-30 09:43:37 | member_done generation=5 member=4 kind=random_immigrant score=+0.228824 energy_evaluations=527 energy_eval_s=112.16 member_wall_s=112.63
+2026-10-30 09:43:44 | relaxing run_kind=ga_generation_5_member_5_random_immigrant stage=1 iter=1 Eform=+4.184742 score=+4.184742 err=2.117e+00
+2026-10-30 09:45:32 | member_done generation=5 member=5 kind=random_immigrant score=+0.248479 energy_evaluations=527 energy_eval_s=109.08 member_wall_s=109.55
+2026-10-30 09:45:39 | relaxing run_kind=ga_generation_5_member_6_random_immigrant stage=1 iter=1 Eform=+4.204578 score=+4.204578 err=2.049e+00
+2026-10-30 09:47:26 | member_done generation=5 member=6 kind=random_immigrant score=+0.258474 energy_evaluations=526 energy_eval_s=107.62 member_wall_s=108.11
+2026-10-30 09:47:33 | relaxing run_kind=ga_generation_5_member_7_random_immigrant stage=1 iter=1 Eform=+4.534568 score=+4.534568 err=2.154e+00
+2026-10-30 09:49:25 | member_done generation=5 member=7 kind=random_immigrant score=+0.242958 energy_evaluations=530 energy_eval_s=112.20 member_wall_s=112.71
+2026-10-30 09:49:32 | relaxing run_kind=ga_generation_5_member_8_random_immigrant stage=1 iter=1 Eform=+4.074628 score=+4.074628 err=1.952e+00
+2026-10-30 09:51:23 | member_done generation=5 member=8 kind=random_immigrant score=+0.234045 energy_evaluations=525 energy_eval_s=111.14 member_wall_s=111.59
+2026-10-30 09:51:29 | relaxing run_kind=ga_generation_5_member_9_random_immigrant stage=1 iter=1 Eform=+3.467425 score=+3.467425 err=1.805e+00
+2026-10-30 09:53:12 | member_done generation=5 member=9 kind=random_immigrant score=+0.275504 energy_evaluations=523 energy_eval_s=103.43 member_wall_s=103.88
+2026-10-30 09:53:19 | relaxing run_kind=ga_generation_5_member_10_random_immigrant stage=1 iter=1 Eform=+3.847802 score=+3.847802 err=1.926e+00
+2026-10-30 09:55:06 | member_done generation=5 member=10 kind=random_immigrant score=+0.260708 energy_evaluations=527 energy_eval_s=107.56 member_wall_s=108.03
+2026-10-30 09:55:09 | relaxing run_kind=ga_generation_5_member_11_crossover_child stage=1 iter=1 Eform=+1.406275 score=+1.406275 err=4.000e-01
+2026-10-30 09:55:50 | member_done generation=5 member=11 kind=crossover_child score=+0.120954 energy_evaluations=75 energy_eval_s=44.14 member_wall_s=44.31
+2026-10-30 09:56:10 | relaxing run_kind=ga_generation_5_member_12_crossover_child stage=1 iter=12 Eform=+0.515458 score=+0.515458 err=7.151e-02
+2026-10-30 09:56:30 | member_done generation=5 member=12 kind=crossover_child score=+0.127980 energy_evaluations=65 energy_eval_s=39.41 member_wall_s=39.60
+2026-10-30 09:57:15 | member_done generation=5 member=13 kind=crossover_child score=+0.123547 energy_evaluations=57 energy_eval_s=44.84 member_wall_s=45.03
+2026-10-30 09:57:19 | relaxing run_kind=ga_generation_5_member_14_crossover_child stage=1 iter=1 Eform=+1.434486 score=+1.434486 err=3.965e-01
+2026-10-30 09:58:02 | member_done generation=5 member=14 kind=crossover_child score=+0.143658 energy_evaluations=55 energy_eval_s=46.34 member_wall_s=46.60
+2026-10-30 09:58:19 | relaxing run_kind=ga_generation_5_member_15_crossover_child stage=1 iter=9 Eform=+0.776297 score=+0.776297 err=8.910e-02
+2026-10-30 09:58:45 | member_done generation=5 member=15 kind=crossover_child score=+0.126245 energy_evaluations=57 energy_eval_s=42.96 member_wall_s=43.13
+2026-10-30 09:59:21 | relaxing run_kind=ga_generation_5_member_16_crossover_child stage=1 iter=18 Eform=+0.192068 score=+0.192068 err=1.383e-02
+2026-10-30 10:00:21 | member_done generation=5 member=16 kind=crossover_child score=+0.137803 energy_evaluations=251 energy_eval_s=94.71 member_wall_s=95.03
+2026-10-30 10:00:24 | relaxing run_kind=ga_generation_5_member_17_crossover_child stage=1 iter=1 Eform=+1.402226 score=+1.402226 err=3.812e-01
+2026-10-30 10:01:04 | member_done generation=5 member=17 kind=crossover_child score=+0.127812 energy_evaluations=56 energy_eval_s=43.05 member_wall_s=43.57
+2026-10-30 10:01:25 | relaxing run_kind=ga_generation_5_member_18_crossover_child stage=1 iter=11 Eform=+0.766790 score=+0.766790 err=8.422e-02
+2026-10-30 10:01:47 | member_done generation=5 member=18 kind=crossover_child score=+0.130572 energy_evaluations=48 energy_eval_s=42.16 member_wall_s=42.34
+2026-10-30 10:02:26 | member_done generation=5 member=19 kind=crossover_child score=+0.129326 energy_evaluations=45 energy_eval_s=38.65 member_wall_s=38.79
+2026-10-30 10:02:30 | relaxing run_kind=ga_generation_5_member_20_crossover_child stage=1 iter=1 Eform=+1.420176 score=+1.420176 err=3.766e-01
+2026-10-30 10:04:42 | member_done generation=5 member=20 kind=crossover_child score=+0.147301 energy_evaluations=453 energy_eval_s=135.40 member_wall_s=135.84
+2026-10-30 10:04:45 | relaxing run_kind=ga_generation_5_member_21_crossover_child stage=1 iter=1 Eform=+1.442789 score=+1.442789 err=3.926e-01
+2026-10-30 10:05:19 | member_done generation=5 member=21 kind=crossover_child score=+0.121178 energy_evaluations=59 energy_eval_s=36.73 member_wall_s=36.90
+2026-10-30 10:05:45 | relaxing run_kind=ga_generation_5_member_22_crossover_child stage=1 iter=15 Eform=+0.333387 score=+0.333387 err=5.567e-02
+2026-10-30 10:06:03 | member_done generation=5 member=22 kind=crossover_child score=+0.131420 energy_evaluations=58 energy_eval_s=43.58 member_wall_s=43.76
+2026-10-30 10:06:56 | member_done generation=5 member=23 kind=crossover_child score=+0.126997 energy_evaluations=130 energy_eval_s=52.90 member_wall_s=53.11
+2026-10-30 10:06:59 | relaxing run_kind=ga_generation_5_member_24_crossover_child stage=1 iter=1 Eform=+1.423225 score=+1.423225 err=3.973e-01
+2026-10-30 10:07:36 | member_done generation=5 member=24 kind=crossover_child score=+0.132074 energy_evaluations=66 energy_eval_s=39.44 member_wall_s=39.97
+2026-10-30 10:07:59 | relaxing run_kind=ga_generation_5_member_25_crossover_child stage=1 iter=13 Eform=+0.533126 score=+0.533126 err=7.485e-02
+2026-10-30 10:08:23 | member_done generation=5 member=25 kind=crossover_child score=+0.124113 energy_evaluations=76 energy_eval_s=45.84 member_wall_s=46.03
+2026-10-30 10:09:07 | member_done generation=5 member=26 kind=crossover_child score=+0.123644 energy_evaluations=59 energy_eval_s=43.64 member_wall_s=43.81
+2026-10-30 10:09:10 | relaxing run_kind=ga_generation_5_member_27_crossover_child stage=1 iter=1 Eform=+1.422982 score=+1.422982 err=3.864e-01
+2026-10-30 10:09:44 | member_done generation=5 member=27 kind=crossover_child score=+0.120954 energy_evaluations=44 energy_eval_s=36.77 member_wall_s=36.94
+2026-10-30 10:10:10 | relaxing run_kind=ga_generation_5_member_28_crossover_child stage=1 iter=16 Eform=+0.149639 score=+0.149639 err=2.097e-02
+2026-10-30 10:10:28 | member_done generation=5 member=28 kind=crossover_child score=+0.123584 energy_evaluations=82 energy_eval_s=44.07 member_wall_s=44.26
+2026-10-30 10:11:08 | member_done generation=5 member=29 kind=crossover_child score=+0.123359 energy_evaluations=51 energy_eval_s=39.86 member_wall_s=40.05
+2026-10-30 10:11:08 | generation_done generation=5 best=+0.120940 global_best=+0.120940 energy_evaluations=6000 energy_eval_s=1826.00 generation_wall_s=1885.90
+2026-10-30 10:11:08 | generation_start generation=6
+2026-10-30 10:11:08 | elite_copied generation=6 member=0 kind=elite_copy score=+0.120940 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 10:11:09 | elite_copied generation=6 member=1 kind=elite_copy score=+0.120954 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 10:11:09 | elite_copied generation=6 member=2 kind=elite_copy score=+0.120954 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 10:11:16 | relaxing run_kind=ga_generation_6_member_3_random_immigrant stage=1 iter=1 Eform=+4.728431 score=+4.728431 err=2.268e+00
+2026-10-30 10:13:04 | member_done generation=6 member=3 kind=random_immigrant score=+0.265108 energy_evaluations=530 energy_eval_s=109.10 member_wall_s=109.59
+2026-10-30 10:13:11 | relaxing run_kind=ga_generation_6_member_4_random_immigrant stage=1 iter=1 Eform=+3.728770 score=+3.728770 err=1.896e+00
+2026-10-30 10:15:00 | member_done generation=6 member=4 kind=random_immigrant score=+0.245301 energy_evaluations=528 energy_eval_s=110.25 member_wall_s=110.71
+2026-10-30 10:15:08 | relaxing run_kind=ga_generation_6_member_5_random_immigrant stage=1 iter=1 Eform=+4.278386 score=+4.278386 err=2.093e+00
+2026-10-30 10:16:57 | member_done generation=6 member=5 kind=random_immigrant score=+0.250583 energy_evaluations=528 energy_eval_s=109.81 member_wall_s=110.29
+2026-10-30 10:17:03 | relaxing run_kind=ga_generation_6_member_6_random_immigrant stage=1 iter=1 Eform=+3.752339 score=+3.752339 err=1.980e+00
+2026-10-30 10:18:48 | member_done generation=6 member=6 kind=random_immigrant score=+0.283890 energy_evaluations=527 energy_eval_s=104.76 member_wall_s=105.24
+2026-10-30 10:18:55 | relaxing run_kind=ga_generation_6_member_7_random_immigrant stage=1 iter=1 Eform=+4.013577 score=+4.013577 err=2.056e+00
+2026-10-30 10:20:45 | member_done generation=6 member=7 kind=random_immigrant score=+0.252919 energy_evaluations=528 energy_eval_s=110.32 member_wall_s=110.81
+2026-10-30 10:20:51 | relaxing run_kind=ga_generation_6_member_8_random_immigrant stage=1 iter=1 Eform=+3.118173 score=+3.118173 err=1.753e+00
+2026-10-30 10:22:34 | member_done generation=6 member=8 kind=random_immigrant score=+0.267334 energy_evaluations=524 energy_eval_s=104.07 member_wall_s=104.51
+2026-10-30 10:22:41 | relaxing run_kind=ga_generation_6_member_9_random_immigrant stage=1 iter=1 Eform=+4.123714 score=+4.123714 err=2.121e+00
+2026-10-30 10:24:28 | member_done generation=6 member=9 kind=random_immigrant score=+0.267998 energy_evaluations=529 energy_eval_s=107.47 member_wall_s=107.96
+2026-10-30 10:24:37 | relaxing run_kind=ga_generation_6_member_10_random_immigrant stage=1 iter=1 Eform=+3.471859 score=+3.471859 err=1.589e+00
+2026-10-30 10:26:23 | member_done generation=6 member=10 kind=random_immigrant score=+0.247536 energy_evaluations=526 energy_eval_s=106.79 member_wall_s=107.24
+2026-10-30 10:26:26 | relaxing run_kind=ga_generation_6_member_11_crossover_child stage=1 iter=1 Eform=+1.420714 score=+1.420714 err=3.940e-01
+2026-10-30 10:27:05 | member_done generation=6 member=11 kind=crossover_child score=+0.126266 energy_evaluations=48 energy_eval_s=41.78 member_wall_s=41.96
+2026-10-30 10:27:27 | relaxing run_kind=ga_generation_6_member_12_crossover_child stage=1 iter=11 Eform=+0.405793 score=+0.405793 err=5.999e-02
+2026-10-30 10:28:44 | member_done generation=6 member=12 kind=crossover_child score=+0.135705 energy_evaluations=291 energy_eval_s=98.22 member_wall_s=98.92
+2026-10-30 10:28:47 | relaxing run_kind=ga_generation_6_member_13_crossover_child stage=1 iter=1 Eform=+1.464078 score=+1.464078 err=3.956e-01
+2026-10-30 10:29:39 | member_done generation=6 member=13 kind=crossover_child score=+0.131697 energy_evaluations=120 energy_eval_s=54.41 member_wall_s=54.65
+2026-10-30 10:29:48 | relaxing run_kind=ga_generation_6_member_14_crossover_child stage=1 iter=5 Eform=+0.939296 score=+0.939296 err=1.919e-01
+2026-10-30 10:30:22 | member_done generation=6 member=14 kind=crossover_child score=+0.128024 energy_evaluations=55 energy_eval_s=42.45 member_wall_s=42.64
+2026-10-30 10:30:49 | relaxing run_kind=ga_generation_6_member_15_crossover_child stage=1 iter=17 Eform=+0.130584 score=+0.130584 err=1.240e-02
+2026-10-30 10:30:58 | member_done generation=6 member=15 kind=crossover_child score=+0.119211 energy_evaluations=51 energy_eval_s=35.05 member_wall_s=35.58
+2026-10-30 10:31:36 | member_done generation=6 member=16 kind=crossover_child score=+0.120410 energy_evaluations=51 energy_eval_s=37.83 member_wall_s=38.00
+2026-10-30 10:31:50 | relaxing run_kind=ga_generation_6_member_17_crossover_child stage=1 iter=7 Eform=+0.830860 score=+0.830860 err=1.129e-01
+2026-10-30 10:32:30 | member_done generation=6 member=17 kind=crossover_child score=+0.123547 energy_evaluations=110 energy_eval_s=53.67 member_wall_s=53.86
+2026-10-30 10:32:51 | relaxing run_kind=ga_generation_6_member_18_crossover_child stage=1 iter=11 Eform=+0.392477 score=+0.392477 err=5.275e-02
+2026-10-30 10:33:54 | member_done generation=6 member=18 kind=crossover_child score=+0.132649 energy_evaluations=215 energy_eval_s=84.14 member_wall_s=84.44
+2026-10-30 10:33:58 | relaxing run_kind=ga_generation_6_member_19_crossover_child stage=1 iter=1 Eform=+1.420755 score=+1.420755 err=3.960e-01
+2026-10-30 10:34:46 | member_done generation=6 member=19 kind=crossover_child score=+0.129552 energy_evaluations=88 energy_eval_s=50.87 member_wall_s=51.07
+2026-10-30 10:34:59 | relaxing run_kind=ga_generation_6_member_20_crossover_child stage=1 iter=7 Eform=+0.837245 score=+0.837245 err=1.116e-01
+2026-10-30 10:35:27 | member_done generation=6 member=20 kind=crossover_child score=+0.130922 energy_evaluations=57 energy_eval_s=41.34 member_wall_s=41.51
+2026-10-30 10:36:07 | member_done generation=6 member=21 kind=crossover_child score=+0.131421 energy_evaluations=64 energy_eval_s=39.48 member_wall_s=39.65
+2026-10-30 10:36:10 | relaxing run_kind=ga_generation_6_member_22_crossover_child stage=1 iter=1 Eform=+1.398703 score=+1.398703 err=3.942e-01
+2026-10-30 10:36:45 | member_done generation=6 member=22 kind=crossover_child score=+0.133680 energy_evaluations=62 energy_eval_s=37.51 member_wall_s=37.68
+2026-10-30 10:37:11 | relaxing run_kind=ga_generation_6_member_23_crossover_child stage=1 iter=16 Eform=+0.147934 score=+0.147934 err=1.979e-02
+2026-10-30 10:37:21 | member_done generation=6 member=23 kind=crossover_child score=+0.120958 energy_evaluations=45 energy_eval_s=35.10 member_wall_s=35.64
+2026-10-30 10:38:48 | member_done generation=6 member=24 kind=crossover_child score=+0.138894 energy_evaluations=217 energy_eval_s=86.36 member_wall_s=86.68
+2026-10-30 10:38:51 | relaxing run_kind=ga_generation_6_member_25_crossover_child stage=1 iter=1 Eform=+1.432469 score=+1.432469 err=3.993e-01
+2026-10-30 10:39:31 | member_done generation=6 member=25 kind=crossover_child score=+0.131789 energy_evaluations=56 energy_eval_s=42.69 member_wall_s=42.86
+2026-10-30 10:39:52 | relaxing run_kind=ga_generation_6_member_26_crossover_child stage=1 iter=13 Eform=+0.257996 score=+0.257996 err=3.759e-02
+2026-10-30 10:40:13 | member_done generation=6 member=26 kind=crossover_child score=+0.125221 energy_evaluations=82 energy_eval_s=41.82 member_wall_s=42.00
+2026-10-30 10:40:54 | relaxing run_kind=ga_generation_6_member_27_crossover_child stage=1 iter=23 Eform=+0.147944 score=+0.147944 err=3.813e-03
+2026-10-30 10:41:25 | member_done generation=6 member=27 kind=crossover_child score=+0.138646 energy_evaluations=174 energy_eval_s=71.26 member_wall_s=71.53
+2026-10-30 10:42:00 | member_done generation=6 member=28 kind=crossover_child score=+0.123596 energy_evaluations=48 energy_eval_s=34.55 member_wall_s=34.71
+2026-10-30 10:42:03 | relaxing run_kind=ga_generation_6_member_29_crossover_child stage=1 iter=1 Eform=+1.406169 score=+1.406169 err=3.846e-01
+2026-10-30 10:42:41 | member_done generation=6 member=29 kind=crossover_child score=+0.126023 energy_evaluations=51 energy_eval_s=40.71 member_wall_s=40.88
+2026-10-30 10:42:41 | generation_done generation=6 best=+0.119211 global_best=+0.119211 energy_evaluations=6105 energy_eval_s=1831.83 generation_wall_s=1892.24
+2026-10-30 10:42:41 | generation_start generation=7
+2026-10-30 10:42:41 | elite_copied generation=7 member=0 kind=elite_copy score=+0.119211 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 10:42:41 | elite_copied generation=7 member=1 kind=elite_copy score=+0.120410 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 10:42:41 | elite_copied generation=7 member=2 kind=elite_copy score=+0.120940 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 10:43:03 | relaxing run_kind=ga_generation_7_member_3_random_immigrant stage=1 iter=26 Eform=+0.274369 score=+0.274369 err=4.874e-03
+2026-10-30 10:44:40 | member_done generation=7 member=3 kind=random_immigrant score=+0.236755 energy_evaluations=529 energy_eval_s=112.34 member_wall_s=112.81
+2026-10-30 10:44:48 | relaxing run_kind=ga_generation_7_member_4_random_immigrant stage=1 iter=1 Eform=+4.463715 score=+4.463715 err=2.167e+00
+2026-10-30 10:46:37 | member_done generation=7 member=4 kind=random_immigrant score=+0.252617 energy_evaluations=528 energy_eval_s=109.48 member_wall_s=109.98
+2026-10-30 10:46:43 | relaxing run_kind=ga_generation_7_member_5_random_immigrant stage=1 iter=1 Eform=+3.438545 score=+3.438545 err=1.898e+00
+2026-10-30 10:48:26 | member_done generation=7 member=5 kind=random_immigrant score=+0.279702 energy_evaluations=524 energy_eval_s=104.19 member_wall_s=104.65
+2026-10-30 10:48:34 | relaxing run_kind=ga_generation_7_member_6_random_immigrant stage=1 iter=1 Eform=+4.059366 score=+4.059366 err=2.093e+00
+2026-10-30 10:50:25 | member_done generation=7 member=6 kind=random_immigrant score=+0.239731 energy_evaluations=529 energy_eval_s=111.54 member_wall_s=112.05
+2026-10-30 10:50:31 | relaxing run_kind=ga_generation_7_member_7_random_immigrant stage=1 iter=1 Eform=+4.143313 score=+4.143313 err=1.939e+00
+2026-10-30 10:52:19 | member_done generation=7 member=7 kind=random_immigrant score=+0.266612 energy_evaluations=528 energy_eval_s=108.17 member_wall_s=108.66
+2026-10-30 10:52:26 | relaxing run_kind=ga_generation_7_member_8_random_immigrant stage=1 iter=1 Eform=+3.855196 score=+3.855196 err=1.948e+00
+2026-10-30 10:54:12 | member_done generation=7 member=8 kind=random_immigrant score=+0.263161 energy_evaluations=526 energy_eval_s=106.82 member_wall_s=107.30
+2026-10-30 10:54:18 | relaxing run_kind=ga_generation_7_member_9_random_immigrant stage=1 iter=1 Eform=+3.731567 score=+3.731567 err=2.122e+00
+2026-10-30 10:56:04 | member_done generation=7 member=9 kind=random_immigrant score=+0.265807 energy_evaluations=526 energy_eval_s=106.41 member_wall_s=106.86
+2026-10-30 10:56:11 | relaxing run_kind=ga_generation_7_member_10_random_immigrant stage=1 iter=1 Eform=+3.879299 score=+3.879299 err=1.940e+00
+2026-10-30 10:57:57 | member_done generation=7 member=10 kind=random_immigrant score=+0.271013 energy_evaluations=526 energy_eval_s=106.95 member_wall_s=107.43
+2026-10-30 10:58:01 | relaxing run_kind=ga_generation_7_member_11_crossover_child stage=1 iter=1 Eform=+1.375388 score=+1.375388 err=3.938e-01
+2026-10-30 10:58:42 | member_done generation=7 member=11 kind=crossover_child score=+0.118816 energy_evaluations=65 energy_eval_s=44.05 member_wall_s=44.24
+2026-10-30 10:59:01 | relaxing run_kind=ga_generation_7_member_12_crossover_child stage=1 iter=11 Eform=+0.497629 score=+0.497629 err=7.206e-02
+2026-10-30 10:59:18 | member_done generation=7 member=12 kind=crossover_child score=+0.128256 energy_evaluations=43 energy_eval_s=35.90 member_wall_s=36.06
+2026-10-30 10:59:53 | member_done generation=7 member=13 kind=crossover_child score=+0.118871 energy_evaluations=42 energy_eval_s=34.68 member_wall_s=34.84
+2026-10-30 11:00:02 | relaxing run_kind=ga_generation_7_member_14_crossover_child stage=1 iter=5 Eform=+0.982281 score=+0.982281 err=2.003e-01
+2026-10-30 11:00:33 | member_done generation=7 member=14 kind=crossover_child score=+0.131619 energy_evaluations=49 energy_eval_s=39.76 member_wall_s=39.92
+2026-10-30 11:01:03 | relaxing run_kind=ga_generation_7_member_15_crossover_child stage=1 iter=17 Eform=+0.237116 score=+0.237116 err=3.472e-02
+2026-10-30 11:01:18 | member_done generation=7 member=15 kind=crossover_child score=+0.126247 energy_evaluations=47 energy_eval_s=44.06 member_wall_s=44.24
+2026-10-30 11:02:01 | member_done generation=7 member=16 kind=crossover_child score=+0.124553 energy_evaluations=54 energy_eval_s=43.35 member_wall_s=43.51
+2026-10-30 11:02:05 | relaxing run_kind=ga_generation_7_member_17_crossover_child stage=1 iter=1 Eform=+1.358534 score=+1.358534 err=3.667e-01
+2026-10-30 11:03:52 | member_done generation=7 member=17 kind=crossover_child score=+0.125964 energy_evaluations=320 energy_eval_s=109.33 member_wall_s=110.09
+2026-10-30 11:03:55 | relaxing run_kind=ga_generation_7_member_18_crossover_child stage=1 iter=1 Eform=+1.348269 score=+1.348269 err=3.673e-01
+2026-10-30 11:04:33 | member_done generation=7 member=18 kind=crossover_child score=+0.128434 energy_evaluations=59 energy_eval_s=41.07 member_wall_s=41.24
+2026-10-30 11:04:55 | relaxing run_kind=ga_generation_7_member_19_crossover_child stage=1 iter=12 Eform=+0.655137 score=+0.655137 err=7.754e-02
+2026-10-30 11:05:22 | member_done generation=7 member=19 kind=crossover_child score=+0.123764 energy_evaluations=85 energy_eval_s=48.12 member_wall_s=48.30
+2026-10-30 11:05:56 | relaxing run_kind=ga_generation_7_member_20_crossover_child stage=1 iter=20 Eform=+0.130443 score=+0.130443 err=4.167e-03
+2026-10-30 11:06:01 | member_done generation=7 member=20 kind=crossover_child score=+0.128663 energy_evaluations=48 energy_eval_s=39.48 member_wall_s=39.63
+2026-10-30 11:06:41 | member_done generation=7 member=21 kind=crossover_child score=+0.128232 energy_evaluations=57 energy_eval_s=39.82 member_wall_s=40.00
+2026-10-30 11:06:57 | relaxing run_kind=ga_generation_7_member_22_crossover_child stage=1 iter=9 Eform=+0.654402 score=+0.654402 err=9.028e-02
+2026-10-30 11:07:20 | member_done generation=7 member=22 kind=crossover_child score=+0.120952 energy_evaluations=54 energy_eval_s=38.11 member_wall_s=38.29
+2026-10-30 11:07:57 | member_done generation=7 member=23 kind=crossover_child score=+0.128519 energy_evaluations=55 energy_eval_s=36.54 member_wall_s=36.72
+2026-10-30 11:08:00 | relaxing run_kind=ga_generation_7_member_24_crossover_child stage=1 iter=1 Eform=+1.419478 score=+1.419478 err=3.905e-01
+2026-10-30 11:08:38 | member_done generation=7 member=24 kind=crossover_child score=+0.128700 energy_evaluations=53 energy_eval_s=40.85 member_wall_s=41.01
+2026-10-30 11:09:00 | relaxing run_kind=ga_generation_7_member_25_crossover_child stage=1 iter=14 Eform=+0.242255 score=+0.242255 err=3.941e-02
+2026-10-30 11:09:17 | member_done generation=7 member=25 kind=crossover_child score=+0.125896 energy_evaluations=52 energy_eval_s=37.69 member_wall_s=38.29
+2026-10-30 11:09:54 | member_done generation=7 member=26 kind=crossover_child score=+0.131612 energy_evaluations=61 energy_eval_s=36.43 member_wall_s=36.58
+2026-10-30 11:10:00 | relaxing run_kind=ga_generation_7_member_27_crossover_child stage=1 iter=3 Eform=+1.104334 score=+1.104334 err=2.632e-01
+2026-10-30 11:10:31 | member_done generation=7 member=27 kind=crossover_child score=+0.121371 energy_evaluations=59 energy_eval_s=36.85 member_wall_s=37.01
+2026-10-30 11:11:01 | relaxing run_kind=ga_generation_7_member_28_crossover_child stage=1 iter=18 Eform=+0.165184 score=+0.165184 err=2.122e-02
+2026-10-30 11:11:11 | member_done generation=7 member=28 kind=crossover_child score=+0.128224 energy_evaluations=51 energy_eval_s=39.82 member_wall_s=39.97
+2026-10-30 11:11:54 | member_done generation=7 member=29 kind=crossover_child score=+0.129110 energy_evaluations=55 energy_eval_s=42.64 member_wall_s=42.80
+2026-10-30 11:11:54 | generation_done generation=7 best=+0.118816 global_best=+0.118816 energy_evaluations=5525 energy_eval_s=1694.46 generation_wall_s=1753.53
+2026-10-30 11:11:54 | generation_start generation=8
+2026-10-30 11:11:54 | elite_copied generation=8 member=0 kind=elite_copy score=+0.118816 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 11:11:54 | elite_copied generation=8 member=1 kind=elite_copy score=+0.118871 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 11:11:54 | elite_copied generation=8 member=2 kind=elite_copy score=+0.119211 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 11:12:01 | relaxing run_kind=ga_generation_8_member_3_random_immigrant stage=1 iter=3 Eform=+1.908497 score=+1.908497 err=6.007e-01
+2026-10-30 11:13:40 | member_done generation=8 member=3 kind=random_immigrant score=+0.294679 energy_evaluations=522 energy_eval_s=100.04 member_wall_s=100.44
+2026-10-30 11:13:46 | relaxing run_kind=ga_generation_8_member_4_random_immigrant stage=1 iter=1 Eform=+4.205925 score=+4.205925 err=2.118e+00
+2026-10-30 11:15:32 | member_done generation=8 member=4 kind=random_immigrant score=+0.266971 energy_evaluations=527 energy_eval_s=106.04 member_wall_s=106.49
+2026-10-30 11:15:38 | relaxing run_kind=ga_generation_8_member_5_random_immigrant stage=1 iter=1 Eform=+3.376476 score=+3.376476 err=1.739e+00
+2026-10-30 11:17:20 | member_done generation=8 member=5 kind=random_immigrant score=+0.282065 energy_evaluations=523 energy_eval_s=102.77 member_wall_s=103.18
+2026-10-30 11:17:28 | relaxing run_kind=ga_generation_8_member_6_random_immigrant stage=1 iter=1 Eform=+4.249134 score=+4.249134 err=1.994e+00
+2026-10-30 11:19:19 | member_done generation=8 member=6 kind=random_immigrant score=+0.227077 energy_evaluations=527 energy_eval_s=112.36 member_wall_s=112.83
+2026-10-30 11:19:27 | relaxing run_kind=ga_generation_8_member_7_random_immigrant stage=1 iter=1 Eform=+4.539053 score=+4.539053 err=2.263e+00
+2026-10-30 11:21:16 | member_done generation=8 member=7 kind=random_immigrant score=+0.255991 energy_evaluations=529 energy_eval_s=109.69 member_wall_s=110.16
+2026-10-30 11:21:22 | relaxing run_kind=ga_generation_8_member_8_random_immigrant stage=1 iter=1 Eform=+3.534445 score=+3.534445 err=1.748e+00
+2026-10-30 11:23:01 | member_done generation=8 member=8 kind=random_immigrant score=+0.313964 energy_evaluations=523 energy_eval_s=99.75 member_wall_s=100.16
+2026-10-30 11:23:10 | relaxing run_kind=ga_generation_8_member_9_random_immigrant stage=1 iter=1 Eform=+4.785848 score=+4.785848 err=1.972e+00
+2026-10-30 11:24:43 | member_done generation=8 member=9 kind=random_immigrant score=+0.222905 energy_evaluations=409 energy_eval_s=93.92 member_wall_s=94.39
+2026-10-30 11:24:49 | relaxing run_kind=ga_generation_8_member_10_random_immigrant stage=1 iter=1 Eform=+3.702866 score=+3.702866 err=2.090e+00
+2026-10-30 11:26:34 | member_done generation=8 member=10 kind=random_immigrant score=+0.281547 energy_evaluations=528 energy_eval_s=104.89 member_wall_s=105.38
+2026-10-30 11:26:37 | relaxing run_kind=ga_generation_8_member_11_crossover_child stage=1 iter=1 Eform=+1.410112 score=+1.410112 err=3.959e-01
+2026-10-30 11:27:15 | member_done generation=8 member=11 kind=crossover_child score=+0.125857 energy_evaluations=55 energy_eval_s=41.03 member_wall_s=41.19
+2026-10-30 11:27:38 | relaxing run_kind=ga_generation_8_member_12_crossover_child stage=1 iter=13 Eform=+0.582248 score=+0.582248 err=7.648e-02
+2026-10-30 11:27:58 | member_done generation=8 member=12 kind=crossover_child score=+0.125041 energy_evaluations=58 energy_eval_s=42.11 member_wall_s=42.28
+2026-10-30 11:28:35 | member_done generation=8 member=13 kind=crossover_child score=+0.123306 energy_evaluations=44 energy_eval_s=36.24 member_wall_s=36.41
+2026-10-30 11:28:38 | relaxing run_kind=ga_generation_8_member_14_crossover_child stage=1 iter=1 Eform=+1.401705 score=+1.401705 err=3.762e-01
+2026-10-30 11:29:40 | member_done generation=8 member=14 kind=crossover_child score=+0.136700 energy_evaluations=109 energy_eval_s=64.25 member_wall_s=64.52
+2026-10-30 11:29:43 | relaxing run_kind=ga_generation_8_member_15_crossover_child stage=1 iter=1 Eform=+1.322362 score=+1.322362 err=3.249e-01
+2026-10-30 11:30:44 | relaxing run_kind=ga_generation_8_member_15_crossover_child stage=1 iter=28 Eform=+0.183116 score=+0.183116 err=1.242e-02
+2026-10-30 11:32:13 | member_done generation=8 member=15 kind=crossover_child score=+0.138724 energy_evaluations=421 energy_eval_s=152.66 member_wall_s=153.33
+2026-10-30 11:32:16 | relaxing run_kind=ga_generation_8_member_16_crossover_child stage=1 iter=1 Eform=+1.418212 score=+1.418212 err=3.825e-01
+2026-10-30 11:32:56 | member_done generation=8 member=16 kind=crossover_child score=+0.125885 energy_evaluations=56 energy_eval_s=42.82 member_wall_s=42.99
+2026-10-30 11:33:17 | relaxing run_kind=ga_generation_8_member_17_crossover_child stage=1 iter=12 Eform=+0.481542 score=+0.481542 err=7.398e-02
+2026-10-30 11:33:35 | member_done generation=8 member=17 kind=crossover_child score=+0.123678 energy_evaluations=52 energy_eval_s=38.71 member_wall_s=38.90
+2026-10-30 11:34:24 | member_done generation=8 member=18 kind=crossover_child score=+0.129029 energy_evaluations=90 energy_eval_s=48.75 member_wall_s=48.94
+2026-10-30 11:34:28 | relaxing run_kind=ga_generation_8_member_19_crossover_child stage=1 iter=1 Eform=+1.426414 score=+1.426414 err=4.032e-01
+2026-10-30 11:35:01 | member_done generation=8 member=19 kind=crossover_child score=+0.126268 energy_evaluations=45 energy_eval_s=36.61 member_wall_s=36.79
+2026-10-30 11:35:28 | relaxing run_kind=ga_generation_8_member_20_crossover_child stage=1 iter=16 Eform=+0.139170 score=+0.139170 err=1.490e-02
+2026-10-30 11:35:37 | member_done generation=8 member=20 kind=crossover_child score=+0.123014 energy_evaluations=45 energy_eval_s=34.87 member_wall_s=35.03
+2026-10-30 11:36:15 | member_done generation=8 member=21 kind=crossover_child score=+0.134165 energy_evaluations=57 energy_eval_s=37.87 member_wall_s=38.05
+2026-10-30 11:36:29 | relaxing run_kind=ga_generation_8_member_22_crossover_child stage=1 iter=7 Eform=+0.780031 score=+0.780031 err=9.851e-02
+2026-10-30 11:36:59 | member_done generation=8 member=22 kind=crossover_child score=+0.126774 energy_evaluations=77 energy_eval_s=43.27 member_wall_s=43.51
+2026-10-30 11:37:33 | member_done generation=8 member=23 kind=crossover_child score=+0.126936 energy_evaluations=44 energy_eval_s=33.91 member_wall_s=34.07
+2026-10-30 11:37:36 | relaxing run_kind=ga_generation_8_member_24_crossover_child stage=1 iter=1 Eform=+1.362673 score=+1.362673 err=3.706e-01
+2026-10-30 11:38:15 | member_done generation=8 member=24 kind=crossover_child score=+0.123212 energy_evaluations=71 energy_eval_s=42.00 member_wall_s=42.20
+2026-10-30 11:38:36 | relaxing run_kind=ga_generation_8_member_25_crossover_child stage=1 iter=13 Eform=+0.312141 score=+0.312141 err=5.260e-02
+2026-10-30 11:38:51 | member_done generation=8 member=25 kind=crossover_child score=+0.118866 energy_evaluations=41 energy_eval_s=35.47 member_wall_s=35.66
+2026-10-30 11:39:29 | member_done generation=8 member=26 kind=crossover_child score=+0.123034 energy_evaluations=54 energy_eval_s=37.39 member_wall_s=37.98
+2026-10-30 11:39:37 | relaxing run_kind=ga_generation_8_member_27_crossover_child stage=1 iter=4 Eform=+1.007146 score=+1.007146 err=2.339e-01
+2026-10-30 11:40:11 | member_done generation=8 member=27 kind=crossover_child score=+0.126381 energy_evaluations=47 energy_eval_s=41.13 member_wall_s=41.30
+2026-10-30 11:40:38 | relaxing run_kind=ga_generation_8_member_28_crossover_child stage=1 iter=16 Eform=+0.176100 score=+0.176100 err=2.412e-02
+2026-10-30 11:40:50 | member_done generation=8 member=28 kind=crossover_child score=+0.123217 energy_evaluations=48 energy_eval_s=38.45 member_wall_s=38.61
+2026-10-30 11:41:31 | member_done generation=8 member=29 kind=crossover_child score=+0.128170 energy_evaluations=57 energy_eval_s=41.08 member_wall_s=41.23
+2026-10-30 11:41:31 | generation_done generation=8 best=+0.118816 global_best=+0.118816 energy_evaluations=5559 energy_eval_s=1718.10 generation_wall_s=1776.86
+2026-10-30 11:41:31 | generation_start generation=9
+2026-10-30 11:41:31 | elite_copied generation=9 member=0 kind=elite_copy score=+0.118816 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 11:41:31 | elite_copied generation=9 member=1 kind=elite_copy score=+0.118866 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 11:41:31 | elite_copied generation=9 member=2 kind=elite_copy score=+0.118871 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 11:41:38 | relaxing run_kind=ga_generation_9_member_3_random_immigrant stage=1 iter=2 Eform=+3.292081 score=+3.292081 err=1.203e+00
+2026-10-30 11:43:24 | member_done generation=9 member=3 kind=random_immigrant score=+0.263299 energy_evaluations=525 energy_eval_s=106.66 member_wall_s=107.10
+2026-10-30 11:43:30 | relaxing run_kind=ga_generation_9_member_4_random_immigrant stage=1 iter=1 Eform=+4.087916 score=+4.087916 err=2.191e+00
+2026-10-30 11:45:15 | member_done generation=9 member=4 kind=random_immigrant score=+0.267584 energy_evaluations=525 energy_eval_s=105.41 member_wall_s=105.84
+2026-10-30 11:45:22 | relaxing run_kind=ga_generation_9_member_5_random_immigrant stage=1 iter=1 Eform=+3.747037 score=+3.747037 err=1.874e+00
+2026-10-30 11:47:14 | member_done generation=9 member=5 kind=random_immigrant score=+0.233778 energy_evaluations=530 energy_eval_s=112.17 member_wall_s=112.65
+2026-10-30 11:47:20 | relaxing run_kind=ga_generation_9_member_6_random_immigrant stage=1 iter=1 Eform=+3.371235 score=+3.371235 err=1.917e+00
+2026-10-30 11:49:05 | member_done generation=9 member=6 kind=random_immigrant score=+0.273178 energy_evaluations=525 energy_eval_s=104.72 member_wall_s=105.17
+2026-10-30 11:49:11 | relaxing run_kind=ga_generation_9_member_7_random_immigrant stage=1 iter=1 Eform=+3.892854 score=+3.892854 err=2.050e+00
+2026-10-30 11:51:00 | member_done generation=9 member=7 kind=random_immigrant score=+0.249081 energy_evaluations=530 energy_eval_s=109.13 member_wall_s=109.64
+2026-10-30 11:51:06 | relaxing run_kind=ga_generation_9_member_8_random_immigrant stage=1 iter=1 Eform=+3.399924 score=+3.399924 err=1.744e+00
+2026-10-30 11:52:49 | member_done generation=9 member=8 kind=random_immigrant score=+0.280518 energy_evaluations=524 energy_eval_s=104.05 member_wall_s=104.47
+2026-10-30 11:52:56 | relaxing run_kind=ga_generation_9_member_9_random_immigrant stage=1 iter=1 Eform=+3.892431 score=+3.892431 err=1.930e+00
+2026-10-30 11:54:44 | member_done generation=9 member=9 kind=random_immigrant score=+0.262192 energy_evaluations=528 energy_eval_s=108.46 member_wall_s=108.96
+2026-10-30 11:54:51 | relaxing run_kind=ga_generation_9_member_10_random_immigrant stage=1 iter=1 Eform=+4.690762 score=+4.690762 err=2.388e+00
+2026-10-30 11:56:36 | member_done generation=9 member=10 kind=random_immigrant score=+0.268433 energy_evaluations=524 energy_eval_s=105.49 member_wall_s=105.94
+2026-10-30 11:56:40 | relaxing run_kind=ga_generation_9_member_11_crossover_child stage=1 iter=1 Eform=+1.426697 score=+1.426697 err=4.050e-01
+2026-10-30 11:57:29 | member_done generation=9 member=11 kind=crossover_child score=+0.130692 energy_evaluations=110 energy_eval_s=52.08 member_wall_s=52.30
+2026-10-30 11:57:40 | relaxing run_kind=ga_generation_9_member_12_crossover_child stage=1 iter=6 Eform=+0.864472 score=+0.864472 err=1.349e-01
+2026-10-30 11:58:12 | member_done generation=9 member=12 kind=crossover_child score=+0.131607 energy_evaluations=57 energy_eval_s=42.43 member_wall_s=42.59
+2026-10-30 11:58:41 | relaxing run_kind=ga_generation_9_member_13_crossover_child stage=1 iter=16 Eform=+0.243963 score=+0.243963 err=2.506e-02
+2026-10-30 11:59:33 | member_done generation=9 member=13 kind=crossover_child score=+0.130254 energy_evaluations=185 energy_eval_s=80.95 member_wall_s=81.27
+2026-10-30 11:59:42 | relaxing run_kind=ga_generation_9_member_14_crossover_child stage=1 iter=5 Eform=+0.889312 score=+0.889312 err=1.622e-01
+2026-10-30 12:00:17 | member_done generation=9 member=14 kind=crossover_child score=+0.126158 energy_evaluations=64 energy_eval_s=43.03 member_wall_s=43.24
+2026-10-30 12:00:42 | relaxing run_kind=ga_generation_9_member_15_crossover_child stage=1 iter=15 Eform=+0.235356 score=+0.235356 err=3.111e-02
+2026-10-30 12:01:05 | member_done generation=9 member=15 kind=crossover_child score=+0.129024 energy_evaluations=88 energy_eval_s=48.23 member_wall_s=48.43
+2026-10-30 12:01:44 | member_done generation=9 member=16 kind=crossover_child score=+0.123479 energy_evaluations=51 energy_eval_s=38.82 member_wall_s=38.97
+2026-10-30 12:01:47 | relaxing run_kind=ga_generation_9_member_17_crossover_child stage=1 iter=1 Eform=+1.404844 score=+1.404844 err=3.787e-01
+2026-10-30 12:02:18 | member_done generation=9 member=17 kind=crossover_child score=+0.118829 energy_evaluations=42 energy_eval_s=33.25 member_wall_s=33.42
+2026-10-30 12:02:48 | relaxing run_kind=ga_generation_9_member_18_crossover_child stage=1 iter=18 Eform=+0.175483 score=+0.175483 err=2.475e-02
+2026-10-30 12:02:59 | member_done generation=9 member=18 kind=crossover_child score=+0.124043 energy_evaluations=48 energy_eval_s=40.77 member_wall_s=40.95
+2026-10-30 12:03:36 | member_done generation=9 member=19 kind=crossover_child score=+0.124445 energy_evaluations=57 energy_eval_s=36.63 member_wall_s=36.82
+2026-10-30 12:03:50 | relaxing run_kind=ga_generation_9_member_20_crossover_child stage=1 iter=7 Eform=+0.802956 score=+0.802956 err=1.022e-01
+2026-10-30 12:04:17 | member_done generation=9 member=20 kind=crossover_child score=+0.120821 energy_evaluations=45 energy_eval_s=40.89 member_wall_s=41.08
+2026-10-30 12:04:51 | relaxing run_kind=ga_generation_9_member_21_crossover_child stage=1 iter=18 Eform=+0.189032 score=+0.189032 err=1.388e-02
+2026-10-30 12:05:31 | member_done generation=9 member=21 kind=crossover_child score=+0.144547 energy_evaluations=142 energy_eval_s=73.18 member_wall_s=73.52
+2026-10-30 12:05:51 | relaxing run_kind=ga_generation_9_member_22_crossover_child stage=1 iter=10 Eform=+0.566411 score=+0.566411 err=7.983e-02
+2026-10-30 12:07:01 | member_done generation=9 member=22 kind=crossover_child score=+0.149037 energy_evaluations=228 energy_eval_s=89.20 member_wall_s=89.53
+2026-10-30 12:07:04 | relaxing run_kind=ga_generation_9_member_23_crossover_child stage=1 iter=1 Eform=+1.414329 score=+1.414329 err=4.102e-01
+2026-10-30 12:07:40 | member_done generation=9 member=23 kind=crossover_child score=+0.118837 energy_evaluations=50 energy_eval_s=38.62 member_wall_s=38.78
+2026-10-30 12:08:04 | relaxing run_kind=ga_generation_9_member_24_crossover_child stage=1 iter=14 Eform=+0.505267 score=+0.505267 err=7.513e-02
+2026-10-30 12:08:22 | member_done generation=9 member=24 kind=crossover_child score=+0.130783 energy_evaluations=58 energy_eval_s=41.92 member_wall_s=42.08
+2026-10-30 12:08:58 | member_done generation=9 member=25 kind=crossover_child score=+0.121688 energy_evaluations=52 energy_eval_s=35.03 member_wall_s=35.21
+2026-10-30 12:09:05 | relaxing run_kind=ga_generation_9_member_26_crossover_child stage=1 iter=4 Eform=+0.964421 score=+0.964421 err=2.111e-01
+2026-10-30 12:09:32 | member_done generation=9 member=26 kind=crossover_child score=+0.123914 energy_evaluations=45 energy_eval_s=33.79 member_wall_s=33.95
+2026-10-30 12:10:07 | member_done generation=9 member=27 kind=crossover_child score=+0.121534 energy_evaluations=44 energy_eval_s=34.53 member_wall_s=34.71
+2026-10-30 12:10:10 | relaxing run_kind=ga_generation_9_member_28_crossover_child stage=1 iter=1 Eform=+1.412079 score=+1.412079 err=3.983e-01
+2026-10-30 12:10:41 | member_done generation=9 member=28 kind=crossover_child score=+0.121403 energy_evaluations=41 energy_eval_s=33.61 member_wall_s=33.77
+2026-10-30 12:11:16 | member_done generation=9 member=29 kind=crossover_child score=+0.118827 energy_evaluations=49 energy_eval_s=34.92 member_wall_s=35.09
+2026-10-30 12:11:16 | generation_done generation=9 best=+0.118816 global_best=+0.118816 energy_evaluations=5667 energy_eval_s=1727.98 generation_wall_s=1784.97
+2026-10-30 12:11:16 | generation_start generation=10
+2026-10-30 12:11:16 | elite_copied generation=10 member=0 kind=elite_copy score=+0.118816 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 12:11:16 | elite_copied generation=10 member=1 kind=elite_copy score=+0.118827 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 12:11:16 | elite_copied generation=10 member=2 kind=elite_copy score=+0.118829 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 12:11:22 | relaxing run_kind=ga_generation_10_member_3_random_immigrant stage=1 iter=1 Eform=+3.718558 score=+3.718558 err=1.953e+00
+2026-10-30 12:13:08 | member_done generation=10 member=3 kind=random_immigrant score=+0.267449 energy_evaluations=527 energy_eval_s=106.21 member_wall_s=106.66
+2026-10-30 12:13:14 | relaxing run_kind=ga_generation_10_member_4_random_immigrant stage=1 iter=1 Eform=+3.902108 score=+3.902108 err=1.992e+00
+2026-10-30 12:14:54 | member_done generation=10 member=4 kind=random_immigrant score=+0.292190 energy_evaluations=523 energy_eval_s=100.25 member_wall_s=100.66
+2026-10-30 12:15:01 | relaxing run_kind=ga_generation_10_member_5_random_immigrant stage=1 iter=1 Eform=+3.894215 score=+3.894215 err=1.815e+00
+2026-10-30 12:16:48 | member_done generation=10 member=5 kind=random_immigrant score=+0.257288 energy_evaluations=526 energy_eval_s=107.96 member_wall_s=108.41
+2026-10-30 12:16:55 | relaxing run_kind=ga_generation_10_member_6_random_immigrant stage=1 iter=1 Eform=+4.706802 score=+4.706802 err=2.158e+00
+2026-10-30 12:18:45 | member_done generation=10 member=6 kind=random_immigrant score=+0.238543 energy_evaluations=530 energy_eval_s=110.51 member_wall_s=111.01
+2026-10-30 12:18:52 | relaxing run_kind=ga_generation_10_member_7_random_immigrant stage=1 iter=1 Eform=+3.976401 score=+3.976401 err=2.201e+00
+2026-10-30 12:20:37 | member_done generation=10 member=7 kind=random_immigrant score=+0.272745 energy_evaluations=525 energy_eval_s=105.62 member_wall_s=106.07
+2026-10-30 12:20:43 | relaxing run_kind=ga_generation_10_member_8_random_immigrant stage=1 iter=1 Eform=+3.533456 score=+3.533456 err=1.745e+00
+2026-10-30 12:22:29 | member_done generation=10 member=8 kind=random_immigrant score=+0.270780 energy_evaluations=525 energy_eval_s=106.41 member_wall_s=106.85
+2026-10-30 12:22:37 | relaxing run_kind=ga_generation_10_member_9_random_immigrant stage=1 iter=1 Eform=+5.105850 score=+5.105850 err=2.361e+00
+2026-10-30 12:24:28 | member_done generation=10 member=9 kind=random_immigrant score=+0.234194 energy_evaluations=530 energy_eval_s=112.05 member_wall_s=112.54
+2026-10-30 12:24:35 | relaxing run_kind=ga_generation_10_member_10_random_immigrant stage=1 iter=1 Eform=+4.408513 score=+4.408513 err=2.113e+00
+2026-10-30 12:26:24 | member_done generation=10 member=10 kind=random_immigrant score=+0.259962 energy_evaluations=527 energy_eval_s=108.78 member_wall_s=109.26
+2026-10-30 12:26:27 | relaxing run_kind=ga_generation_10_member_11_crossover_child stage=1 iter=1 Eform=+1.426067 score=+1.426067 err=3.933e-01
+2026-10-30 12:27:04 | member_done generation=10 member=11 kind=crossover_child score=+0.123973 energy_evaluations=50 energy_eval_s=39.56 member_wall_s=39.72
+2026-10-30 12:27:28 | relaxing run_kind=ga_generation_10_member_12_crossover_child stage=1 iter=13 Eform=+0.282751 score=+0.282751 err=2.942e-02
+2026-10-30 12:28:42 | member_done generation=10 member=12 kind=crossover_child score=+0.137336 energy_evaluations=261 energy_eval_s=97.34 member_wall_s=97.71
+2026-10-30 12:28:45 | relaxing run_kind=ga_generation_10_member_13_crossover_child stage=1 iter=1 Eform=+1.415543 score=+1.415543 err=3.814e-01
+2026-10-30 12:29:19 | member_done generation=10 member=13 kind=crossover_child score=+0.123277 energy_evaluations=63 energy_eval_s=37.22 member_wall_s=37.39
+2026-10-30 12:29:45 | relaxing run_kind=ga_generation_10_member_14_crossover_child stage=1 iter=16 Eform=+0.151423 score=+0.151423 err=1.697e-02
+2026-10-30 12:29:55 | member_done generation=10 member=14 kind=crossover_child score=+0.127281 energy_evaluations=48 energy_eval_s=35.25 member_wall_s=35.85
+2026-10-30 12:30:30 | member_done generation=10 member=15 kind=crossover_child score=+0.118827 energy_evaluations=43 energy_eval_s=34.52 member_wall_s=34.70
+2026-10-30 12:30:45 | relaxing run_kind=ga_generation_10_member_16_crossover_child stage=1 iter=9 Eform=+0.638878 score=+0.638878 err=9.036e-02
+2026-10-30 12:31:05 | member_done generation=10 member=16 kind=crossover_child score=+0.118841 energy_evaluations=40 energy_eval_s=34.46 member_wall_s=34.63
+2026-10-30 12:31:39 | member_done generation=10 member=17 kind=crossover_child score=+0.124010 energy_evaluations=42 energy_eval_s=33.52 member_wall_s=33.67
+2026-10-30 12:31:46 | relaxing run_kind=ga_generation_10_member_18_crossover_child stage=1 iter=4 Eform=+1.032988 score=+1.032988 err=2.427e-01
+2026-10-30 12:32:15 | member_done generation=10 member=18 kind=crossover_child score=+0.126369 energy_evaluations=49 energy_eval_s=35.85 member_wall_s=36.02
+2026-10-30 12:32:47 | relaxing run_kind=ga_generation_10_member_19_crossover_child stage=1 iter=19 Eform=+0.147345 score=+0.147345 err=1.794e-02
+2026-10-30 12:32:57 | member_done generation=10 member=19 kind=crossover_child score=+0.121588 energy_evaluations=48 energy_eval_s=41.31 member_wall_s=41.47
+2026-10-30 12:33:35 | member_done generation=10 member=20 kind=crossover_child score=+0.132030 energy_evaluations=51 energy_eval_s=38.38 member_wall_s=38.55
+2026-10-30 12:33:48 | relaxing run_kind=ga_generation_10_member_21_crossover_child stage=1 iter=6 Eform=+0.821948 score=+0.821948 err=1.064e-01
+2026-10-30 12:34:16 | member_done generation=10 member=21 kind=crossover_child score=+0.128681 energy_evaluations=51 energy_eval_s=39.98 member_wall_s=40.14
+2026-10-30 12:34:52 | member_done generation=10 member=22 kind=crossover_child score=+0.126469 energy_evaluations=49 energy_eval_s=35.88 member_wall_s=36.08
+2026-10-30 12:34:55 | relaxing run_kind=ga_generation_10_member_23_crossover_child stage=1 iter=1 Eform=+1.372663 score=+1.372663 err=3.819e-01
+2026-10-30 12:35:29 | member_done generation=10 member=23 kind=crossover_child score=+0.121616 energy_evaluations=65 energy_eval_s=37.07 member_wall_s=37.23
+2026-10-30 12:35:55 | relaxing run_kind=ga_generation_10_member_24_crossover_child stage=1 iter=14 Eform=+0.239379 score=+0.239379 err=3.524e-02
+2026-10-30 12:36:13 | member_done generation=10 member=24 kind=crossover_child score=+0.126868 energy_evaluations=63 energy_eval_s=43.47 member_wall_s=43.63
+2026-10-30 12:36:52 | member_done generation=10 member=25 kind=crossover_child score=+0.121451 energy_evaluations=47 energy_eval_s=38.90 member_wall_s=39.08
+2026-10-30 12:36:56 | relaxing run_kind=ga_generation_10_member_26_crossover_child stage=1 iter=1 Eform=+1.316734 score=+1.316734 err=3.605e-01
+2026-10-30 12:38:20 | member_done generation=10 member=26 kind=crossover_child score=+0.138836 energy_evaluations=220 energy_eval_s=87.34 member_wall_s=87.68
+2026-10-30 12:38:23 | relaxing run_kind=ga_generation_10_member_27_crossover_child stage=1 iter=1 Eform=+1.441818 score=+1.441818 err=4.075e-01
+2026-10-30 12:38:56 | member_done generation=10 member=27 kind=crossover_child score=+0.120438 energy_evaluations=40 energy_eval_s=35.26 member_wall_s=35.43
+2026-10-30 12:39:25 | relaxing run_kind=ga_generation_10_member_28_crossover_child stage=1 iter=18 Eform=+0.124041 score=+0.124041 err=2.605e-03
+2026-10-30 12:39:29 | member_done generation=10 member=28 kind=crossover_child score=+0.122946 energy_evaluations=42 energy_eval_s=33.29 member_wall_s=33.45
+2026-10-30 12:40:11 | member_done generation=10 member=29 kind=crossover_child score=+0.121212 energy_evaluations=47 energy_eval_s=40.90 member_wall_s=41.07
+2026-10-30 12:40:11 | generation_done generation=10 best=+0.118816 global_best=+0.118816 energy_evaluations=5532 energy_eval_s=1677.28 generation_wall_s=1734.79
+2026-10-30 12:40:11 | generation_start generation=11
+2026-10-30 12:40:11 | elite_copied generation=11 member=0 kind=elite_copy score=+0.118816 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 12:40:11 | elite_copied generation=11 member=1 kind=elite_copy score=+0.118827 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 12:40:11 | elite_copied generation=11 member=2 kind=elite_copy score=+0.118827 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 12:40:25 | relaxing run_kind=ga_generation_11_member_3_random_immigrant stage=1 iter=17 Eform=+0.351832 score=+0.351832 err=1.046e-02
+2026-10-30 12:42:00 | member_done generation=11 member=3 kind=random_immigrant score=+0.284387 energy_evaluations=525 energy_eval_s=103.17 member_wall_s=103.61
+2026-10-30 12:42:07 | relaxing run_kind=ga_generation_11_member_4_random_immigrant stage=1 iter=1 Eform=+4.903776 score=+4.903776 err=2.460e+00
+2026-10-30 12:43:55 | member_done generation=11 member=4 kind=random_immigrant score=+0.253758 energy_evaluations=528 energy_eval_s=108.46 member_wall_s=108.91
+2026-10-30 12:44:01 | relaxing run_kind=ga_generation_11_member_5_random_immigrant stage=1 iter=1 Eform=+4.161183 score=+4.161183 err=1.928e+00
+2026-10-30 12:45:47 | member_done generation=11 member=5 kind=random_immigrant score=+0.257636 energy_evaluations=525 energy_eval_s=106.51 member_wall_s=106.94
+2026-10-30 12:45:54 | relaxing run_kind=ga_generation_11_member_6_random_immigrant stage=1 iter=1 Eform=+3.800596 score=+3.800596 err=1.855e+00
+2026-10-30 12:47:39 | member_done generation=11 member=6 kind=random_immigrant score=+0.261831 energy_evaluations=525 energy_eval_s=105.63 member_wall_s=106.06
+2026-10-30 12:47:46 | relaxing run_kind=ga_generation_11_member_7_random_immigrant stage=1 iter=1 Eform=+4.141425 score=+4.141425 err=2.158e+00
+2026-10-30 12:49:35 | member_done generation=11 member=7 kind=random_immigrant score=+0.239137 energy_evaluations=526 energy_eval_s=109.75 member_wall_s=110.21
+2026-10-30 12:49:41 | relaxing run_kind=ga_generation_11_member_8_random_immigrant stage=1 iter=1 Eform=+3.562558 score=+3.562558 err=2.040e+00
+2026-10-30 12:51:25 | member_done generation=11 member=8 kind=random_immigrant score=+0.278602 energy_evaluations=526 energy_eval_s=104.38 member_wall_s=104.84
+2026-10-30 12:51:31 | relaxing run_kind=ga_generation_11_member_9_random_immigrant stage=1 iter=1 Eform=+3.980897 score=+3.980897 err=2.167e+00
+2026-10-30 12:53:18 | member_done generation=11 member=9 kind=random_immigrant score=+0.262173 energy_evaluations=527 energy_eval_s=106.89 member_wall_s=107.37
+2026-10-30 12:53:25 | relaxing run_kind=ga_generation_11_member_10_random_immigrant stage=1 iter=1 Eform=+4.017652 score=+4.017652 err=2.076e+00
+2026-10-30 12:55:11 | member_done generation=11 member=10 kind=random_immigrant score=+0.271262 energy_evaluations=525 energy_eval_s=105.88 member_wall_s=106.31
+2026-10-30 12:55:14 | relaxing run_kind=ga_generation_11_member_11_crossover_child stage=1 iter=1 Eform=+1.311445 score=+1.311445 err=3.405e-01
+2026-10-30 12:56:25 | member_done generation=11 member=11 kind=crossover_child score=+0.136145 energy_evaluations=167 energy_eval_s=73.87 member_wall_s=74.19
+2026-10-30 12:56:28 | relaxing run_kind=ga_generation_11_member_12_crossover_child stage=1 iter=1 Eform=+1.360031 score=+1.360031 err=3.805e-01
+2026-10-30 12:57:38 | member_done generation=11 member=12 kind=crossover_child score=+0.128984 energy_evaluations=177 energy_eval_s=72.24 member_wall_s=72.51
+2026-10-30 12:57:41 | relaxing run_kind=ga_generation_11_member_13_crossover_child stage=1 iter=1 Eform=+1.401378 score=+1.401378 err=3.868e-01
+2026-10-30 12:58:15 | member_done generation=11 member=13 kind=crossover_child score=+0.124078 energy_evaluations=48 energy_eval_s=36.84 member_wall_s=37.00
+2026-10-30 12:58:42 | relaxing run_kind=ga_generation_11_member_14_crossover_child stage=1 iter=16 Eform=+0.288013 score=+0.288013 err=4.325e-02
+2026-10-30 12:58:55 | member_done generation=11 member=14 kind=crossover_child score=+0.124116 energy_evaluations=46 energy_eval_s=40.07 member_wall_s=40.25
+2026-10-30 12:59:35 | member_done generation=11 member=15 kind=crossover_child score=+0.123798 energy_evaluations=48 energy_eval_s=39.21 member_wall_s=39.37
+2026-10-30 12:59:43 | relaxing run_kind=ga_generation_11_member_16_crossover_child stage=1 iter=4 Eform=+0.992628 score=+0.992628 err=2.252e-01
+2026-10-30 13:00:16 | member_done generation=11 member=16 kind=crossover_child score=+0.123876 energy_evaluations=45 energy_eval_s=40.61 member_wall_s=40.76
+2026-10-30 13:00:43 | relaxing run_kind=ga_generation_11_member_17_crossover_child stage=1 iter=17 Eform=+0.125093 score=+0.125093 err=7.359e-03
+2026-10-30 13:00:53 | member_done generation=11 member=17 kind=crossover_child score=+0.118157 energy_evaluations=53 energy_eval_s=36.87 member_wall_s=37.05
+2026-10-30 13:02:27 | member_done generation=11 member=18 kind=crossover_child score=+0.124623 energy_evaluations=293 energy_eval_s=93.86 member_wall_s=94.19
+2026-10-30 13:02:31 | relaxing run_kind=ga_generation_11_member_19_crossover_child stage=1 iter=1 Eform=+1.441952 score=+1.441952 err=4.086e-01
+2026-10-30 13:03:05 | member_done generation=11 member=19 kind=crossover_child score=+0.120859 energy_evaluations=47 energy_eval_s=36.94 member_wall_s=37.11
+2026-10-30 13:03:32 | relaxing run_kind=ga_generation_11_member_20_crossover_child stage=1 iter=17 Eform=+0.135332 score=+0.135332 err=1.111e-02
+2026-10-30 13:03:39 | member_done generation=11 member=20 kind=crossover_child score=+0.126772 energy_evaluations=47 energy_eval_s=33.89 member_wall_s=34.06
+2026-10-30 13:04:19 | member_done generation=11 member=21 kind=crossover_child score=+0.122707 energy_evaluations=63 energy_eval_s=39.17 member_wall_s=39.36
+2026-10-30 13:04:33 | relaxing run_kind=ga_generation_11_member_22_crossover_child stage=1 iter=8 Eform=+0.663657 score=+0.663657 err=9.459e-02
+2026-10-30 13:04:55 | member_done generation=11 member=22 kind=crossover_child score=+0.124172 energy_evaluations=49 energy_eval_s=35.71 member_wall_s=35.89
+2026-10-30 13:05:33 | member_done generation=11 member=23 kind=crossover_child score=+0.123802 energy_evaluations=44 energy_eval_s=38.30 member_wall_s=38.46
+2026-10-30 13:05:36 | relaxing run_kind=ga_generation_11_member_24_crossover_child stage=1 iter=1 Eform=+1.411747 score=+1.411747 err=3.925e-01
+2026-10-30 13:06:10 | member_done generation=11 member=24 kind=crossover_child score=+0.119224 energy_evaluations=47 energy_eval_s=36.60 member_wall_s=36.74
+2026-10-30 13:06:37 | relaxing run_kind=ga_generation_11_member_25_crossover_child stage=1 iter=16 Eform=+0.205321 score=+0.205321 err=3.089e-02
+2026-10-30 13:06:49 | member_done generation=11 member=25 kind=crossover_child score=+0.123961 energy_evaluations=46 energy_eval_s=38.65 member_wall_s=38.81
+2026-10-30 13:07:30 | member_done generation=11 member=26 kind=crossover_child score=+0.121503 energy_evaluations=47 energy_eval_s=40.31 member_wall_s=40.47
+2026-10-30 13:07:37 | relaxing run_kind=ga_generation_11_member_27_crossover_child stage=1 iter=4 Eform=+0.991936 score=+0.991936 err=2.197e-01
+2026-10-30 13:08:04 | member_done generation=11 member=27 kind=crossover_child score=+0.127072 energy_evaluations=45 energy_eval_s=33.77 member_wall_s=33.93
+2026-10-30 13:08:39 | relaxing run_kind=ga_generation_11_member_28_crossover_child stage=1 iter=20 Eform=+0.132483 score=+0.132483 err=1.007e-02
+2026-10-30 13:08:49 | member_done generation=11 member=28 kind=crossover_child score=+0.124224 energy_evaluations=55 energy_eval_s=44.53 member_wall_s=44.71
+2026-10-30 13:09:28 | member_done generation=11 member=29 kind=crossover_child score=+0.124082 energy_evaluations=47 energy_eval_s=38.96 member_wall_s=39.13
+2026-10-30 13:09:28 | generation_done generation=11 best=+0.118157 global_best=+0.118157 energy_evaluations=5621 energy_eval_s=1701.08 generation_wall_s=1757.32
+2026-10-30 13:09:28 | generation_start generation=12
+2026-10-30 13:09:28 | elite_copied generation=12 member=0 kind=elite_copy score=+0.118157 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 13:09:28 | elite_copied generation=12 member=1 kind=elite_copy score=+0.118816 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 13:09:28 | elite_copied generation=12 member=2 kind=elite_copy score=+0.118827 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 13:09:39 | relaxing run_kind=ga_generation_12_member_3_random_immigrant stage=1 iter=8 Eform=+0.547610 score=+0.547610 err=3.618e-02
+2026-10-30 13:11:22 | member_done generation=12 member=3 kind=random_immigrant score=+0.259694 energy_evaluations=528 energy_eval_s=107.67 member_wall_s=108.14
+2026-10-30 13:11:30 | relaxing run_kind=ga_generation_12_member_4_random_immigrant stage=1 iter=1 Eform=+4.009793 score=+4.009793 err=1.888e+00
+2026-10-30 13:13:26 | member_done generation=12 member=4 kind=random_immigrant score=+0.213630 energy_evaluations=533 energy_eval_s=116.39 member_wall_s=116.91
+2026-10-30 13:13:33 | relaxing run_kind=ga_generation_12_member_5_random_immigrant stage=1 iter=1 Eform=+3.946711 score=+3.946711 err=2.228e+00
+2026-10-30 13:15:20 | member_done generation=12 member=5 kind=random_immigrant score=+0.254886 energy_evaluations=527 energy_eval_s=107.79 member_wall_s=108.24
+2026-10-30 13:15:28 | relaxing run_kind=ga_generation_12_member_6_random_immigrant stage=1 iter=1 Eform=+4.138651 score=+4.138651 err=1.776e+00
+2026-10-30 13:17:21 | member_done generation=12 member=6 kind=random_immigrant score=+0.225874 energy_evaluations=530 energy_eval_s=114.02 member_wall_s=114.51
+2026-10-30 13:17:28 | relaxing run_kind=ga_generation_12_member_7_random_immigrant stage=1 iter=1 Eform=+4.038260 score=+4.038260 err=2.150e+00
+2026-10-30 13:19:16 | member_done generation=12 member=7 kind=random_immigrant score=+0.253448 energy_evaluations=527 energy_eval_s=108.34 member_wall_s=108.79
+2026-10-30 13:19:23 | relaxing run_kind=ga_generation_12_member_8_random_immigrant stage=1 iter=1 Eform=+4.263276 score=+4.263276 err=1.897e+00
+2026-10-30 13:21:13 | member_done generation=12 member=8 kind=random_immigrant score=+0.248584 energy_evaluations=528 energy_eval_s=110.56 member_wall_s=111.03
+2026-10-30 13:21:20 | relaxing run_kind=ga_generation_12_member_9_random_immigrant stage=1 iter=1 Eform=+3.944349 score=+3.944349 err=1.940e+00
+2026-10-30 13:23:05 | member_done generation=12 member=9 kind=random_immigrant score=+0.277874 energy_evaluations=527 energy_eval_s=105.84 member_wall_s=106.30
+2026-10-30 13:23:11 | relaxing run_kind=ga_generation_12_member_10_random_immigrant stage=1 iter=1 Eform=+3.357990 score=+3.357990 err=1.797e+00
+2026-10-30 13:24:55 | member_done generation=12 member=10 kind=random_immigrant score=+0.265475 energy_evaluations=524 energy_eval_s=104.53 member_wall_s=104.95
+2026-10-30 13:24:58 | relaxing run_kind=ga_generation_12_member_11_crossover_child stage=1 iter=1 Eform=+1.426998 score=+1.426998 err=3.988e-01
+2026-10-30 13:25:35 | member_done generation=12 member=11 kind=crossover_child score=+0.124331 energy_evaluations=45 energy_eval_s=39.84 member_wall_s=39.99
+2026-10-30 13:26:00 | relaxing run_kind=ga_generation_12_member_12_crossover_child stage=1 iter=14 Eform=+0.399502 score=+0.399502 err=6.390e-02
+2026-10-30 13:26:17 | member_done generation=12 member=12 kind=crossover_child score=+0.121821 energy_evaluations=50 energy_eval_s=41.16 member_wall_s=41.32
+2026-10-30 13:27:00 | member_done generation=12 member=13 kind=crossover_child score=+0.127334 energy_evaluations=54 energy_eval_s=42.25 member_wall_s=42.42
+2026-10-30 13:27:03 | relaxing run_kind=ga_generation_12_member_14_crossover_child stage=1 iter=1 Eform=+1.374532 score=+1.374532 err=3.725e-01
+2026-10-30 13:27:36 | member_done generation=12 member=14 kind=crossover_child score=+0.123823 energy_evaluations=48 energy_eval_s=35.78 member_wall_s=35.96
+2026-10-30 13:28:04 | relaxing run_kind=ga_generation_12_member_15_crossover_child stage=1 iter=15 Eform=+0.316743 score=+0.316743 err=3.010e-02
+2026-10-30 13:29:27 | member_done generation=12 member=15 kind=crossover_child score=+0.136746 energy_evaluations=313 energy_eval_s=110.93 member_wall_s=111.31
+2026-10-30 13:29:30 | relaxing run_kind=ga_generation_12_member_16_crossover_child stage=1 iter=1 Eform=+1.434794 score=+1.434794 err=3.903e-01
+2026-10-30 13:30:04 | member_done generation=12 member=16 kind=crossover_child score=+0.127085 energy_evaluations=54 energy_eval_s=36.54 member_wall_s=36.71
+2026-10-30 13:30:31 | relaxing run_kind=ga_generation_12_member_17_crossover_child stage=1 iter=16 Eform=+0.218333 score=+0.218333 err=3.118e-02
+2026-10-30 13:30:44 | member_done generation=12 member=17 kind=crossover_child score=+0.128204 energy_evaluations=47 energy_eval_s=39.20 member_wall_s=39.36
+2026-10-30 13:31:20 | member_done generation=12 member=18 kind=crossover_child score=+0.125931 energy_evaluations=42 energy_eval_s=35.92 member_wall_s=36.08
+2026-10-30 13:31:31 | relaxing run_kind=ga_generation_12_member_19_crossover_child stage=1 iter=7 Eform=+0.727606 score=+0.727606 err=1.024e-01
+2026-10-30 13:31:54 | member_done generation=12 member=19 kind=crossover_child score=+0.124179 energy_evaluations=50 energy_eval_s=33.37 member_wall_s=33.54
+2026-10-30 13:32:34 | member_done generation=12 member=20 kind=crossover_child score=+0.119234 energy_evaluations=49 energy_eval_s=40.26 member_wall_s=40.41
+2026-10-30 13:32:37 | relaxing run_kind=ga_generation_12_member_21_crossover_child stage=1 iter=1 Eform=+1.405949 score=+1.405949 err=3.868e-01
+2026-10-30 13:33:11 | member_done generation=12 member=21 kind=crossover_child score=+0.120127 energy_evaluations=51 energy_eval_s=36.79 member_wall_s=36.96
+2026-10-30 13:33:39 | relaxing run_kind=ga_generation_12_member_22_crossover_child stage=1 iter=17 Eform=+0.137557 score=+0.137557 err=1.131e-02
+2026-10-30 13:33:53 | member_done generation=12 member=22 kind=crossover_child score=+0.128892 energy_evaluations=75 energy_eval_s=41.58 member_wall_s=41.77
+2026-10-30 13:34:29 | member_done generation=12 member=23 kind=crossover_child score=+0.123509 energy_evaluations=48 energy_eval_s=35.05 member_wall_s=35.22
+2026-10-30 13:34:39 | relaxing run_kind=ga_generation_12_member_24_crossover_child stage=1 iter=6 Eform=+0.768000 score=+0.768000 err=1.060e-01
+2026-10-30 13:35:04 | member_done generation=12 member=24 kind=crossover_child score=+0.118854 energy_evaluations=60 energy_eval_s=35.34 member_wall_s=35.50
+2026-10-30 13:35:40 | relaxing run_kind=ga_generation_12_member_25_crossover_child stage=1 iter=22 Eform=+0.123014 score=+0.123014 err=4.402e-03
+2026-10-30 13:35:44 | member_done generation=12 member=25 kind=crossover_child score=+0.121644 energy_evaluations=46 energy_eval_s=39.82 member_wall_s=39.99
+2026-10-30 13:37:31 | member_done generation=12 member=26 kind=crossover_child score=+0.139105 energy_evaluations=309 energy_eval_s=105.13 member_wall_s=105.97
+2026-10-30 13:37:34 | relaxing run_kind=ga_generation_12_member_27_crossover_child stage=1 iter=1 Eform=+1.387905 score=+1.387905 err=3.708e-01
+2026-10-30 13:38:17 | member_done generation=12 member=27 kind=crossover_child score=+0.128949 energy_evaluations=88 energy_eval_s=45.79 member_wall_s=45.98
+2026-10-30 13:38:35 | relaxing run_kind=ga_generation_12_member_28_crossover_child stage=1 iter=11 Eform=+0.496133 score=+0.496133 err=7.400e-02
+2026-10-30 13:38:50 | member_done generation=12 member=28 kind=crossover_child score=+0.125495 energy_evaluations=45 energy_eval_s=33.17 member_wall_s=33.35
+2026-10-30 13:39:25 | member_done generation=12 member=29 kind=crossover_child score=+0.123841 energy_evaluations=47 energy_eval_s=34.14 member_wall_s=34.29
+2026-10-30 13:39:25 | generation_done generation=12 best=+0.118157 global_best=+0.118157 energy_evaluations=5745 energy_eval_s=1737.20 generation_wall_s=1796.76
+2026-10-30 13:39:25 | generation_start generation=13
+2026-10-30 13:39:25 | elite_copied generation=13 member=0 kind=elite_copy score=+0.118157 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 13:39:25 | elite_copied generation=13 member=1 kind=elite_copy score=+0.118816 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 13:39:25 | elite_copied generation=13 member=2 kind=elite_copy score=+0.118827 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 13:39:35 | relaxing run_kind=ga_generation_13_member_3_random_immigrant stage=1 iter=8 Eform=+0.527553 score=+0.527553 err=3.086e-02
+2026-10-30 13:41:17 | member_done generation=13 member=3 kind=random_immigrant score=+0.270663 energy_evaluations=527 energy_eval_s=106.04 member_wall_s=106.52
+2026-10-30 13:41:25 | relaxing run_kind=ga_generation_13_member_4_random_immigrant stage=1 iter=1 Eform=+4.803600 score=+4.803600 err=2.278e+00
+2026-10-30 13:42:51 | member_done generation=13 member=4 kind=random_immigrant score=+0.214905 energy_evaluations=381 energy_eval_s=87.10 member_wall_s=87.55
+2026-10-30 13:42:58 | relaxing run_kind=ga_generation_13_member_5_random_immigrant stage=1 iter=1 Eform=+3.662584 score=+3.662584 err=1.910e+00
+2026-10-30 13:44:45 | member_done generation=13 member=5 kind=random_immigrant score=+0.261105 energy_evaluations=527 energy_eval_s=107.94 member_wall_s=108.41
+2026-10-30 13:44:52 | relaxing run_kind=ga_generation_13_member_6_random_immigrant stage=1 iter=1 Eform=+3.481111 score=+3.481111 err=1.894e+00
+2026-10-30 13:46:40 | member_done generation=13 member=6 kind=random_immigrant score=+0.246596 energy_evaluations=527 energy_eval_s=108.43 member_wall_s=108.88
+2026-10-30 13:46:47 | relaxing run_kind=ga_generation_13_member_7_random_immigrant stage=1 iter=1 Eform=+4.629486 score=+4.629486 err=2.256e+00
+2026-10-30 13:48:37 | member_done generation=13 member=7 kind=random_immigrant score=+0.242028 energy_evaluations=527 energy_eval_s=110.32 member_wall_s=110.78
+2026-10-30 13:48:44 | relaxing run_kind=ga_generation_13_member_8_random_immigrant stage=1 iter=1 Eform=+4.122233 score=+4.122233 err=2.180e+00
+2026-10-30 13:50:35 | member_done generation=13 member=8 kind=random_immigrant score=+0.236490 energy_evaluations=528 energy_eval_s=111.38 member_wall_s=111.87
+2026-10-30 13:50:41 | relaxing run_kind=ga_generation_13_member_9_random_immigrant stage=1 iter=1 Eform=+3.954720 score=+3.954720 err=1.825e+00
+2026-10-30 13:52:23 | member_done generation=13 member=9 kind=random_immigrant score=+0.273274 energy_evaluations=523 energy_eval_s=101.93 member_wall_s=102.35
+2026-10-30 13:52:29 | relaxing run_kind=ga_generation_13_member_10_random_immigrant stage=1 iter=1 Eform=+4.238654 score=+4.238654 err=2.149e+00
+2026-10-30 13:54:12 | member_done generation=13 member=10 kind=random_immigrant score=+0.291769 energy_evaluations=525 energy_eval_s=103.03 member_wall_s=103.47
+2026-10-30 13:54:15 | relaxing run_kind=ga_generation_13_member_11_crossover_child stage=1 iter=1 Eform=+1.361047 score=+1.361047 err=3.741e-01
+2026-10-30 13:55:03 | member_done generation=13 member=11 kind=crossover_child score=+0.124612 energy_evaluations=120 energy_eval_s=50.56 member_wall_s=51.29
+2026-10-30 13:55:16 | relaxing run_kind=ga_generation_13_member_12_crossover_child stage=1 iter=7 Eform=+0.724736 score=+0.724736 err=1.124e-01
+2026-10-30 13:55:39 | member_done generation=13 member=12 kind=crossover_child score=+0.118925 energy_evaluations=45 energy_eval_s=35.73 member_wall_s=35.90
+2026-10-30 13:56:20 | member_done generation=13 member=13 kind=crossover_child score=+0.121013 energy_evaluations=53 energy_eval_s=40.35 member_wall_s=40.52
+2026-10-30 13:56:23 | relaxing run_kind=ga_generation_13_member_14_crossover_child stage=1 iter=1 Eform=+1.405989 score=+1.405989 err=3.914e-01
+2026-10-30 13:56:57 | member_done generation=13 member=14 kind=crossover_child score=+0.125600 energy_evaluations=48 energy_eval_s=36.55 member_wall_s=36.71
+2026-10-30 13:57:24 | relaxing run_kind=ga_generation_13_member_15_crossover_child stage=1 iter=17 Eform=+0.127446 score=+0.127446 err=8.072e-03
+2026-10-30 13:57:33 | member_done generation=13 member=15 kind=crossover_child score=+0.120933 energy_evaluations=53 energy_eval_s=35.58 member_wall_s=35.77
+2026-10-30 13:58:07 | member_done generation=13 member=16 kind=crossover_child score=+0.124507 energy_evaluations=45 energy_eval_s=33.59 member_wall_s=33.74
+2026-10-30 13:58:25 | relaxing run_kind=ga_generation_13_member_17_crossover_child stage=1 iter=10 Eform=+0.740338 score=+0.740338 err=8.560e-02
+2026-10-30 13:58:47 | member_done generation=13 member=17 kind=crossover_child score=+0.119957 energy_evaluations=44 energy_eval_s=39.95 member_wall_s=40.11
+2026-10-30 13:59:30 | member_done generation=13 member=18 kind=crossover_child score=+0.123769 energy_evaluations=55 energy_eval_s=42.17 member_wall_s=42.33
+2026-10-30 13:59:33 | relaxing run_kind=ga_generation_13_member_19_crossover_child stage=1 iter=1 Eform=+1.416961 score=+1.416961 err=3.813e-01
+2026-10-30 14:00:05 | member_done generation=13 member=19 kind=crossover_child score=+0.123761 energy_evaluations=44 energy_eval_s=35.49 member_wall_s=35.66
+2026-10-30 14:00:33 | relaxing run_kind=ga_generation_13_member_20_crossover_child stage=1 iter=15 Eform=+0.218002 score=+0.218002 err=2.188e-02
+2026-10-30 14:02:06 | member_done generation=13 member=20 kind=crossover_child score=+0.128897 energy_evaluations=411 energy_eval_s=120.33 member_wall_s=120.77
+2026-10-30 14:02:09 | relaxing run_kind=ga_generation_13_member_21_crossover_child stage=1 iter=1 Eform=+1.380954 score=+1.380954 err=3.853e-01
+2026-10-30 14:02:47 | member_done generation=13 member=21 kind=crossover_child score=+0.121208 energy_evaluations=59 energy_eval_s=40.79 member_wall_s=40.95
+2026-10-30 14:03:10 | relaxing run_kind=ga_generation_13_member_22_crossover_child stage=1 iter=13 Eform=+0.494415 score=+0.494415 err=7.049e-02
+2026-10-30 14:03:27 | member_done generation=13 member=22 kind=crossover_child score=+0.126738 energy_evaluations=46 energy_eval_s=38.86 member_wall_s=39.02
+2026-10-30 14:04:03 | member_done generation=13 member=23 kind=crossover_child score=+0.120146 energy_evaluations=50 energy_eval_s=35.85 member_wall_s=36.01
+2026-10-30 14:04:11 | relaxing run_kind=ga_generation_13_member_24_crossover_child stage=1 iter=4 Eform=+0.934232 score=+0.934232 err=1.816e-01
+2026-10-30 14:04:46 | member_done generation=13 member=24 kind=crossover_child score=+0.122474 energy_evaluations=81 energy_eval_s=43.20 member_wall_s=43.39
+2026-10-30 14:05:12 | relaxing run_kind=ga_generation_13_member_25_crossover_child stage=1 iter=16 Eform=+0.156622 score=+0.156622 err=1.898e-02
+2026-10-30 14:05:25 | member_done generation=13 member=25 kind=crossover_child score=+0.127831 energy_evaluations=56 energy_eval_s=38.16 member_wall_s=38.35
+2026-10-30 14:06:00 | member_done generation=13 member=26 kind=crossover_child score=+0.127367 energy_evaluations=47 energy_eval_s=34.55 member_wall_s=34.69
+2026-10-30 14:06:12 | relaxing run_kind=ga_generation_13_member_27_crossover_child stage=1 iter=7 Eform=+0.740371 score=+0.740371 err=1.024e-01
+2026-10-30 14:06:36 | member_done generation=13 member=27 kind=crossover_child score=+0.118821 energy_evaluations=54 energy_eval_s=35.81 member_wall_s=35.98
+2026-10-30 14:07:33 | member_done generation=13 member=28 kind=crossover_child score=+0.120588 energy_evaluations=138 energy_eval_s=56.40 member_wall_s=56.63
+2026-10-30 14:07:36 | relaxing run_kind=ga_generation_13_member_29_crossover_child stage=1 iter=1 Eform=+1.479228 score=+1.479228 err=4.016e-01
+2026-10-30 14:08:08 | member_done generation=13 member=29 kind=crossover_child score=+0.124584 energy_evaluations=47 energy_eval_s=35.08 member_wall_s=35.25
+2026-10-30 14:08:08 | generation_done generation=13 best=+0.118157 global_best=+0.118157 energy_evaluations=5561 energy_eval_s=1665.15 generation_wall_s=1723.44
+2026-10-30 14:08:08 | generation_start generation=14
+2026-10-30 14:08:08 | elite_copied generation=14 member=0 kind=elite_copy score=+0.118157 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 14:08:08 | elite_copied generation=14 member=1 kind=elite_copy score=+0.118816 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 14:08:09 | elite_copied generation=14 member=2 kind=elite_copy score=+0.118821 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 14:10:03 | member_done generation=14 member=3 kind=random_immigrant score=+0.263323 energy_evaluations=528 energy_eval_s=108.20 member_wall_s=108.69
+2026-10-30 14:10:09 | relaxing run_kind=ga_generation_14_member_4_random_immigrant stage=1 iter=1 Eform=+3.541711 score=+3.541711 err=1.720e+00
+2026-10-30 14:11:52 | member_done generation=14 member=4 kind=random_immigrant score=+0.274251 energy_evaluations=523 energy_eval_s=103.55 member_wall_s=103.98
+2026-10-30 14:11:59 | relaxing run_kind=ga_generation_14_member_5_random_immigrant stage=1 iter=1 Eform=+4.623437 score=+4.623437 err=2.143e+00
+2026-10-30 14:13:50 | member_done generation=14 member=5 kind=random_immigrant score=+0.243321 energy_evaluations=528 energy_eval_s=111.66 member_wall_s=112.15
+2026-10-30 14:13:56 | relaxing run_kind=ga_generation_14_member_6_random_immigrant stage=1 iter=1 Eform=+3.842206 score=+3.842206 err=2.008e+00
+2026-10-30 14:15:38 | member_done generation=14 member=6 kind=random_immigrant score=+0.291911 energy_evaluations=523 energy_eval_s=102.26 member_wall_s=102.69
+2026-10-30 14:15:44 | relaxing run_kind=ga_generation_14_member_7_random_immigrant stage=1 iter=1 Eform=+4.485081 score=+4.485081 err=2.225e+00
+2026-10-30 14:17:33 | member_done generation=14 member=7 kind=random_immigrant score=+0.241687 energy_evaluations=526 energy_eval_s=109.61 member_wall_s=110.08
+2026-10-30 14:17:40 | relaxing run_kind=ga_generation_14_member_8_random_immigrant stage=1 iter=1 Eform=+4.296016 score=+4.296016 err=2.263e+00
+2026-10-30 14:19:28 | member_done generation=14 member=8 kind=random_immigrant score=+0.241410 energy_evaluations=527 energy_eval_s=108.65 member_wall_s=109.10
+2026-10-30 14:19:35 | relaxing run_kind=ga_generation_14_member_9_random_immigrant stage=1 iter=1 Eform=+4.289730 score=+4.289730 err=2.054e+00
+2026-10-30 14:21:24 | member_done generation=14 member=9 kind=random_immigrant score=+0.258083 energy_evaluations=528 energy_eval_s=109.06 member_wall_s=109.56
+2026-10-30 14:21:30 | relaxing run_kind=ga_generation_14_member_10_random_immigrant stage=1 iter=1 Eform=+3.953618 score=+3.953618 err=2.119e+00
+2026-10-30 14:23:19 | member_done generation=14 member=10 kind=random_immigrant score=+0.247974 energy_evaluations=529 energy_eval_s=109.99 member_wall_s=110.47
+2026-10-30 14:23:22 | relaxing run_kind=ga_generation_14_member_11_crossover_child stage=1 iter=1 Eform=+1.361315 score=+1.361315 err=3.793e-01
+2026-10-30 14:23:56 | member_done generation=14 member=11 kind=crossover_child score=+0.119849 energy_evaluations=56 energy_eval_s=35.88 member_wall_s=36.07
+2026-10-30 14:24:23 | relaxing run_kind=ga_generation_14_member_12_crossover_child stage=1 iter=17 Eform=+0.128701 score=+0.128701 err=5.716e-03
+2026-10-30 14:24:39 | member_done generation=14 member=12 kind=crossover_child score=+0.123373 energy_evaluations=81 energy_eval_s=42.72 member_wall_s=42.90
+2026-10-30 14:25:15 | member_done generation=14 member=13 kind=crossover_child score=+0.124546 energy_evaluations=55 energy_eval_s=36.44 member_wall_s=36.61
+2026-10-30 14:25:23 | relaxing run_kind=ga_generation_14_member_14_crossover_child stage=1 iter=4 Eform=+1.031357 score=+1.031357 err=2.397e-01
+2026-10-30 14:25:52 | member_done generation=14 member=14 kind=crossover_child score=+0.124203 energy_evaluations=48 energy_eval_s=35.88 member_wall_s=36.05
+2026-10-30 14:26:24 | relaxing run_kind=ga_generation_14_member_15_crossover_child stage=1 iter=20 Eform=+0.124503 score=+0.124503 err=6.114e-03
+2026-10-30 14:26:30 | member_done generation=14 member=15 kind=crossover_child score=+0.121271 energy_evaluations=45 energy_eval_s=38.30 member_wall_s=38.49
+2026-10-30 14:27:10 | member_done generation=14 member=16 kind=crossover_child score=+0.124175 energy_evaluations=64 energy_eval_s=39.65 member_wall_s=39.82
+2026-10-30 14:27:24 | relaxing run_kind=ga_generation_14_member_17_crossover_child stage=1 iter=8 Eform=+0.715529 score=+0.715529 err=9.350e-02
+2026-10-30 14:27:46 | member_done generation=14 member=17 kind=crossover_child score=+0.124355 energy_evaluations=44 energy_eval_s=35.04 member_wall_s=35.22
+2026-10-30 14:28:20 | member_done generation=14 member=18 kind=crossover_child score=+0.127358 energy_evaluations=47 energy_eval_s=34.08 member_wall_s=34.23
+2026-10-30 14:28:25 | relaxing run_kind=ga_generation_14_member_19_crossover_child stage=1 iter=2 Eform=+1.221440 score=+1.221440 err=3.175e-01
+2026-10-30 14:28:54 | member_done generation=14 member=19 kind=crossover_child score=+0.120157 energy_evaluations=44 energy_eval_s=33.80 member_wall_s=33.98
+2026-10-30 14:29:25 | relaxing run_kind=ga_generation_14_member_20_crossover_child stage=1 iter=19 Eform=+0.120002 score=+0.120002 err=3.291e-03
+2026-10-30 14:29:31 | member_done generation=14 member=20 kind=crossover_child score=+0.118858 energy_evaluations=47 energy_eval_s=36.06 member_wall_s=36.24
+2026-10-30 14:30:21 | member_done generation=14 member=21 kind=crossover_child score=+0.118853 energy_evaluations=112 energy_eval_s=49.63 member_wall_s=49.82
+2026-10-30 14:30:25 | relaxing run_kind=ga_generation_14_member_22_crossover_child stage=1 iter=2 Eform=+1.180206 score=+1.180206 err=3.152e-01
+2026-10-30 14:30:55 | member_done generation=14 member=22 kind=crossover_child score=+0.120456 energy_evaluations=49 energy_eval_s=33.38 member_wall_s=33.54
+2026-10-30 14:31:28 | member_done generation=14 member=23 kind=crossover_child score=+0.129231 energy_evaluations=43 energy_eval_s=33.33 member_wall_s=33.51
+2026-10-30 14:31:32 | relaxing run_kind=ga_generation_14_member_24_crossover_child stage=1 iter=1 Eform=+1.334011 score=+1.334011 err=3.396e-01
+2026-10-30 14:32:59 | member_done generation=14 member=24 kind=crossover_child score=+0.140887 energy_evaluations=270 energy_eval_s=89.84 member_wall_s=90.16
+2026-10-30 14:33:02 | relaxing run_kind=ga_generation_14_member_25_crossover_child stage=1 iter=1 Eform=+1.408554 score=+1.408554 err=3.831e-01
+2026-10-30 14:33:39 | member_done generation=14 member=25 kind=crossover_child score=+0.130957 energy_evaluations=74 energy_eval_s=39.99 member_wall_s=40.17
+2026-10-30 14:34:02 | relaxing run_kind=ga_generation_14_member_26_crossover_child stage=1 iter=15 Eform=+0.140129 score=+0.140129 err=1.890e-02
+2026-10-30 14:34:11 | member_done generation=14 member=26 kind=crossover_child score=+0.120211 energy_evaluations=43 energy_eval_s=31.40 member_wall_s=31.58
+2026-10-30 14:35:17 | member_done generation=14 member=27 kind=crossover_child score=+0.134391 energy_evaluations=144 energy_eval_s=64.89 member_wall_s=65.15
+2026-10-30 14:35:20 | relaxing run_kind=ga_generation_14_member_28_crossover_child stage=1 iter=1 Eform=+1.343412 score=+1.343412 err=3.618e-01
+2026-10-30 14:36:01 | member_done generation=14 member=28 kind=crossover_child score=+0.124573 energy_evaluations=92 energy_eval_s=43.62 member_wall_s=43.83
+2026-10-30 14:36:21 | relaxing run_kind=ga_generation_14_member_29_crossover_child stage=1 iter=13 Eform=+0.229346 score=+0.229346 err=3.398e-02
+2026-10-30 14:36:35 | member_done generation=14 member=29 kind=crossover_child score=+0.118167 energy_evaluations=44 energy_eval_s=33.61 member_wall_s=33.80
+2026-10-30 14:36:35 | generation_done generation=14 best=+0.118157 global_best=+0.118157 energy_evaluations=5614 energy_eval_s=1650.54 generation_wall_s=1706.38
+2026-10-30 14:36:35 | generation_start generation=15
+2026-10-30 14:36:35 | elite_copied generation=15 member=0 kind=elite_copy score=+0.118157 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 14:36:35 | elite_copied generation=15 member=1 kind=elite_copy score=+0.118167 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 14:36:35 | elite_copied generation=15 member=2 kind=elite_copy score=+0.118816 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 14:38:26 | member_done generation=15 member=3 kind=random_immigrant score=+0.276770 energy_evaluations=525 energy_eval_s=105.02 member_wall_s=105.49
+2026-10-30 14:38:32 | relaxing run_kind=ga_generation_15_member_4_random_immigrant stage=1 iter=1 Eform=+3.535299 score=+3.535299 err=1.740e+00
+2026-10-30 14:40:23 | member_done generation=15 member=4 kind=random_immigrant score=+0.230036 energy_evaluations=528 energy_eval_s=111.04 member_wall_s=111.52
+2026-10-30 14:40:29 | relaxing run_kind=ga_generation_15_member_5_random_immigrant stage=1 iter=1 Eform=+3.756683 score=+3.756683 err=1.992e+00
+2026-10-30 14:42:12 | member_done generation=15 member=5 kind=random_immigrant score=+0.277899 energy_evaluations=525 energy_eval_s=103.95 member_wall_s=104.41
+2026-10-30 14:42:19 | relaxing run_kind=ga_generation_15_member_6_random_immigrant stage=1 iter=1 Eform=+4.188699 score=+4.188699 err=2.055e+00
+2026-10-30 14:44:07 | member_done generation=15 member=6 kind=random_immigrant score=+0.252430 energy_evaluations=526 energy_eval_s=108.61 member_wall_s=109.08
+2026-10-30 14:44:14 | relaxing run_kind=ga_generation_15_member_7_random_immigrant stage=1 iter=1 Eform=+4.632582 score=+4.632582 err=2.249e+00
+2026-10-30 14:46:07 | member_done generation=15 member=7 kind=random_immigrant score=+0.230907 energy_evaluations=530 energy_eval_s=113.66 member_wall_s=114.16
+2026-10-30 14:46:13 | relaxing run_kind=ga_generation_15_member_8_random_immigrant stage=1 iter=1 Eform=+3.675782 score=+3.675782 err=1.819e+00
+2026-10-30 14:48:00 | member_done generation=15 member=8 kind=random_immigrant score=+0.258396 energy_evaluations=527 energy_eval_s=106.87 member_wall_s=107.34
+2026-10-30 14:48:06 | relaxing run_kind=ga_generation_15_member_9_random_immigrant stage=1 iter=1 Eform=+4.089829 score=+4.089829 err=2.120e+00
+2026-10-30 14:49:51 | member_done generation=15 member=9 kind=random_immigrant score=+0.276567 energy_evaluations=526 energy_eval_s=105.82 member_wall_s=106.28
+2026-10-30 14:49:59 | relaxing run_kind=ga_generation_15_member_10_random_immigrant stage=1 iter=1 Eform=+4.834316 score=+4.834316 err=2.264e+00
+2026-10-30 14:51:51 | member_done generation=15 member=10 kind=random_immigrant score=+0.229280 energy_evaluations=528 energy_eval_s=112.76 member_wall_s=113.24
+2026-10-30 14:51:54 | relaxing run_kind=ga_generation_15_member_11_crossover_child stage=1 iter=1 Eform=+1.402275 score=+1.402275 err=3.794e-01
+2026-10-30 14:52:27 | member_done generation=15 member=11 kind=crossover_child score=+0.121660 energy_evaluations=47 energy_eval_s=35.89 member_wall_s=36.06
+2026-10-30 14:52:54 | relaxing run_kind=ga_generation_15_member_12_crossover_child stage=1 iter=17 Eform=+0.127709 score=+0.127709 err=4.650e-03
+2026-10-30 14:53:04 | member_done generation=15 member=12 kind=crossover_child score=+0.124675 energy_evaluations=64 energy_eval_s=36.61 member_wall_s=36.77
+2026-10-30 14:53:41 | member_done generation=15 member=13 kind=crossover_child score=+0.121461 energy_evaluations=55 energy_eval_s=36.11 member_wall_s=36.28
+2026-10-30 14:53:55 | relaxing run_kind=ga_generation_15_member_14_crossover_child stage=1 iter=8 Eform=+0.726766 score=+0.726766 err=1.007e-01
+2026-10-30 14:54:20 | member_done generation=15 member=14 kind=crossover_child score=+0.124112 energy_evaluations=59 energy_eval_s=38.94 member_wall_s=39.13
+2026-10-30 14:54:57 | relaxing run_kind=ga_generation_15_member_15_crossover_child stage=1 iter=10 Eform=+1.338079 score=+1.338079 err=3.466e-01
+2026-10-30 14:55:59 | relaxing run_kind=ga_generation_15_member_15_crossover_child stage=1 iter=27 Eform=+1.337740 score=+1.337740 err=3.464e-01
+2026-10-30 14:57:01 | relaxing run_kind=ga_generation_15_member_15_crossover_child stage=1 iter=44 Eform=+1.337402 score=+1.337402 err=3.462e-01
+2026-10-30 14:58:01 | relaxing run_kind=ga_generation_15_member_15_crossover_child stage=1 iter=63 Eform=+0.835157 score=+0.835157 err=1.133e-01
+2026-10-30 14:59:26 | member_done generation=15 member=15 kind=crossover_child score=+0.128334 energy_evaluations=334 energy_eval_s=304.15 member_wall_s=306.10
+2026-10-30 14:59:30 | relaxing run_kind=ga_generation_15_member_16_crossover_child stage=1 iter=1 Eform=+1.331385 score=+1.331385 err=3.312e-01
+2026-10-30 15:01:22 | member_done generation=15 member=16 kind=crossover_child score=+0.140129 energy_evaluations=361 energy_eval_s=114.79 member_wall_s=115.18
+2026-10-30 15:01:25 | relaxing run_kind=ga_generation_15_member_17_crossover_child stage=1 iter=1 Eform=+1.410970 score=+1.410970 err=3.884e-01
+2026-10-30 15:01:57 | member_done generation=15 member=17 kind=crossover_child score=+0.128537 energy_evaluations=49 energy_eval_s=34.49 member_wall_s=34.66
+2026-10-30 15:02:26 | relaxing run_kind=ga_generation_15_member_18_crossover_child stage=1 iter=18 Eform=+0.152636 score=+0.152636 err=1.331e-02
+2026-10-30 15:02:54 | member_done generation=15 member=18 kind=crossover_child score=+0.133300 energy_evaluations=142 energy_eval_s=57.26 member_wall_s=57.46
+2026-10-30 15:03:30 | member_done generation=15 member=19 kind=crossover_child score=+0.123001 energy_evaluations=50 energy_eval_s=35.48 member_wall_s=35.65
+2026-10-30 15:03:34 | relaxing run_kind=ga_generation_15_member_20_crossover_child stage=1 iter=1 Eform=+1.329293 score=+1.329293 err=3.474e-01
+2026-10-30 15:04:48 | member_done generation=15 member=20 kind=crossover_child score=+0.137238 energy_evaluations=181 energy_eval_s=76.97 member_wall_s=77.26
+2026-10-30 15:04:52 | relaxing run_kind=ga_generation_15_member_21_crossover_child stage=1 iter=1 Eform=+1.389206 score=+1.389206 err=3.595e-01
+2026-10-30 15:07:22 | member_done generation=15 member=21 kind=crossover_child score=+0.155608 energy_evaluations=529 energy_eval_s=153.36 member_wall_s=153.89
+2026-10-30 15:07:25 | relaxing run_kind=ga_generation_15_member_22_crossover_child stage=1 iter=1 Eform=+1.390051 score=+1.390051 err=3.741e-01
+2026-10-30 15:07:57 | member_done generation=15 member=22 kind=crossover_child score=+0.118145 energy_evaluations=50 energy_eval_s=34.59 member_wall_s=34.75
+2026-10-30 15:08:27 | relaxing run_kind=ga_generation_15_member_23_crossover_child stage=1 iter=16 Eform=+0.227219 score=+0.227219 err=2.282e-02
+2026-10-30 15:09:37 | member_done generation=15 member=23 kind=crossover_child score=+0.129569 energy_evaluations=264 energy_eval_s=99.64 member_wall_s=100.02
+2026-10-30 15:09:40 | relaxing run_kind=ga_generation_15_member_24_crossover_child stage=1 iter=1 Eform=+1.433675 score=+1.433675 err=3.890e-01
+2026-10-30 15:10:17 | member_done generation=15 member=24 kind=crossover_child score=+0.125500 energy_evaluations=67 energy_eval_s=40.07 member_wall_s=40.26
+2026-10-30 15:10:41 | relaxing run_kind=ga_generation_15_member_25_crossover_child stage=1 iter=14 Eform=+0.348000 score=+0.348000 err=5.493e-02
+2026-10-30 15:10:55 | member_done generation=15 member=25 kind=crossover_child score=+0.123769 energy_evaluations=46 energy_eval_s=37.40 member_wall_s=37.56
+2026-10-30 15:12:09 | member_done generation=15 member=26 kind=crossover_child score=+0.135557 energy_evaluations=191 energy_eval_s=73.52 member_wall_s=73.81
+2026-10-30 15:12:13 | relaxing run_kind=ga_generation_15_member_27_crossover_child stage=1 iter=1 Eform=+1.382306 score=+1.382306 err=3.961e-01
+2026-10-30 15:13:58 | member_done generation=15 member=27 kind=crossover_child score=+0.129066 energy_evaluations=365 energy_eval_s=108.45 member_wall_s=108.82
+2026-10-30 15:14:01 | relaxing run_kind=ga_generation_15_member_28_crossover_child stage=1 iter=1 Eform=+1.372248 score=+1.372248 err=3.637e-01
+2026-10-30 15:14:37 | member_done generation=15 member=28 kind=crossover_child score=+0.116899 energy_evaluations=46 energy_eval_s=38.19 member_wall_s=38.38
+2026-10-30 15:15:02 | relaxing run_kind=ga_generation_15_member_29_crossover_child stage=1 iter=13 Eform=+0.295770 score=+0.295770 err=3.252e-02
+2026-10-30 15:16:11 | member_done generation=15 member=29 kind=crossover_child score=+0.130736 energy_evaluations=253 energy_eval_s=93.28 member_wall_s=93.65
+2026-10-30 15:16:11 | generation_done generation=15 best=+0.116899 global_best=+0.116899 energy_evaluations=7368 energy_eval_s=2316.92 generation_wall_s=2376.12
+2026-10-30 15:16:11 | generation_start generation=16
+2026-10-30 15:16:11 | elite_copied generation=16 member=0 kind=elite_copy score=+0.116899 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 15:16:11 | elite_copied generation=16 member=1 kind=elite_copy score=+0.118145 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 15:16:11 | elite_copied generation=16 member=2 kind=elite_copy score=+0.118157 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 15:16:17 | relaxing run_kind=ga_generation_16_member_3_random_immigrant stage=1 iter=1 Eform=+3.306212 score=+3.306212 err=1.606e+00
+2026-10-30 15:18:04 | member_done generation=16 member=3 kind=random_immigrant score=+0.250862 energy_evaluations=527 energy_eval_s=107.37 member_wall_s=107.83
+2026-10-30 15:18:12 | relaxing run_kind=ga_generation_16_member_4_random_immigrant stage=1 iter=1 Eform=+4.645208 score=+4.645208 err=2.090e+00
+2026-10-30 15:20:04 | member_done generation=16 member=4 kind=random_immigrant score=+0.250613 energy_evaluations=529 energy_eval_s=112.25 member_wall_s=112.73
+2026-10-30 15:20:10 | relaxing run_kind=ga_generation_16_member_5_random_immigrant stage=1 iter=1 Eform=+3.765542 score=+3.765542 err=1.827e+00
+2026-10-30 15:21:55 | member_done generation=16 member=5 kind=random_immigrant score=+0.273357 energy_evaluations=525 energy_eval_s=105.55 member_wall_s=105.98
+2026-10-30 15:22:02 | relaxing run_kind=ga_generation_16_member_6_random_immigrant stage=1 iter=1 Eform=+4.124364 score=+4.124364 err=1.898e+00
+2026-10-30 15:23:37 | member_done generation=16 member=6 kind=random_immigrant score=+0.236160 energy_evaluations=438 energy_eval_s=95.93 member_wall_s=96.42
+2026-10-30 15:23:43 | relaxing run_kind=ga_generation_16_member_7_random_immigrant stage=1 iter=1 Eform=+3.337669 score=+3.337669 err=1.786e+00
+2026-10-30 15:25:28 | member_done generation=16 member=7 kind=random_immigrant score=+0.274694 energy_evaluations=526 energy_eval_s=104.92 member_wall_s=105.37
+2026-10-30 15:25:34 | relaxing run_kind=ga_generation_16_member_8_random_immigrant stage=1 iter=1 Eform=+4.396070 score=+4.396070 err=2.016e+00
+2026-10-30 15:27:20 | member_done generation=16 member=8 kind=random_immigrant score=+0.273447 energy_evaluations=527 energy_eval_s=106.33 member_wall_s=106.78
+2026-10-30 15:27:27 | relaxing run_kind=ga_generation_16_member_9_random_immigrant stage=1 iter=1 Eform=+4.377430 score=+4.377430 err=2.005e+00
+2026-10-30 15:29:20 | member_done generation=16 member=9 kind=random_immigrant score=+0.228492 energy_evaluations=529 energy_eval_s=113.89 member_wall_s=114.37
+2026-10-30 15:29:26 | relaxing run_kind=ga_generation_16_member_10_random_immigrant stage=1 iter=1 Eform=+4.253183 score=+4.253183 err=2.136e+00
+2026-10-30 15:31:11 | member_done generation=16 member=10 kind=random_immigrant score=+0.272510 energy_evaluations=525 energy_eval_s=104.96 member_wall_s=105.40
+2026-10-30 15:31:15 | relaxing run_kind=ga_generation_16_member_11_crossover_child stage=1 iter=1 Eform=+1.356064 score=+1.356064 err=3.473e-01
+2026-10-30 15:32:25 | member_done generation=16 member=11 kind=crossover_child score=+0.151240 energy_evaluations=137 energy_eval_s=74.13 member_wall_s=74.41
+2026-10-30 15:32:29 | relaxing run_kind=ga_generation_16_member_12_crossover_child stage=1 iter=1 Eform=+1.378420 score=+1.378420 err=3.675e-01
+2026-10-30 15:33:01 | member_done generation=16 member=12 kind=crossover_child score=+0.122793 energy_evaluations=51 energy_eval_s=35.05 member_wall_s=35.22
+2026-10-30 15:33:29 | relaxing run_kind=ga_generation_16_member_13_crossover_child stage=1 iter=15 Eform=+0.203023 score=+0.203023 err=1.926e-02
+2026-10-30 15:34:25 | member_done generation=16 member=13 kind=crossover_child score=+0.131675 energy_evaluations=239 energy_eval_s=84.05 member_wall_s=84.35
+2026-10-30 15:34:30 | relaxing run_kind=ga_generation_16_member_14_crossover_child stage=1 iter=2 Eform=+1.204318 score=+1.204318 err=3.158e-01
+2026-10-30 15:35:01 | member_done generation=16 member=14 kind=crossover_child score=+0.119841 energy_evaluations=48 energy_eval_s=35.25 member_wall_s=35.43
+2026-10-30 15:35:36 | member_done generation=16 member=15 kind=crossover_child score=+0.117476 energy_evaluations=55 energy_eval_s=34.91 member_wall_s=35.08
+2026-10-30 15:35:39 | relaxing run_kind=ga_generation_16_member_16_crossover_child stage=1 iter=1 Eform=+1.409401 score=+1.409401 err=4.034e-01
+2026-10-30 15:36:12 | member_done generation=16 member=16 kind=crossover_child score=+0.120176 energy_evaluations=44 energy_eval_s=35.18 member_wall_s=35.36
+2026-10-30 15:36:41 | relaxing run_kind=ga_generation_16_member_17_crossover_child stage=1 iter=18 Eform=+0.124327 score=+0.124327 err=5.442e-03
+2026-10-30 15:36:50 | member_done generation=16 member=17 kind=crossover_child score=+0.122620 energy_evaluations=55 energy_eval_s=37.27 member_wall_s=37.44
+2026-10-30 15:37:25 | member_done generation=16 member=18 kind=crossover_child score=+0.126703 energy_evaluations=49 energy_eval_s=34.77 member_wall_s=34.94
+2026-10-30 15:37:42 | relaxing run_kind=ga_generation_16_member_19_crossover_child stage=1 iter=10 Eform=+0.518718 score=+0.518718 err=7.654e-02
+2026-10-30 15:38:05 | member_done generation=16 member=19 kind=crossover_child score=+0.124388 energy_evaluations=71 energy_eval_s=39.92 member_wall_s=40.09
+2026-10-30 15:38:42 | member_done generation=16 member=20 kind=crossover_child score=+0.123352 energy_evaluations=52 energy_eval_s=36.60 member_wall_s=36.78
+2026-10-30 15:38:45 | relaxing run_kind=ga_generation_16_member_21_crossover_child stage=1 iter=1 Eform=+1.445769 score=+1.445769 err=3.988e-01
+2026-10-30 15:39:31 | member_done generation=16 member=21 kind=crossover_child score=+0.131630 energy_evaluations=98 energy_eval_s=49.11 member_wall_s=49.32
+2026-10-30 15:39:46 | relaxing run_kind=ga_generation_16_member_22_crossover_child stage=1 iter=8 Eform=+0.671278 score=+0.671278 err=9.927e-02
+2026-10-30 15:40:22 | member_done generation=16 member=22 kind=crossover_child score=+0.120859 energy_evaluations=114 energy_eval_s=49.94 member_wall_s=50.14
+2026-10-30 15:40:46 | relaxing run_kind=ga_generation_16_member_23_crossover_child stage=1 iter=15 Eform=+0.150382 score=+0.150382 err=2.263e-02
+2026-10-30 15:40:56 | member_done generation=16 member=23 kind=crossover_child score=+0.125928 energy_evaluations=51 energy_eval_s=33.87 member_wall_s=34.04
+2026-10-30 15:41:32 | member_done generation=16 member=24 kind=crossover_child score=+0.118852 energy_evaluations=52 energy_eval_s=35.65 member_wall_s=35.83
+2026-10-30 15:41:47 | relaxing run_kind=ga_generation_16_member_25_crossover_child stage=1 iter=8 Eform=+0.676743 score=+0.676743 err=8.893e-02
+2026-10-30 15:42:29 | member_done generation=16 member=25 kind=crossover_child score=+0.127500 energy_evaluations=129 energy_eval_s=56.38 member_wall_s=56.59
+2026-10-30 15:42:47 | relaxing run_kind=ga_generation_16_member_26_crossover_child stage=1 iter=11 Eform=+0.463719 score=+0.463719 err=7.185e-02
+2026-10-30 15:43:12 | member_done generation=16 member=26 kind=crossover_child score=+0.119565 energy_evaluations=75 energy_eval_s=43.07 member_wall_s=43.27
+2026-10-30 15:43:50 | member_done generation=16 member=27 kind=crossover_child score=+0.123207 energy_evaluations=59 energy_eval_s=37.20 member_wall_s=37.38
+2026-10-30 15:43:53 | relaxing run_kind=ga_generation_16_member_28_crossover_child stage=1 iter=1 Eform=+1.402009 score=+1.402009 err=3.815e-01
+2026-10-30 15:44:26 | member_done generation=16 member=28 kind=crossover_child score=+0.125784 energy_evaluations=53 energy_eval_s=35.46 member_wall_s=35.64
+2026-10-30 15:44:54 | relaxing run_kind=ga_generation_16_member_29_crossover_child stage=1 iter=18 Eform=+0.129674 score=+0.129674 err=5.512e-03
+2026-10-30 15:45:04 | member_done generation=16 member=29 kind=crossover_child score=+0.125514 energy_evaluations=57 energy_eval_s=38.02 member_wall_s=38.18
+2026-10-30 15:45:04 | generation_done generation=16 best=+0.116899 global_best=+0.116899 energy_evaluations=5615 energy_eval_s=1677.04 generation_wall_s=1733.22
+2026-10-30 15:45:04 | generation_start generation=17
+2026-10-30 15:45:04 | elite_copied generation=17 member=0 kind=elite_copy score=+0.116899 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 15:45:04 | elite_copied generation=17 member=1 kind=elite_copy score=+0.117476 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 15:45:04 | elite_copied generation=17 member=2 kind=elite_copy score=+0.118145 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 15:47:01 | member_done generation=17 member=3 kind=random_immigrant score=+0.257694 energy_evaluations=529 energy_eval_s=110.05 member_wall_s=110.55
+2026-10-30 15:47:07 | relaxing run_kind=ga_generation_17_member_4_random_immigrant stage=1 iter=1 Eform=+3.762077 score=+3.762077 err=1.849e+00
+2026-10-30 15:48:54 | member_done generation=17 member=4 kind=random_immigrant score=+0.265027 energy_evaluations=525 energy_eval_s=106.51 member_wall_s=106.98
+2026-10-30 15:49:00 | relaxing run_kind=ga_generation_17_member_5_random_immigrant stage=1 iter=1 Eform=+4.266878 score=+4.266878 err=1.959e+00
+2026-10-30 15:50:50 | member_done generation=17 member=5 kind=random_immigrant score=+0.242558 energy_evaluations=531 energy_eval_s=110.55 member_wall_s=111.05
+2026-10-30 15:50:56 | relaxing run_kind=ga_generation_17_member_6_random_immigrant stage=1 iter=1 Eform=+3.596805 score=+3.596805 err=1.898e+00
+2026-10-30 15:52:44 | member_done generation=17 member=6 kind=random_immigrant score=+0.247349 energy_evaluations=526 energy_eval_s=108.23 member_wall_s=108.68
+2026-10-30 15:52:51 | relaxing run_kind=ga_generation_17_member_7_random_immigrant stage=1 iter=1 Eform=+4.756348 score=+4.756348 err=2.412e+00
+2026-10-30 15:54:40 | member_done generation=17 member=7 kind=random_immigrant score=+0.249462 energy_evaluations=529 energy_eval_s=110.14 member_wall_s=110.63
+2026-10-30 15:54:46 | relaxing run_kind=ga_generation_17_member_8_random_immigrant stage=1 iter=1 Eform=+3.137176 score=+3.137176 err=1.550e+00
+2026-10-30 15:56:27 | member_done generation=17 member=8 kind=random_immigrant score=+0.293827 energy_evaluations=524 energy_eval_s=101.78 member_wall_s=102.21
+2026-10-30 15:56:33 | relaxing run_kind=ga_generation_17_member_9_random_immigrant stage=1 iter=1 Eform=+3.916904 score=+3.916904 err=2.035e+00
+2026-10-30 15:58:16 | member_done generation=17 member=9 kind=random_immigrant score=+0.282183 energy_evaluations=525 energy_eval_s=103.64 member_wall_s=104.08
+2026-10-30 15:58:23 | relaxing run_kind=ga_generation_17_member_10_random_immigrant stage=1 iter=1 Eform=+4.400527 score=+4.400527 err=2.193e+00
+2026-10-30 16:00:13 | member_done generation=17 member=10 kind=random_immigrant score=+0.255771 energy_evaluations=528 energy_eval_s=110.33 member_wall_s=110.82
+2026-10-30 16:00:16 | relaxing run_kind=ga_generation_17_member_11_crossover_child stage=1 iter=1 Eform=+1.357175 score=+1.357175 err=3.626e-01
+2026-10-30 16:00:48 | member_done generation=17 member=11 kind=crossover_child score=+0.129409 energy_evaluations=53 energy_eval_s=34.98 member_wall_s=35.15
+2026-10-30 16:01:17 | relaxing run_kind=ga_generation_17_member_12_crossover_child stage=1 iter=19 Eform=+0.124600 score=+0.124600 err=3.753e-03
+2026-10-30 16:01:25 | member_done generation=17 member=12 kind=crossover_child score=+0.122781 energy_evaluations=58 energy_eval_s=36.81 member_wall_s=36.98
+2026-10-30 16:02:05 | member_done generation=17 member=13 kind=crossover_child score=+0.121061 energy_evaluations=69 energy_eval_s=39.99 member_wall_s=40.16
+2026-10-30 16:02:18 | relaxing run_kind=ga_generation_17_member_14_crossover_child stage=1 iter=7 Eform=+0.735141 score=+0.735141 err=9.551e-02
+2026-10-30 16:02:42 | member_done generation=17 member=14 kind=crossover_child score=+0.120472 energy_evaluations=54 energy_eval_s=35.84 member_wall_s=36.04
+2026-10-30 16:03:19 | relaxing run_kind=ga_generation_17_member_15_crossover_child stage=1 iter=21 Eform=+0.162591 score=+0.162591 err=6.014e-03
+2026-10-30 16:04:13 | member_done generation=17 member=15 kind=crossover_child score=+0.133981 energy_evaluations=235 energy_eval_s=90.74 member_wall_s=91.07
+2026-10-30 16:04:20 | relaxing run_kind=ga_generation_17_member_16_crossover_child stage=1 iter=4 Eform=+0.932897 score=+0.932897 err=1.774e-01
+2026-10-30 16:04:51 | member_done generation=17 member=16 kind=crossover_child score=+0.122837 energy_evaluations=66 energy_eval_s=37.73 member_wall_s=37.90
+2026-10-30 16:05:21 | relaxing run_kind=ga_generation_17_member_17_crossover_child stage=1 iter=18 Eform=+0.141949 score=+0.141949 err=1.860e-02
+2026-10-30 16:05:30 | member_done generation=17 member=17 kind=crossover_child score=+0.120108 energy_evaluations=51 energy_eval_s=38.99 member_wall_s=39.15
+2026-10-30 16:06:12 | member_done generation=17 member=18 kind=crossover_child score=+0.125834 energy_evaluations=81 energy_eval_s=40.96 member_wall_s=41.13
+2026-10-30 16:06:22 | relaxing run_kind=ga_generation_17_member_19_crossover_child stage=1 iter=4 Eform=+1.045757 score=+1.045757 err=1.736e-01
+2026-10-30 16:07:52 | member_done generation=17 member=19 kind=crossover_child score=+0.136397 energy_evaluations=269 energy_eval_s=99.83 member_wall_s=100.20
+2026-10-30 16:07:55 | relaxing run_kind=ga_generation_17_member_20_crossover_child stage=1 iter=1 Eform=+1.407094 score=+1.407094 err=3.776e-01
+2026-10-30 16:08:30 | member_done generation=17 member=20 kind=crossover_child score=+0.122054 energy_evaluations=48 energy_eval_s=37.94 member_wall_s=38.14
+2026-10-30 16:08:55 | relaxing run_kind=ga_generation_17_member_21_crossover_child stage=1 iter=16 Eform=+0.125637 score=+0.125637 err=1.047e-02
+2026-10-30 16:09:05 | member_done generation=17 member=21 kind=crossover_child score=+0.118072 energy_evaluations=58 energy_eval_s=34.55 member_wall_s=34.71
+2026-10-30 16:09:42 | member_done generation=17 member=22 kind=crossover_child score=+0.117451 energy_evaluations=55 energy_eval_s=36.53 member_wall_s=36.70
+2026-10-30 16:09:56 | relaxing run_kind=ga_generation_17_member_23_crossover_child stage=1 iter=8 Eform=+0.676122 score=+0.676122 err=9.481e-02
+2026-10-30 16:10:30 | member_done generation=17 member=23 kind=crossover_child score=+0.121647 energy_evaluations=108 energy_eval_s=47.06 member_wall_s=47.27
+2026-10-30 16:10:57 | relaxing run_kind=ga_generation_17_member_24_crossover_child stage=1 iter=17 Eform=+0.135156 score=+0.135156 err=7.277e-03
+2026-10-30 16:11:05 | member_done generation=17 member=24 kind=crossover_child score=+0.128003 energy_evaluations=46 energy_eval_s=35.46 member_wall_s=35.65
+2026-10-30 16:11:50 | member_done generation=17 member=25 kind=crossover_child score=+0.120784 energy_evaluations=99 energy_eval_s=43.86 member_wall_s=44.05
+2026-10-30 16:11:57 | relaxing run_kind=ga_generation_17_member_26_crossover_child stage=1 iter=4 Eform=+1.077994 score=+1.077994 err=2.474e-01
+2026-10-30 16:12:31 | member_done generation=17 member=26 kind=crossover_child score=+0.125251 energy_evaluations=54 energy_eval_s=40.87 member_wall_s=41.03
+2026-10-30 16:12:59 | relaxing run_kind=ga_generation_17_member_27_crossover_child stage=1 iter=17 Eform=+0.142094 score=+0.142094 err=1.455e-02
+2026-10-30 16:13:12 | member_done generation=17 member=27 kind=crossover_child score=+0.123894 energy_evaluations=66 energy_eval_s=40.36 member_wall_s=41.33
+2026-10-30 16:13:49 | member_done generation=17 member=28 kind=crossover_child score=+0.124988 energy_evaluations=55 energy_eval_s=35.79 member_wall_s=35.95
+2026-10-30 16:13:59 | relaxing run_kind=ga_generation_17_member_29_crossover_child stage=1 iter=5 Eform=+0.934470 score=+0.934470 err=1.115e-01
+2026-10-30 16:16:05 | member_done generation=17 member=29 kind=crossover_child score=+0.140312 energy_evaluations=436 energy_eval_s=135.67 member_wall_s=136.16
+2026-10-30 16:16:05 | generation_done generation=17 best=+0.116899 global_best=+0.116899 energy_evaluations=6178 energy_eval_s=1805.20 generation_wall_s=1860.92
+2026-10-30 16:16:05 | generation_start generation=18
+2026-10-30 16:16:05 | elite_copied generation=18 member=0 kind=elite_copy score=+0.116899 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 16:16:05 | elite_copied generation=18 member=1 kind=elite_copy score=+0.117451 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 16:16:05 | elite_copied generation=18 member=2 kind=elite_copy score=+0.117476 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 16:16:13 | relaxing run_kind=ga_generation_18_member_3_random_immigrant stage=1 iter=1 Eform=+4.824090 score=+4.824090 err=2.155e+00
+2026-10-30 16:18:06 | member_done generation=18 member=3 kind=random_immigrant score=+0.234917 energy_evaluations=531 energy_eval_s=113.87 member_wall_s=114.41
+2026-10-30 16:18:13 | relaxing run_kind=ga_generation_18_member_4_random_immigrant stage=1 iter=1 Eform=+4.205549 score=+4.205549 err=2.190e+00
+2026-10-30 16:19:58 | member_done generation=18 member=4 kind=random_immigrant score=+0.267295 energy_evaluations=525 energy_eval_s=105.59 member_wall_s=106.06
+2026-10-30 16:20:04 | relaxing run_kind=ga_generation_18_member_5_random_immigrant stage=1 iter=1 Eform=+3.670574 score=+3.670574 err=1.870e+00
+2026-10-30 16:21:46 | member_done generation=18 member=5 kind=random_immigrant score=+0.289535 energy_evaluations=524 energy_eval_s=102.29 member_wall_s=102.73
+2026-10-30 16:21:53 | relaxing run_kind=ga_generation_18_member_6_random_immigrant stage=1 iter=1 Eform=+4.628578 score=+4.628578 err=2.162e+00
+2026-10-30 16:23:44 | member_done generation=18 member=6 kind=random_immigrant score=+0.242523 energy_evaluations=527 energy_eval_s=111.71 member_wall_s=112.17
+2026-10-30 16:23:50 | relaxing run_kind=ga_generation_18_member_7_random_immigrant stage=1 iter=1 Eform=+3.561586 score=+3.561586 err=1.864e+00
+2026-10-30 16:25:35 | member_done generation=18 member=7 kind=random_immigrant score=+0.264227 energy_evaluations=525 energy_eval_s=105.49 member_wall_s=105.94
+2026-10-30 16:25:42 | relaxing run_kind=ga_generation_18_member_8_random_immigrant stage=1 iter=1 Eform=+4.293467 score=+4.293467 err=2.251e+00
+2026-10-30 16:27:31 | member_done generation=18 member=8 kind=random_immigrant score=+0.256474 energy_evaluations=525 energy_eval_s=109.17 member_wall_s=109.61
+2026-10-30 16:27:37 | relaxing run_kind=ga_generation_18_member_9_random_immigrant stage=1 iter=1 Eform=+4.181299 score=+4.181299 err=2.302e+00
+2026-10-30 16:29:26 | member_done generation=18 member=9 kind=random_immigrant score=+0.244361 energy_evaluations=526 energy_eval_s=109.53 member_wall_s=109.99
+2026-10-30 16:29:32 | relaxing run_kind=ga_generation_18_member_10_random_immigrant stage=1 iter=1 Eform=+4.116088 score=+4.116088 err=2.122e+00
+2026-10-30 16:31:21 | member_done generation=18 member=10 kind=random_immigrant score=+0.249850 energy_evaluations=526 energy_eval_s=108.58 member_wall_s=109.04
+2026-10-30 16:31:24 | relaxing run_kind=ga_generation_18_member_11_crossover_child stage=1 iter=1 Eform=+1.365868 score=+1.365868 err=3.358e-01
+2026-10-30 16:31:55 | member_done generation=18 member=11 kind=crossover_child score=+0.128946 energy_evaluations=52 energy_eval_s=34.31 member_wall_s=34.47
+2026-10-30 16:32:25 | relaxing run_kind=ga_generation_18_member_12_crossover_child stage=1 iter=18 Eform=+0.132172 score=+0.132172 err=5.778e-03
+2026-10-30 16:32:34 | member_done generation=18 member=12 kind=crossover_child score=+0.127673 energy_evaluations=52 energy_eval_s=38.82 member_wall_s=39.00
+2026-10-30 16:33:14 | member_done generation=18 member=13 kind=crossover_child score=+0.122180 energy_evaluations=50 energy_eval_s=39.07 member_wall_s=39.22
+2026-10-30 16:33:26 | relaxing run_kind=ga_generation_18_member_14_crossover_child stage=1 iter=7 Eform=+0.720558 score=+0.720558 err=1.057e-01
+2026-10-30 16:33:49 | member_done generation=18 member=14 kind=crossover_child score=+0.121791 energy_evaluations=52 energy_eval_s=34.72 member_wall_s=34.90
+2026-10-30 16:34:25 | member_done generation=18 member=15 kind=crossover_child score=+0.120279 energy_evaluations=56 energy_eval_s=36.12 member_wall_s=36.28
+2026-10-30 16:34:29 | relaxing run_kind=ga_generation_18_member_16_crossover_child stage=1 iter=1 Eform=+1.355647 score=+1.355647 err=3.587e-01
+2026-10-30 16:35:03 | member_done generation=18 member=16 kind=crossover_child score=+0.122295 energy_evaluations=53 energy_eval_s=36.86 member_wall_s=37.03
+2026-10-30 16:35:29 | relaxing run_kind=ga_generation_18_member_17_crossover_child stage=1 iter=16 Eform=+0.160593 score=+0.160593 err=2.269e-02
+2026-10-30 16:35:46 | member_done generation=18 member=17 kind=crossover_child score=+0.122194 energy_evaluations=73 energy_eval_s=42.64 member_wall_s=42.83
+2026-10-30 16:36:22 | member_done generation=18 member=18 kind=crossover_child score=+0.118060 energy_evaluations=58 energy_eval_s=36.51 member_wall_s=36.66
+2026-10-30 16:36:30 | relaxing run_kind=ga_generation_18_member_19_crossover_child stage=1 iter=4 Eform=+0.922579 score=+0.922579 err=1.829e-01
+2026-10-30 16:36:56 | member_done generation=18 member=19 kind=crossover_child score=+0.118998 energy_evaluations=42 energy_eval_s=33.21 member_wall_s=33.38
+2026-10-30 16:37:37 | member_done generation=18 member=20 kind=crossover_child score=+0.131427 energy_evaluations=59 energy_eval_s=40.67 member_wall_s=40.85
+2026-10-30 16:37:40 | relaxing run_kind=ga_generation_18_member_21_crossover_child stage=1 iter=1 Eform=+1.394018 score=+1.394018 err=3.644e-01
+2026-10-30 16:38:13 | member_done generation=18 member=21 kind=crossover_child score=+0.122104 energy_evaluations=45 energy_eval_s=35.05 member_wall_s=35.24
+2026-10-30 16:38:41 | relaxing run_kind=ga_generation_18_member_22_crossover_child stage=1 iter=18 Eform=+0.130020 score=+0.130020 err=8.392e-03
+2026-10-30 16:39:02 | member_done generation=18 member=22 kind=crossover_child score=+0.122026 energy_evaluations=110 energy_eval_s=48.68 member_wall_s=48.87
+2026-10-30 16:39:38 | member_done generation=18 member=23 kind=crossover_child score=+0.125257 energy_evaluations=53 energy_eval_s=35.25 member_wall_s=35.41
+2026-10-30 16:39:42 | relaxing run_kind=ga_generation_18_member_24_crossover_child stage=1 iter=2 Eform=+1.147591 score=+1.147591 err=2.989e-01
+2026-10-30 16:40:13 | member_done generation=18 member=24 kind=crossover_child score=+0.122448 energy_evaluations=43 energy_eval_s=34.66 member_wall_s=34.85
+2026-10-30 16:40:49 | member_done generation=18 member=25 kind=crossover_child score=+0.118139 energy_evaluations=53 energy_eval_s=35.51 member_wall_s=35.67
+2026-10-30 16:40:52 | relaxing run_kind=ga_generation_18_member_26_crossover_child stage=1 iter=1 Eform=+1.357222 score=+1.357222 err=3.828e-01
+2026-10-30 16:41:27 | member_done generation=18 member=26 kind=crossover_child score=+0.137531 energy_evaluations=49 energy_eval_s=38.08 member_wall_s=38.25
+2026-10-30 16:41:52 | relaxing run_kind=ga_generation_18_member_27_crossover_child stage=1 iter=13 Eform=+0.342394 score=+0.342394 err=3.502e-02
+2026-10-30 16:43:45 | member_done generation=18 member=27 kind=crossover_child score=+0.152675 energy_evaluations=465 energy_eval_s=136.86 member_wall_s=137.33
+2026-10-30 16:43:48 | relaxing run_kind=ga_generation_18_member_28_crossover_child stage=1 iter=1 Eform=+1.436038 score=+1.436038 err=3.915e-01
+2026-10-30 16:44:19 | member_done generation=18 member=28 kind=crossover_child score=+0.116900 energy_evaluations=44 energy_eval_s=34.36 member_wall_s=34.55
+2026-10-30 16:44:49 | relaxing run_kind=ga_generation_18_member_29_crossover_child stage=1 iter=19 Eform=+0.126352 score=+0.126352 err=3.159e-03
+2026-10-30 16:44:58 | member_done generation=18 member=29 kind=crossover_child score=+0.124371 energy_evaluations=61 energy_eval_s=38.08 member_wall_s=38.25
+2026-10-30 16:44:58 | generation_done generation=18 best=+0.116899 global_best=+0.116899 energy_evaluations=5679 energy_eval_s=1675.69 generation_wall_s=1732.91
+2026-10-30 16:44:58 | generation_start generation=19
+2026-10-30 16:44:58 | elite_copied generation=19 member=0 kind=elite_copy score=+0.116899 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 16:44:58 | elite_copied generation=19 member=1 kind=elite_copy score=+0.116900 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 16:44:59 | elite_copied generation=19 member=2 kind=elite_copy score=+0.117451 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 16:46:51 | member_done generation=19 member=3 kind=random_immigrant score=+0.245856 energy_evaluations=525 energy_eval_s=107.09 member_wall_s=107.55
+2026-10-30 16:46:58 | relaxing run_kind=ga_generation_19_member_4_random_immigrant stage=1 iter=1 Eform=+4.495645 score=+4.495645 err=2.111e+00
+2026-10-30 16:48:47 | member_done generation=19 member=4 kind=random_immigrant score=+0.255125 energy_evaluations=528 energy_eval_s=109.46 member_wall_s=109.96
+2026-10-30 16:48:53 | relaxing run_kind=ga_generation_19_member_5_random_immigrant stage=1 iter=1 Eform=+3.916043 score=+3.916043 err=2.080e+00
+2026-10-30 16:50:38 | member_done generation=19 member=5 kind=random_immigrant score=+0.269925 energy_evaluations=526 energy_eval_s=105.90 member_wall_s=106.36
+2026-10-30 16:50:45 | relaxing run_kind=ga_generation_19_member_6_random_immigrant stage=1 iter=1 Eform=+3.927083 score=+3.927083 err=1.860e+00
+2026-10-30 16:52:33 | member_done generation=19 member=6 kind=random_immigrant score=+0.252902 energy_evaluations=526 energy_eval_s=108.50 member_wall_s=108.98
+2026-10-30 16:52:39 | relaxing run_kind=ga_generation_19_member_7_random_immigrant stage=1 iter=1 Eform=+3.959016 score=+3.959016 err=1.973e+00
+2026-10-30 16:54:29 | member_done generation=19 member=7 kind=random_immigrant score=+0.254310 energy_evaluations=530 energy_eval_s=110.34 member_wall_s=110.86
+2026-10-30 16:54:35 | relaxing run_kind=ga_generation_19_member_8_random_immigrant stage=1 iter=1 Eform=+4.023291 score=+4.023291 err=2.040e+00
+2026-10-30 16:56:23 | member_done generation=19 member=8 kind=random_immigrant score=+0.263019 energy_evaluations=528 energy_eval_s=108.50 member_wall_s=108.97
+2026-10-30 16:56:29 | relaxing run_kind=ga_generation_19_member_9_random_immigrant stage=1 iter=1 Eform=+3.563707 score=+3.563707 err=1.785e+00
+2026-10-30 16:58:13 | member_done generation=19 member=9 kind=random_immigrant score=+0.272833 energy_evaluations=524 energy_eval_s=104.30 member_wall_s=104.73
+2026-10-30 16:58:19 | relaxing run_kind=ga_generation_19_member_10_random_immigrant stage=1 iter=1 Eform=+3.866834 score=+3.866834 err=2.050e+00
+2026-10-30 17:00:01 | member_done generation=19 member=10 kind=random_immigrant score=+0.278442 energy_evaluations=525 energy_eval_s=103.37 member_wall_s=103.80
+2026-10-30 17:00:05 | relaxing run_kind=ga_generation_19_member_11_crossover_child stage=1 iter=1 Eform=+1.358870 score=+1.358870 err=3.552e-01
+2026-10-30 17:00:39 | member_done generation=19 member=11 kind=crossover_child score=+0.118894 energy_evaluations=57 energy_eval_s=37.64 member_wall_s=37.80
+2026-10-30 17:01:06 | relaxing run_kind=ga_generation_19_member_12_crossover_child stage=1 iter=14 Eform=+0.316607 score=+0.316607 err=3.526e-02
+2026-10-30 17:02:57 | member_done generation=19 member=12 kind=crossover_child score=+0.133571 energy_evaluations=453 energy_eval_s=136.79 member_wall_s=137.23
+2026-10-30 17:03:01 | relaxing run_kind=ga_generation_19_member_13_crossover_child stage=1 iter=1 Eform=+1.293870 score=+1.293870 err=3.049e-01
+2026-10-30 17:04:52 | member_done generation=19 member=13 kind=crossover_child score=+0.133427 energy_evaluations=342 energy_eval_s=114.35 member_wall_s=114.75
+2026-10-30 17:04:55 | relaxing run_kind=ga_generation_19_member_14_crossover_child stage=1 iter=1 Eform=+1.370348 score=+1.370348 err=3.632e-01
+2026-10-30 17:05:26 | member_done generation=19 member=14 kind=crossover_child score=+0.120896 energy_evaluations=53 energy_eval_s=34.23 member_wall_s=34.38
+2026-10-30 17:05:56 | relaxing run_kind=ga_generation_19_member_15_crossover_child stage=1 iter=19 Eform=+0.124979 score=+0.124979 err=2.593e-03
+2026-10-30 17:06:06 | member_done generation=19 member=15 kind=crossover_child score=+0.122434 energy_evaluations=64 energy_eval_s=39.00 member_wall_s=39.18
+2026-10-30 17:06:42 | member_done generation=19 member=16 kind=crossover_child score=+0.125660 energy_evaluations=60 energy_eval_s=35.54 member_wall_s=35.70
+2026-10-30 17:06:56 | relaxing run_kind=ga_generation_19_member_17_crossover_child stage=1 iter=9 Eform=+0.611439 score=+0.611439 err=8.720e-02
+2026-10-30 17:07:16 | member_done generation=19 member=17 kind=crossover_child score=+0.122578 energy_evaluations=54 energy_eval_s=33.67 member_wall_s=33.83
+2026-10-30 17:07:52 | member_done generation=19 member=18 kind=crossover_child score=+0.120269 energy_evaluations=52 energy_eval_s=36.32 member_wall_s=36.51
+2026-10-30 17:07:57 | relaxing run_kind=ga_generation_19_member_19_crossover_child stage=1 iter=2 Eform=+1.207706 score=+1.207706 err=3.060e-01
+2026-10-30 17:08:29 | member_done generation=19 member=19 kind=crossover_child score=+0.122335 energy_evaluations=44 energy_eval_s=35.99 member_wall_s=36.79
+2026-10-30 17:08:58 | relaxing run_kind=ga_generation_19_member_20_crossover_child stage=1 iter=18 Eform=+0.130413 score=+0.130413 err=7.054e-03
+2026-10-30 17:09:05 | member_done generation=19 member=20 kind=crossover_child score=+0.126210 energy_evaluations=46 energy_eval_s=35.46 member_wall_s=35.66
+2026-10-30 17:09:47 | member_done generation=19 member=21 kind=crossover_child score=+0.123991 energy_evaluations=50 energy_eval_s=40.98 member_wall_s=41.15
+2026-10-30 17:09:59 | relaxing run_kind=ga_generation_19_member_22_crossover_child stage=1 iter=7 Eform=+0.704725 score=+0.704725 err=1.022e-01
+2026-10-30 17:10:20 | member_done generation=19 member=22 kind=crossover_child score=+0.125007 energy_evaluations=47 energy_eval_s=32.89 member_wall_s=33.05
+2026-10-30 17:10:55 | member_done generation=19 member=23 kind=crossover_child score=+0.127934 energy_evaluations=49 energy_eval_s=34.68 member_wall_s=34.84
+2026-10-30 17:10:59 | relaxing run_kind=ga_generation_19_member_24_crossover_child stage=1 iter=2 Eform=+1.224555 score=+1.224555 err=3.176e-01
+2026-10-30 17:11:34 | member_done generation=19 member=24 kind=crossover_child score=+0.119513 energy_evaluations=48 energy_eval_s=38.77 member_wall_s=38.93
+2026-10-30 17:12:01 | relaxing run_kind=ga_generation_19_member_25_crossover_child stage=1 iter=17 Eform=+0.126215 score=+0.126215 err=6.704e-03
+2026-10-30 17:12:08 | member_done generation=19 member=25 kind=crossover_child score=+0.123210 energy_evaluations=45 energy_eval_s=33.60 member_wall_s=33.77
+2026-10-30 17:12:44 | member_done generation=19 member=26 kind=crossover_child score=+0.117450 energy_evaluations=61 energy_eval_s=36.05 member_wall_s=36.22
+2026-10-30 17:13:01 | relaxing run_kind=ga_generation_19_member_27_crossover_child stage=1 iter=10 Eform=+0.567208 score=+0.567208 err=8.357e-02
+2026-10-30 17:13:21 | member_done generation=19 member=27 kind=crossover_child score=+0.124904 energy_evaluations=58 energy_eval_s=36.41 member_wall_s=36.61
+2026-10-30 17:14:20 | member_done generation=19 member=28 kind=crossover_child score=+0.121019 energy_evaluations=147 energy_eval_s=58.13 member_wall_s=58.34
+2026-10-30 17:14:23 | relaxing run_kind=ga_generation_19_member_29_crossover_child stage=1 iter=1 Eform=+1.436760 score=+1.436760 err=3.916e-01
+2026-10-30 17:15:09 | member_done generation=19 member=29 kind=crossover_child score=+0.122792 energy_evaluations=112 energy_eval_s=49.03 member_wall_s=49.26
+2026-10-30 17:15:09 | generation_done generation=19 best=+0.116899 global_best=+0.116899 energy_evaluations=6054 energy_eval_s=1757.01 generation_wall_s=1811.26
+2026-10-30 17:15:09 | generation_start generation=20
+2026-10-30 17:15:09 | elite_copied generation=20 member=0 kind=elite_copy score=+0.116899 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 17:15:09 | elite_copied generation=20 member=1 kind=elite_copy score=+0.116900 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 17:15:09 | elite_copied generation=20 member=2 kind=elite_copy score=+0.117450 energy_evaluations=0 energy_eval_s=0.00 member_wall_s=0.00
+2026-10-30 17:15:23 | relaxing run_kind=ga_generation_20_member_3_random_immigrant stage=1 iter=15 Eform=+0.351610 score=+0.351610 err=1.241e-02
+2026-10-30 17:17:01 | member_done generation=20 member=3 kind=random_immigrant score=+0.261827 energy_evaluations=525 energy_eval_s=106.11 member_wall_s=106.59
+2026-10-30 17:17:08 | relaxing run_kind=ga_generation_20_member_4_random_immigrant stage=1 iter=1 Eform=+4.405029 score=+4.405029 err=2.113e+00
+2026-10-30 17:18:59 | member_done generation=20 member=4 kind=random_immigrant score=+0.249540 energy_evaluations=530 energy_eval_s=111.51 member_wall_s=112.02
+2026-10-30 17:19:05 | relaxing run_kind=ga_generation_20_member_5_random_immigrant stage=1 iter=1 Eform=+3.826177 score=+3.826177 err=1.833e+00
+2026-10-30 17:20:50 | member_done generation=20 member=5 kind=random_immigrant score=+0.278672 energy_evaluations=524 energy_eval_s=105.08 member_wall_s=105.53
+2026-10-30 17:20:56 | relaxing run_kind=ga_generation_20_member_6_random_immigrant stage=1 iter=1 Eform=+3.938806 score=+3.938806 err=2.021e+00
+2026-10-30 17:22:42 | member_done generation=20 member=6 kind=random_immigrant score=+0.265390 energy_evaluations=526 energy_eval_s=106.33 member_wall_s=106.82
+2026-10-30 17:22:49 | relaxing run_kind=ga_generation_20_member_7_random_immigrant stage=1 iter=1 Eform=+4.394137 score=+4.394137 err=2.097e+00
+2026-10-30 17:24:34 | member_done generation=20 member=7 kind=random_immigrant score=+0.265442 energy_evaluations=525 energy_eval_s=105.47 member_wall_s=105.94
+2026-10-30 17:24:39 | relaxing run_kind=ga_generation_20_member_8_random_immigrant stage=1 iter=1 Eform=+3.411236 score=+3.411236 err=1.845e+00
+2026-10-30 17:26:18 | member_done generation=20 member=8 kind=random_immigrant score=+0.309236 energy_evaluations=523 energy_eval_s=99.36 member_wall_s=99.84
+2026-10-30 17:26:24 | relaxing run_kind=ga_generation_20_member_9_random_immigrant stage=1 iter=1 Eform=+3.837238 score=+3.837238 err=1.654e+00
+2026-10-30 17:28:14 | member_done generation=20 member=9 kind=random_immigrant score=+0.259009 energy_evaluations=528 energy_eval_s=109.64 member_wall_s=110.14
+2026-10-30 17:28:20 | relaxing run_kind=ga_generation_20_member_10_random_immigrant stage=1 iter=1 Eform=+4.268039 score=+4.268039 err=2.079e+00
+2026-10-30 17:30:08 | member_done generation=20 member=10 kind=random_immigrant score=+0.255362 energy_evaluations=526 energy_eval_s=108.46 member_wall_s=108.93
+2026-10-30 17:30:12 | relaxing run_kind=ga_generation_20_member_11_crossover_child stage=1 iter=1 Eform=+1.385460 score=+1.385460 err=3.824e-01
+2026-10-30 17:31:27 | member_done generation=20 member=11 kind=crossover_child score=+0.138008 energy_evaluations=199 energy_eval_s=78.13 member_wall_s=78.41
+2026-10-30 17:31:30 | relaxing run_kind=ga_generation_20_member_12_crossover_child stage=1 iter=1 Eform=+1.414017 score=+1.414017 err=3.816e-01
+2026-10-30 17:32:02 | member_done generation=20 member=12 kind=crossover_child score=+0.120527 energy_evaluations=47 energy_eval_s=35.05 member_wall_s=35.21
+2026-10-30 17:32:35 | member_done generation=20 member=13 kind=crossover_child score=+0.125658 energy_evaluations=52 energy_eval_s=32.56 member_wall_s=32.69
+2026-10-30 17:32:38 | relaxing run_kind=ga_generation_20_member_14_crossover_child stage=1 iter=1 Eform=+1.375280 score=+1.375280 err=3.683e-01
+2026-10-30 17:33:09 | member_done generation=20 member=14 kind=crossover_child score=+0.118069 energy_evaluations=53 energy_eval_s=33.23 member_wall_s=34.04
+2026-10-30 17:33:38 | relaxing run_kind=ga_generation_20_member_15_crossover_child stage=1 iter=18 Eform=+0.131353 score=+0.131353 err=1.043e-02
+2026-10-30 17:33:49 | member_done generation=20 member=15 kind=crossover_child score=+0.120827 energy_evaluations=51 energy_eval_s=39.34 member_wall_s=39.52
+2026-10-30 17:34:23 | member_done generation=20 member=16 kind=crossover_child score=+0.117453 energy_evaluations=51 energy_eval_s=33.58 member_wall_s=33.72
+2026-10-30 17:34:41 | relaxing run_kind=ga_generation_20_member_17_crossover_child stage=1 iter=5 Eform=+1.266091 score=+1.266091 err=3.051e-01
+2026-10-30 17:35:41 | relaxing run_kind=ga_generation_20_member_17_crossover_child stage=1 iter=23 Eform=+1.180810 score=+1.180810 err=2.495e-01
+2026-10-30 17:37:27 | member_done generation=20 member=17 kind=crossover_child score=+0.133375 energy_evaluations=330 energy_eval_s=182.72 member_wall_s=183.77
+2026-10-30 17:37:30 | relaxing run_kind=ga_generation_20_member_18_crossover_child stage=1 iter=1 Eform=+1.350911 score=+1.350911 err=3.505e-01
+2026-10-30 17:38:02 | member_done generation=20 member=18 kind=crossover_child score=+0.123161 energy_evaluations=51 energy_eval_s=34.47 member_wall_s=34.63
+2026-10-30 17:38:31 | relaxing run_kind=ga_generation_20_member_19_crossover_child stage=1 iter=19 Eform=+0.123959 score=+0.123959 err=2.517e-03
+2026-10-30 17:38:38 | member_done generation=20 member=19 kind=crossover_child score=+0.122757 energy_evaluations=50 energy_eval_s=35.68 member_wall_s=35.85
+2026-10-30 17:39:21 | member_done generation=20 member=20 kind=crossover_child score=+0.120405 energy_evaluations=76 energy_eval_s=42.89 member_wall_s=43.07
+2026-10-30 17:39:31 | relaxing run_kind=ga_generation_20_member_21_crossover_child stage=1 iter=6 Eform=+0.830716 score=+0.830716 err=1.145e-01
+2026-10-30 17:40:02 | member_done generation=20 member=21 kind=crossover_child score=+0.129378 energy_evaluations=49 energy_eval_s=40.68 member_wall_s=40.84
+2026-10-30 17:40:35 | member_done generation=20 member=22 kind=crossover_child score=+0.124504 energy_evaluations=42 energy_eval_s=32.58 member_wall_s=33.38
+2026-10-30 17:40:39 | relaxing run_kind=ga_generation_20_member_23_crossover_child stage=1 iter=1 Eform=+1.343311 score=+1.343311 err=3.464e-01
+2026-10-30 17:42:25 | member_done generation=20 member=23 kind=crossover_child score=+0.127547 energy_evaluations=335 energy_eval_s=108.73 member_wall_s=109.13
+2026-10-30 17:42:28 | relaxing run_kind=ga_generation_20_member_24_crossover_child stage=1 iter=1 Eform=+1.392383 score=+1.392383 err=3.854e-01
+2026-10-30 17:43:05 | member_done generation=20 member=24 kind=crossover_child score=+0.118072 energy_evaluations=52 energy_eval_s=40.03 member_wall_s=40.20
+2026-10-30 17:43:28 | relaxing run_kind=ga_generation_20_member_25_crossover_child stage=1 iter=14 Eform=+0.195778 score=+0.195778 err=2.662e-02
+2026-10-30 17:43:43 | member_done generation=20 member=25 kind=crossover_child score=+0.123553 energy_evaluations=53 energy_eval_s=37.05 member_wall_s=37.23
+2026-10-30 17:44:21 | member_done generation=20 member=26 kind=crossover_child score=+0.123030 energy_evaluations=47 energy_eval_s=38.30 member_wall_s=38.48
+2026-10-30 17:44:29 | relaxing run_kind=ga_generation_20_member_27_crossover_child stage=1 iter=4 Eform=+1.001145 score=+1.001145 err=2.317e-01
+2026-10-30 17:44:59 | member_done generation=20 member=27 kind=crossover_child score=+0.123356 energy_evaluations=49 energy_eval_s=37.64 member_wall_s=37.80
+2026-10-30 17:45:29 | relaxing run_kind=ga_generation_20_member_28_crossover_child stage=1 iter=19 Eform=+0.126782 score=+0.126782 err=5.397e-03
+2026-10-30 17:45:39 | member_done generation=20 member=28 kind=crossover_child score=+0.122763 energy_evaluations=55 energy_eval_s=39.48 member_wall_s=39.67
+2026-10-30 17:46:17 | member_done generation=20 member=29 kind=crossover_child score=+0.120381 energy_evaluations=55 energy_eval_s=37.47 member_wall_s=37.65
+2026-10-30 17:46:17 | generation_done generation=20 best=+0.116899 global_best=+0.116899 energy_evaluations=5904 energy_eval_s=1811.58 generation_wall_s=1867.82

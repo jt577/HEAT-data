@@ -1,0 +1,160 @@
+{
+  "normalization": {
+    "schema_version": 3,
+    "model": "double_xy_gaussian_gaussian_depth_no_envelope",
+    "sigma_z_A": 4.0,
+    "intensity_normalization": "unit_isolated_grid_aligned_W_peak",
+    "reference_peak_before_scaling": 0.010289642959833145,
+    "additional_lateral_blur_A": 0.08,
+    "target_normalization": 0.12362680584192276,
+    "kernel_peak_scale": 97.18510194217816,
+    "depth_envelope": false,
+    "target_background": 0.0,
+    "target_background_percentile": 1.0,
+    "target_normalization_percentile": 99.5,
+    "depth_response": "dz_pixel/(sqrt(2*pi)*sigma_z)*exp(-0.5*((z-z_atom)/sigma_z)**2)",
+    "depth_window_renormalization": false,
+    "voxel_size_zyx_A": [
+      1.0,
+      0.152564,
+      0.152564
+    ],
+    "element_fit_sha256": "71c069aea5e3554f510edb7c143c77272d45bdddc154baaf4f7355ad0f3c27de",
+    "position_convention": "Cell coordinates including padding; no registration offset."
+  },
+  "cropped_structures": {
+    "cropped_320x320": {
+      "file": "best_cropped_320x320.xsf",
+      "xy_pixels": [
+        320,
+        320
+      ],
+      "original_cell_xy_bounds_A": [
+        [
+          7.933328,
+          7.933328
+        ],
+        [
+          56.75380800000001,
+          56.75380800000001
+        ]
+      ],
+      "xy_material_lengths_A": [
+        48.82048,
+        48.82048
+      ],
+      "retained_atoms": 1497,
+      "removed_atoms": 0,
+      "species_counts": {
+        "Se": 1009,
+        "W": 488
+      },
+      "coordinate_shift_xyz_A": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "cell_lengths_A": [
+        64.687136,
+        64.687136,
+        28.0
+      ],
+      "vacuum_each_side_xyz_A": [
+        7.933328,
+        7.933328,
+        8.0
+      ],
+      "z_policy": "All original atom z coordinates and the original padded z cell are retained."
+    },
+    "cropped_300x300": {
+      "file": "best_cropped_300x300.xsf",
+      "xy_pixels": [
+        300,
+        300
+      ],
+      "original_cell_xy_bounds_A": [
+        [
+          9.458968,
+          9.458968
+        ],
+        [
+          55.228168000000004,
+          55.228168000000004
+        ]
+      ],
+      "xy_material_lengths_A": [
+        45.769200000000005,
+        45.769200000000005
+      ],
+      "retained_atoms": 1321,
+      "removed_atoms": 176,
+      "species_counts": {
+        "Se": 853,
+        "W": 468
+      },
+      "coordinate_shift_xyz_A": [
+        -1.52564,
+        -1.52564,
+        0.0
+      ],
+      "cell_lengths_A": [
+        61.635856,
+        61.635856,
+        28.0
+      ],
+      "vacuum_each_side_xyz_A": [
+        7.933328,
+        7.933328,
+        8.0
+      ],
+      "z_policy": "All original atom z coordinates and the original padded z cell are retained."
+    },
+    "cropped_280x280": {
+      "file": "best_cropped_280x280.xsf",
+      "xy_pixels": [
+        280,
+        280
+      ],
+      "original_cell_xy_bounds_A": [
+        [
+          10.984608000000001,
+          10.984608000000001
+        ],
+        [
+          53.70252800000001,
+          53.70252800000001
+        ]
+      ],
+      "xy_material_lengths_A": [
+        42.71792000000001,
+        42.71792000000001
+      ],
+      "retained_atoms": 1150,
+      "removed_atoms": 347,
+      "species_counts": {
+        "Se": 761,
+        "W": 389
+      },
+      "coordinate_shift_xyz_A": [
+        -3.05128,
+        -3.05128,
+        0.0
+      ],
+      "cell_lengths_A": [
+        58.584576,
+        58.584576,
+        28.0
+      ],
+      "vacuum_each_side_xyz_A": [
+        7.933328,
+        7.933328,
+        8.0
+      ],
+      "z_policy": "All original atom z coordinates and the original padded z cell are retained."
+    }
+  },
+  "display_scale_input_tiff_units": [
+    -0.000406916078645736,
+    1.9617524147033691
+  ]
+}

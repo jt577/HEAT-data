@@ -13,6 +13,9 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from convergence_ensemble import discover_logs, aggregate, save_summary
 
 import matplotlib
 
@@ -37,7 +40,7 @@ MAX_GENERATION_OVERRIDE = 20
 GENERATIONS_AFTER_BOTH_HIT = 2
 
 ENERGY_Y_MIN = -0.1
-# A hit means the relaxed candidate-minus-ground-truth difference is < 0.
+# A hit means the per-total-atom gap is below 1e-4 eV/atom.
 GROUND_TRUTH_HIT_TOLERANCE_EVPATOM = 1.0e-4
 
 GEAT_COLOR = "#1f1f1f"
@@ -214,105 +217,40 @@ def style_axis(axis):
     axis.spines["right"].set_visible(False)
 
 
-def add_series(axis, candidates, color, label, horizon):
-    generations, best = best_energy_through_horizon(candidates, horizon)
-    axis.plot(
-        generations,
-        best,
-        color=color,
-        linewidth=BEST_LINE_WIDTH,
-        label=label,
-    )
-    hit_generation = ground_truth_hit_generation(candidates)
-    if hit_generation is not None:
-        axis.axvline(
-            hit_generation,
-            color=color,
-            linestyle=":",
-            linewidth=CONVERGENCE_LINE_WIDTH,
-            alpha=0.55,
-        )
-        axis.scatter(
-            [hit_generation],
-            [0.0],
-            color=color,
-            s=CONVERGENCE_MARKER_SIZE,
-            zorder=5,
-        )
-    return generations, best
-
-
-def plot(geat_candidates, ordinary_candidates, output_path):
-    fig, axis = plt.subplots(figsize=FIGURE_SIZE)
-    horizon = common_plot_horizon(geat_candidates, ordinary_candidates)
-    geat_generations, geat_best = add_series(
-        axis, geat_candidates, GEAT_COLOR, "HEAT", horizon
-    )
-    ordinary_generations, ordinary_best = add_series(
-        axis, ordinary_candidates, ORDINARY_COLOR, "Conventional", horizon
-    )
-    axis.axhline(
-        0.0,
-        color="#c62828",
-        linestyle="--",
-        linewidth=REFERENCE_LINE_WIDTH,
-        zorder=1,
-    )
-
-    first_generation = int(min(geat_generations[0], ordinary_generations[0]))
-    last_generation = int(horizon)
-    axis.set_xlim(first_generation - 0.7, last_generation + 0.7)
-    axis.set_ylim(bottom=ENERGY_Y_MIN)
-    tick_step = max(
-        1,
-        int(np.ceil((last_generation - first_generation) / 7)),
-    )
-    axis.set_xticks(
-        np.arange(first_generation, last_generation + 1, tick_step)
-    )
-    axis.set_ylabel(
-        r"$E_{\rm best}-E_{\rm ref}$ (eV/core atom)",
-        fontsize=AXIS_LABEL_SIZE,
-    )
+def main():
+    heat_paths = discover_logs(BASE_DIR / "eat")
+    conventional_paths = discover_logs(BASE_DIR / "ordinary")
+    reference = reference_energy_from_log(heat_paths[0])
+    horizon = int(MAX_GENERATION_OVERRIDE)
+    load = lambda path: load_results(path, reference)
+    curve = lambda candidates: best_energy_so_far(candidates, per_core=True)
+    series = {name: aggregate(paths, load, curve, ground_truth_hit_generation, horizon)
+              for name, paths in [("HEAT", heat_paths), ("Conventional", conventional_paths)]}
+    output = OUTPUT_PATH
+    fig, axis = plt.subplots(figsize=FIGURE_SIZE, constrained_layout=True)
+    for name, color in [("HEAT", GEAT_COLOR), ("Conventional", ORDINARY_COLOR)]:
+        result = series[name]
+        x = result["generations"]
+        axis.fill_between(x, result["minimum"], result["maximum"], color=color, alpha=0.18, linewidth=0)
+        axis.plot(x, result["selected"], color=color, linewidth=BEST_LINE_WIDTH, label=name)
+    axis.axhline(0, color="#c62828", linestyle="--", linewidth=REFERENCE_LINE_WIDTH, zorder=1)
+    for name, color in [("HEAT", GEAT_COLOR), ("Conventional", ORDINARY_COLOR)]:
+        result = series[name]
+        hit_generation = result["trials"][result["selected_index"]]["reference_hit_generation"]
+        if hit_generation is not None:
+            axis.scatter([hit_generation], [0.0], color=color, s=CONVERGENCE_MARKER_SIZE, zorder=5)
+    axis.set_ylabel(r"$E_{\rm best}-E_{\rm ref}$ (eV/core atom)", fontsize=AXIS_LABEL_SIZE)
     axis.set_xlabel("Generation", fontsize=AXIS_LABEL_SIZE)
     axis.tick_params(axis="both", labelsize=TICK_LABEL_SIZE)
-    axis.legend(frameon=False, fontsize=LEGEND_LABEL_SIZE)
+    axis.set_xlim(-0.7, horizon+0.7)
+    axis.set_ylim(bottom=ENERGY_Y_MIN)
+    axis.set_xticks(np.arange(0, horizon+1, max(1, int(np.ceil(horizon/7)))))
     style_axis(axis)
-    fig.tight_layout()
-    fig.savefig(output_path, dpi=240, facecolor="white")
+    axis.legend(frameon=False, fontsize=LEGEND_LABEL_SIZE)
+    fig.savefig(output, dpi=240, facecolor="white")
     plt.close(fig)
-    return geat_best, ordinary_best
-
-
-def main():
-    ground_truth_energy = reference_energy_from_log(GEAT_GENETIC_LOG)
-    geat_candidates = load_results(GEAT_GENETIC_LOG, ground_truth_energy)
-    ordinary_candidates = load_results(ORDINARY_GENETIC_LOG, ground_truth_energy)
-    geat_best, ordinary_best = plot(
-        geat_candidates,
-        ordinary_candidates,
-        OUTPUT_PATH,
-    )
-
-    geat_generations, _ = best_energy_so_far(geat_candidates)
-    ordinary_generations, _ = best_energy_so_far(ordinary_candidates)
-    print(f"[GEAT source] {GEAT_GENETIC_LOG.resolve()}")
-    print(f"[Ordinary source] {ORDINARY_GENETIC_LOG.resolve()}")
-    print(
-        f"[GEAT] candidates={len(geat_candidates)} "
-        f"generations={geat_generations[0]}-{geat_generations[-1]} "
-        f"ground_truth_Eform={ground_truth_energy:.12f} eV/atom "
-        f"hit={ground_truth_hit_generation(geat_candidates)} "
-        f"best_gap={geat_best[-1]:.12f} eV/core atom"
-    )
-    print(
-        f"[Ordinary] candidates={len(ordinary_candidates)} "
-        f"generations={ordinary_generations[0]}-{ordinary_generations[-1]} "
-        f"ground_truth_Eform={ground_truth_energy:.12f} eV/atom "
-        f"hit={ground_truth_hit_generation(ordinary_candidates)} "
-        f"best_gap={ordinary_best[-1]:.12f} eV/core atom"
-    )
-    print(f"[output] {OUTPUT_PATH.resolve()}")
+    save_summary(output.with_name(output.stem+"_statistics"), series, "eV/core atom", reference)
+    print("Saved", output)
 
 
 if __name__ == "__main__":

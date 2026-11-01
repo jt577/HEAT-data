@@ -6,8 +6,10 @@ Edit USER PARAMETERS below, then run:
 Both member_metrics.csv and generation_metrics.csv are supported. Total loss
 is cumulative best-so-far. Formation energy and the weighted image penalty
 belong to that same best-loss candidate; these components need not decrease
-monotonically. HEAT stops at generation 128; the conventional curve includes
-all complete generations. No reference energy is subtracted.
+monotonically. HEAT stops at generation 128; the conventional curve stops at generation 352 for approximately equal
+interatomic-model evaluation budgets. No reference energy is subtracted.
+The total-loss figure highlights the HEAT trial with the lowest cumulative loss
+at generation 128, with a pointwise minimum--maximum band across HEAT trials.
 Use --loss-only to regenerate only the total-loss figure.
 """
 
@@ -32,15 +34,23 @@ import numpy as np
 
 BASE_DIR = Path(__file__).resolve().parent
 HEAT_CSV = BASE_DIR / "eat" / "member_metrics.csv"
+if not HEAT_CSV.exists():
+    HEAT_CSV = BASE_DIR / "eat" / "trial_001" / "member_metrics.csv"
 ORDINARY_CSV = BASE_DIR / "ordinary" / "member_metrics.csv"
+if not ORDINARY_CSV.exists():
+    ORDINARY_CSV = BASE_DIR / "ordinary" / "trial_001" / "member_metrics.csv"
 OUTPUT_DIR = BASE_DIR
-ENERGY_REFERENCE_CSV = BASE_DIR.parents[1] / "scripts/misc/baseline_ptycho_guided_320/objective_comparison.csv"
-TOTAL_LOSS_REFERENCE_JSON = BASE_DIR.parents[1] / "scripts/misc/baseline_ptycho_guided_320/run_summary.json"
+SCRIPTS_DIR = BASE_DIR.parents[1] / "scripts"
+if not SCRIPTS_DIR.exists():
+    SCRIPTS_DIR = BASE_DIR.parents[1] / "scripts 2"
+ENERGY_REFERENCE_CSV = SCRIPTS_DIR / "misc/baseline_ptycho_guided_320/objective_comparison.csv"
+TOTAL_LOSS_REFERENCE_JSON = SCRIPTS_DIR / "misc/baseline_ptycho_guided_320/run_summary.json"
 
 # Generation zero is the initial population. Optional shared input cap;
 # otherwise each method retains its own endpoint.
 MAX_GENERATION_OVERRIDE = None
 HEAT_FINAL_GENERATION = 128
+CONVENTIONAL_FINAL_GENERATION = 352
 INCLUDE_PARTIAL_GENERATIONS = False
 # Used to identify complete generations when reading member_metrics.csv.
 POPULATION_SIZE = 50
@@ -147,6 +157,44 @@ def best_candidates_so_far(candidates: list[Candidate]) -> list[Candidate]:
     return selected
 
 
+def load_heat_ensemble():
+    """Keep each actual trial trajectory and select by loss at the common cap."""
+    import hashlib
+    paths = sorted((BASE_DIR / "eat").glob("trial_*/member_metrics.csv"))
+    root = BASE_DIR / "eat" / "member_metrics.csv"
+    if root.exists():
+        paths.append(root)
+    curves, sources, seen = [], [], set()
+    generations = np.arange(HEAT_FINAL_GENERATION + 1)
+    for path in paths:
+        digest = hashlib.sha256(path.read_bytes()).hexdigest()
+        if digest in seen:
+            continue
+        seen.add(digest)
+        curve = [c for c in best_candidates_so_far(load_results(path))
+                 if c.generation <= HEAT_FINAL_GENERATION]
+        if not np.array_equal([c.generation for c in curve], generations):
+            raise ValueError(f"Trial must have every completed generation through {HEAT_FINAL_GENERATION}: {path}")
+        curves.append(curve)
+        sources.append(str(path.relative_to(BASE_DIR)))
+    if not curves:
+        raise ValueError("No HEAT trial CSVs found")
+    selected = min(range(len(curves)), key=lambda i: (curves[i][-1].score, sources[i]))
+    values = np.array([[c.score for c in curve] for curve in curves])
+    summary = dict(
+        selection_rule="Single trial with lowest cumulative best loss through generation 128",
+        band="Pointwise minimum to maximum across all HEAT trials, including selected trial",
+        generations=generations.tolist(), sources=sources, selected_index=selected,
+        selected_source=sources[selected], losses=values.tolist(),
+        minimum=values.min(axis=0).tolist(), maximum=values.max(axis=0).tolist(),
+        final_losses=values[:, -1].tolist(),
+        conventional_source=str(ORDINARY_CSV.relative_to(BASE_DIR)),
+        conventional_final_generation=CONVENTIONAL_FINAL_GENERATION,
+    )
+    print("[HEAT highlighted trial]", sources[selected], "loss", values[selected, -1])
+    return curves[selected], summary
+
+
 def style_axis(axis):
     axis.grid(True, axis="y", color="#d9d9d9", linewidth=0.7, alpha=0.7)
     axis.set_axisbelow(True)
@@ -164,9 +212,12 @@ def load_energy_reference():
     return float(rows[0]["formation_energy_per_atom"])
 
 
-def plot_metric(heat, ordinary, attribute, ylabel, y_limits, output_path, *, ideal_reference=False, endpoint_markers=False):
+def plot_metric(heat, ordinary, attribute, ylabel, y_limits, output_path, *, ideal_reference=False, endpoint_markers=False, heat_band=None):
     """Match the H-sublattice figure style, drawing HEAT over Ordinary."""
     fig, axis = plt.subplots(figsize=FIGURE_SIZE, constrained_layout=True)
+    if heat_band is not None:
+        axis.fill_between(heat_band["generations"], heat_band["minimum"], heat_band["maximum"],
+                          color=HEAT_COLOR, alpha=0.18, linewidth=0, zorder=1)
     # Draw Ordinary first and give HEAT higher z-order wherever they overlap.
     ordinary_line, = axis.plot(
         [candidate.generation for candidate in ordinary],
@@ -236,6 +287,7 @@ def main():
     heat = best_candidates_so_far(load_results(HEAT_CSV))
     ordinary = best_candidates_so_far(load_results(ORDINARY_CSV))
     heat = [candidate for candidate in heat if candidate.generation <= HEAT_FINAL_GENERATION]
+    ordinary = [candidate for candidate in ordinary if candidate.generation <= CONVENTIONAL_FINAL_GENERATION]
     print(f"[generation endpoints] HEAT={heat[-1].generation}, Conventional={ordinary[-1].generation}")
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     for label, path, candidates in (("HEAT", HEAT_CSV, heat), ("Conventional", ORDINARY_CSV, ordinary)):
@@ -246,6 +298,9 @@ def main():
             f"formation_energy={candidates[-1].formation_energy:.12f} "
             f"weighted_image_penalty={candidates[-1].image_penalty:.12f}"
         )
+    highlighted_heat, heat_band = load_heat_ensemble()
+    (OUTPUT_DIR / "wse2_total_loss_convergence_statistics.json").write_text(
+        json.dumps(heat_band, indent=2) + "\n")
     # Each curve ends at its own final generation.
     for attribute, ylabel, limits, filename in (
         ("score", "Loss", (LOSS_Y_MIN, LOSS_Y_MAX), "wse2_total_loss_convergence.png"),
@@ -254,8 +309,10 @@ def main():
     ):
         if args.loss_only and attribute != "score":
             continue
-        plot_metric(heat, ordinary, attribute, ylabel, limits, OUTPUT_DIR / filename,
-                    endpoint_markers=(attribute == "score"))
+        plot_metric(highlighted_heat if attribute == "score" else heat,
+                    ordinary, attribute, ylabel, limits, OUTPUT_DIR / filename,
+                    endpoint_markers=(attribute == "score"),
+                    heat_band=heat_band if attribute == "score" else None)
 
 
 if __name__ == "__main__":

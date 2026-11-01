@@ -1,0 +1,23 @@
+{
+  "generation": 352,
+  "member_index": 0,
+  "source_xsf": "images/wse2/render_inputs/g0353_m0000_elite.xsf",
+  "source_xsf_sha256": "6915ca639cc0332915996b6d503e01603c0877a28ce76a2c94129e79944a17f2",
+  "renderer": "scripts/eat_genetic_scripts/genetic_09.30.26_wse2/gaussian_image_model.py",
+  "source_generation": 353,
+  "source_kind": "unrelaxed elite copy of generation 352 member 0",
+  "calibration_file": "images/wse2/render_inputs/image_render_calibration.json",
+  "atom_count": 1293,
+  "cropped_atom_count": 980,
+  "score": 0.02076290732271488,
+  "formation_energy_per_atom": -0.08953513881542303,
+  "saved_weighted_image_penalty": 0.10546471923589706,
+  "rerendered_weighted_image_penalty": 0.10546524077653885,
+  "cropped_image_huber_mean": 0.010519604198634624,
+  "cropped_zsum_correlation": 0.12424054348576132,
+  "output_tiff": "images/wse2/figure_280x280/ordinary_generation352_reconstructed_zsum_280x280.tif",
+  "display_scale": [
+    -0.000406916078645736,
+    1.9617524147033691
+  ]
+}

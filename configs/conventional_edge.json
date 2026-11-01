@@ -1,8 +1,8 @@
 {
-  "script": "scripts/ordinary_genetic_scripts/ordinary_genetic_disloc.py",
+  "script": "scripts 2/ordinary_genetic_scripts/ordinary_genetic_disloc.py",
   "config": {
     "paths": {
-      "eat_source_script": "scripts/eat_genetic_scripts/eat_genetic_08.27.26_disloc.py",
+      "eat_source_script": "scripts 2/eat_genetic_scripts/eat_genetic_08.27.26_disloc.py",
       "output_dir": "runs/conventional/edge",
       "nist_dump_dir": "inputs/NIST_dump_files",
       "import_structures_json": ""

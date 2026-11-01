@@ -5,8 +5,8 @@ Supporting code, inputs, recorded search results, and plotting scripts for
 
 The main examples are twisted-bilayer WSe2 reconstruction from ptychography,
 reconstruction of the 240-atom H sublattice in Mg(BH4)2, and reconstruction of
-an Fe edge-dislocation active region. These are individual stochastic runs,
-not a multi-seed scaling study.
+an Fe edge-dislocation active region. Independent repeat runs are included: five
+per method for H and edge, and three HEAT runs plus one conventional run for WSe2.
 
 ## Contents
 
@@ -17,9 +17,9 @@ not a multi-seed scaling study.
 | `inputs/ptycho_data/` | Reconstructed experimental phase TIFF used by the WSe2 searches |
 | `parameters/` | Recorded run parameters, with embedded credentials removed |
 | `configs/` | Portable configurations derived from those recorded parameters |
-| `scripts/eat_genetic_scripts/` | HEAT code and WSe2 conventional-GA code |
-| `scripts/ordinary_genetic_scripts/` | Conventional H-sublattice and dislocation GAs |
-| `scripts/misc/baseline_ptycho_guided_320/` | WSe2 reference construction, source snapshot, inputs, relaxed structures, and scores |
+| `scripts 2/eat_genetic_scripts 2/` | HEAT code and WSe2 conventional-GA code |
+| `scripts 2/ordinary_genetic_scripts 2/` | Conventional H-sublattice and dislocation GAs |
+| `scripts 2/misc/baseline_ptycho_guided_320/` | WSe2 reference construction, source snapshot, inputs, relaxed structures, and scores |
 | `images/` | Convergence scripts, logs/metrics, and existing figure images |
 | `images/wse2/gaussian_splats/` | Additional trial structure, cropped XSF, simulated phase images, and rendering metadata |
 
@@ -30,23 +30,52 @@ Blender utilities needed to rerun those scripts are not included.
 
 ## Updated WSe2 comparison
 
-The conventional-GA metrics now extend through generation **446**, while the
-HEAT comparison ends at generation **128**. The total-loss plot shows each run
-only through its own endpoint, marked by a filled circle. HEAT used 543,767
-interatomic-model evaluations through generation 128; the conventional GA used
-682,069 through generation 446, approximately 25% more. These are evaluation
-counts, not elapsed-time ratios.
+The conventional-GA metrics extend through generation **446**. The total-loss
+plot ends at generation **352** for the conventional GA and generation **128**
+for HEAT, with filled circles marking these comparison endpoints. The HEAT line
+shows `eat/trial_002`, the run with the lowest loss by generation 128 (-0.35308);
+the band spans the minimum and maximum across all three HEAT runs. The
+conventional curve remains `ordinary/trial_001`, with final plotted loss 0.02076.
+The other WSe2 energy/image plots and HEAT structural images still describe the
+original HEAT run (`trial_001`), whose final loss is -0.35132.
 
-The final best losses are approximately -0.3513 for HEAT and 0.01993 for the
-conventional GA. The conventional projection in `images/wse2/figure_280x280/`
-has been updated to generation 446; its rendering metadata is stored alongside
-it in `ordinary_generation446_render_metadata.json`.
+The original HEAT run used 543,767 interatomic-model evaluations through
+generation 128, compared with 544,259 for the conventional run through generation
+352. Those approximately matched budgets refer to the original pair, not
+necessarily the newly highlighted HEAT trial. Evaluation counts are not
+elapsed-time ratios. The full conventional run remains in the CSV files.
+
+The conventional projection in
+`images/wse2/figure_280x280/` shows the best structure available at generation 352.
+Its source is the unchanged generation-353 elite copy of generation-352 member 0;
+the parent relationship and identical metrics are checked by
+`python3 images/wse2/render_ordinary_generation352.py`. This script uses the
+bundled source XSF and calibration in `images/wse2/render_inputs/`, the original
+experimental TIFF, and the production double-Gaussian renderer. It requires
+PyTorch, Pillow, NumPy, and Matplotlib. Metadata is recorded in
+`ordinary_generation352_render_metadata.json`; axis labels and ticks retain
+21-point and 17-point fonts, respectively.
 
 The previous `xsfs/` directory and structure-conversion helper have been removed
 from this version. The recorded convergence metrics, input structures, guided
 WSe2 reference, and additional trial XSF in `gaussian_splats/` remain included.
-Scripts that require the removed per-generation XSF exports or export manifests
+Other scripts that require the removed per-generation XSF exports or export manifests
 cannot currently reproduce those structural images from this checkout alone.
+
+## H-sublattice and edge repeat runs
+
+Each plot highlights one actual run: the first to reach the reference-energy
+criterion, with ties resolved by lowest final energy. If no run reaches the
+criterion, the run with the lowest final energy is highlighted. Bands span the
+pointwise minimum and maximum across five runs; they are not confidence intervals.
+Points mark first attainment of the criterion. The criterion is a formation-energy
+gap below 1e-4 eV per total atom, including values below the reference.
+
+Through generation 20, H reaches this criterion in 5/5 HEAT runs (all at generation
+2) versus 3/5 conventional runs (generations 10, 12, 13). Edge reaches it in 2/5
+HEAT runs (generations 4 and 15) versus 0/5 conventional runs. The original edge
+HEAT run stopped after generation 7; its final incumbent is held through
+generation 20. Plot statistics JSON files record sources, selected runs, and bands.
 
 ## Reproduce convergence plots
 
@@ -88,7 +117,7 @@ commands for this version. Some also retain historical input paths, including
 `ptycho_data/`; the bundled experimental TIFF is under `inputs/ptycho_data/`.
 `evaluate_reference_image.py` additionally refers to a historical energy-only
 reference folder that is not bundled. The double-Gaussian fit table is
-`scripts/eat_genetic_scripts/genetic_09.30.26_wse2/element_double_gaussian_fits.csv`.
+`scripts 2/eat_genetic_scripts 2/genetic_09.30.26_wse2/element_double_gaussian_fits.csv`.
 
 ## Run new searches
 

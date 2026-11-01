@@ -1,8 +1,8 @@
 """Compare GEAT and ordinary-GA H-sublattice convergence by generation.
 
 Candidate formation energies are read directly from each algorithm's
-``genetic_optimization_log.txt``. Each curve is the cumulative minimum
-formation-energy gap per H atom to the common relaxed ground-state reference.
+``genetic_optimization_log.txt``. Each curve highlights one trial, selected by earliest reference attainment,
+with a band spanning all trials. The plotted quantity is the formation-energy gap per H atom to the common relaxed ground-state reference.
 Logged energies and reference-hit detection retain their original per-total-atom
 normalization; only the plotted energies are converted.
 """
@@ -11,6 +11,9 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from convergence_ensemble import discover_logs, aggregate, save_summary
 
 import matplotlib
 
@@ -47,7 +50,7 @@ GENERATION_NUMBERING = "zero_based"
 
 ENERGY_Y_MIN = -0.01
 ENERGY_Y_MAX = None
-# A hit means the relaxed EAT-minus-ground-truth difference is strictly < 0.
+# A hit means the per-total-atom gap is below 1e-4 eV/atom.
 GROUND_TRUTH_HIT_TOLERANCE_EVPATOM = 1.0e-4
 
 GEAT_COLOR = "#1f1f1f"
@@ -202,114 +205,40 @@ def style_axis(axis):
     axis.spines["right"].set_visible(False)
 
 
-def plot(
-    geat_candidates: list[Candidate],
-    ordinary_candidates: list[Candidate],
-    output_path: Path,
-):
-    horizon = common_plot_horizon(geat_candidates, ordinary_candidates)
-    geat_generations, geat_best = best_energy_through_horizon(
-        geat_candidates, horizon
-    )
-    ordinary_generations, ordinary_best = best_energy_through_horizon(
-        ordinary_candidates, horizon
-    )
-
+def main():
+    heat_paths = discover_logs(BASE_DIR / "eat")
+    conventional_paths = discover_logs(BASE_DIR / "ordinary")
+    reference = GROUND_TRUTH_FORMATION_ENERGY_PER_ATOM
+    horizon = int(MAX_GENERATION_OVERRIDE)
+    load = lambda path: load_results(path)[1]
+    curve = lambda candidates: best_energy_so_far(candidates, per_h=True)
+    series = {name: aggregate(paths, load, curve, ground_truth_hit_generation, horizon)
+              for name, paths in [("HEAT", heat_paths), ("Conventional", conventional_paths)]}
+    output = OUTPUT_DIR / "h_sublattice_convergence.png"
     fig, axis = plt.subplots(figsize=FIGURE_SIZE, constrained_layout=True)
-    axis.plot(
-        geat_generations,
-        geat_best,
-        color=GEAT_COLOR,
-        linewidth=BEST_LINE_WIDTH,
-        label="HEAT",
-    )
-    axis.plot(
-        ordinary_generations,
-        ordinary_best,
-        color=ORDINARY_COLOR,
-        linewidth=BEST_LINE_WIDTH,
-        label="Conventional",
-    )
-    axis.axhline(
-        0.0,
-        color="#c62828",
-        linestyle="--",
-        linewidth=HORIZONTAL_REFERENCE_LINE_WIDTH,
-        zorder=1,
-    )
-    for candidates, color in (
-        (geat_candidates, GEAT_COLOR),
-        (ordinary_candidates, ORDINARY_COLOR),
-    ):
-        hit_generation = ground_truth_hit_generation(candidates)
-        if hit_generation is None:
-            continue
-        axis.axvline(
-            hit_generation,
-            color=color,
-            linestyle=":",
-            linewidth=VERTICAL_REFERENCE_LINE_WIDTH,
-            alpha=0.55,
-        )
-        axis.scatter([hit_generation], [0.0], color=color, s=34, zorder=5)
+    for name, color in [("HEAT", GEAT_COLOR), ("Conventional", ORDINARY_COLOR)]:
+        result = series[name]
+        x = result["generations"]
+        axis.fill_between(x, result["minimum"], result["maximum"], color=color, alpha=0.18, linewidth=0)
+        axis.plot(x, result["selected"], color=color, linewidth=BEST_LINE_WIDTH, label=name)
+    axis.axhline(0, color="#c62828", linestyle="--", linewidth=HORIZONTAL_REFERENCE_LINE_WIDTH, zorder=1)
+    for name, color in [("HEAT", GEAT_COLOR), ("Conventional", ORDINARY_COLOR)]:
+        result = series[name]
+        hit_generation = result["trials"][result["selected_index"]]["reference_hit_generation"]
+        if hit_generation is not None:
+            axis.scatter([hit_generation], [0.0], color=color, s=34, zorder=5)
     axis.set_ylabel(r"$E_{\rm best}-E_{\rm ref}$ (eV/H atom)", fontsize=AXIS_LABEL_SIZE)
     axis.set_xlabel("Generation", fontsize=AXIS_LABEL_SIZE)
     axis.tick_params(axis="both", labelsize=TICK_LABEL_SIZE)
-    axis.set_ylim(
-        bottom=ENERGY_Y_MIN,
-        top=(
-            float(ENERGY_Y_MAX)
-            if ENERGY_Y_MAX is not None
-            else max(
-                0.01,
-                float(np.nanmax(geat_best)) * 1.05,
-                float(np.nanmax(ordinary_best)) * 1.05,
-            )
-        ),
-    )
-    first_generation = int(min(geat_generations[0], ordinary_generations[0]))
-    last_generation = int(horizon)
-    axis.set_xlim(first_generation - 0.7, last_generation + 0.7)
-    tick_step = max(1, int(np.ceil((last_generation - first_generation) / 7)))
-    axis.set_xticks(np.arange(first_generation, last_generation + 1, tick_step))
+    axis.set_xlim(-0.7, horizon+0.7)
+    axis.set_ylim(bottom=ENERGY_Y_MIN)
+    axis.set_xticks(np.arange(0, horizon+1, max(1, int(np.ceil(horizon/7)))))
     style_axis(axis)
     axis.legend(frameon=False, fontsize=TICK_LABEL_SIZE)
-    fig.savefig(output_path, dpi=300, facecolor="white")
+    fig.savefig(output, dpi=300, facecolor="white")
     plt.close(fig)
-
-
-def main():
-    geat_ground_truth, geat_candidates = load_results(GEAT_GENETIC_LOG)
-    ordinary_ground_truth, ordinary_candidates = load_results(ORDINARY_GENETIC_LOG)
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    output_path = OUTPUT_DIR / "h_sublattice_convergence.png"
-    plot(geat_candidates, ordinary_candidates, output_path)
-
-    geat_generations, geat_best = best_energy_so_far(geat_candidates)
-    ordinary_generations, ordinary_best = best_energy_so_far(ordinary_candidates)
-    print(f"[GEAT source] {GEAT_GENETIC_LOG.resolve()}")
-    print(f"[Ordinary source] {ORDINARY_GENETIC_LOG.resolve()}")
-    print(
-        f"[GEAT ground truth] formation_energy_per_atom="
-        f"{geat_ground_truth:.12f} eV/atom"
-    )
-    print(
-        f"[Ordinary ground truth] formation_energy_per_atom="
-        f"{ordinary_ground_truth:.12f} eV/atom"
-    )
-    print(
-        f"[GEAT] candidates={len(geat_candidates)} "
-        f"generations={geat_generations[0]}-{geat_generations[-1]} "
-        f"hit={ground_truth_hit_generation(geat_candidates)} "
-        f"best_gap={geat_best[-1]:.12f} eV/atom"
-    )
-    print(
-        f"[Ordinary] candidates={len(ordinary_candidates)} "
-        f"generations={ordinary_generations[0]}-{ordinary_generations[-1]} "
-        f"hit={ground_truth_hit_generation(ordinary_candidates)} "
-        f"best_gap={ordinary_best[-1]:.12f} eV/atom"
-    )
-    print(f"[output] {output_path.resolve()}")
+    save_summary(output.with_name(output.stem+"_statistics"), series, "eV/H atom", reference)
+    print("Saved", output)
 
 
 if __name__ == "__main__":

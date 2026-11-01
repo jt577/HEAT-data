@@ -19,13 +19,13 @@
       ]
     },
     "ordinary_reconstructed": {
-      "source": "xsfs/wse2/xsfs_wse2_ordinary/images/generation_0446_reconstructed_zsum_cropped_280x280.tif",
-      "sha256": "ac716c1c269dc54d704e5bfb1ee8138123afc4780a4efc6cb819edcd6c0df576",
+      "source": "images/wse2/figure_280x280/ordinary_generation352_reconstructed_zsum_280x280.tif",
+      "sha256": "b463b14e38b3f9394f8dc890cfeab486ad9ab6f7393c98ab5730217247225be8",
       "shape": [
         280,
         280
       ],
-      "generation": 446,
+      "generation": 352,
       "member_index": 0
     }
   },
@@ -157,6 +157,6 @@
       1200
     ]
   },
-  "ordinary_display_generation": 446,
+  "ordinary_display_generation": 352,
   "heat_display_generation": 126
 }
