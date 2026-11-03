@@ -1,10 +1,10 @@
 {
-  "script": "scripts 2/eat_genetic_scripts/discrete_09.30.26_wse2/discrete_09.30.26_wse2.py",
+  "script": "scripts/eat_genetic_scripts/discrete_09.30.26_wse2/discrete_09.30.26_wse2.py",
   "config": {
     "paths": {
       "output_dir": "runs/conventional/wse2",
       "import_structures_json": "",
-      "element_fit_csv": "scripts 2/eat_genetic_scripts/discrete_09.30.26_wse2/element_double_gaussian_fits.csv"
+      "element_fit_csv": "scripts/eat_genetic_scripts/discrete_09.30.26_wse2/element_double_gaussian_fits.csv"
     },
     "model": {
       "model_name": "uma-s-1p1",

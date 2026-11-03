@@ -1,5 +1,5 @@
 {
-  "script": "scripts 2/eat_genetic_scripts/genetic_09.30.26_wse2/genetic_09.30.26_wse2.py",
+  "script": "scripts/eat_genetic_scripts/genetic_09.30.26_wse2/genetic_09.30.26_wse2.py",
   "config": {
     "paths": {
       "output_dir": "runs/heat/wse2",

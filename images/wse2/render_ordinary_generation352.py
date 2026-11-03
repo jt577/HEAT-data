@@ -29,7 +29,7 @@ def main():
     helpers['save_projection'].__globals__.update(AXIS_LABEL_SIZE=21, TICK_LABEL_SIZE=17)
     manifest = json.loads((INPUTS / 'image_render_calibration.json').read_text())
     norm = manifest['normalization']
-    module_path = PAPER / 'scripts 2/eat_genetic_scripts/genetic_09.30.26_wse2/gaussian_image_model.py'
+    module_path = PAPER / 'scripts/eat_genetic_scripts/genetic_09.30.26_wse2/gaussian_image_model.py'
     spec = importlib.util.spec_from_file_location('wse2_image_model', module_path)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)

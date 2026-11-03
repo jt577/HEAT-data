@@ -1,5 +1,5 @@
 {
-  "script": "scripts 2/eat_genetic_scripts/eat_genetic_08.27.26_H_sublattice.py",
+  "script": "scripts/eat_genetic_scripts/eat_genetic_08.27.26_H_sublattice.py",
   "config": {
     "paths": {
       "output_dir": "runs/heat/h",

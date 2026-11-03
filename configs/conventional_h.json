@@ -1,8 +1,8 @@
 {
-  "script": "scripts 2/ordinary_genetic_scripts/ordinary_genetic_H_sublattice.py",
+  "script": "scripts/ordinary_genetic_scripts/ordinary_genetic_H_sublattice.py",
   "config": {
     "paths": {
-      "eat_source_script": "scripts 2/eat_genetic_scripts/eat_genetic_08.27.26_H_sublattice.py",
+      "eat_source_script": "scripts/eat_genetic_scripts/eat_genetic_08.27.26_H_sublattice.py",
       "output_dir": "runs/conventional/h",
       "import_structures_json": ""
     },

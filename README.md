@@ -6,7 +6,7 @@ Supporting code, inputs, recorded search results, and plotting scripts for
 The main examples are twisted-bilayer WSe2 reconstruction from ptychography,
 reconstruction of the 240-atom H sublattice in Mg(BH4)2, and reconstruction of
 an Fe edge-dislocation active region. Independent repeat runs are included: five
-per method for H and edge, and three HEAT runs plus one conventional run for WSe2.
+per method for H and edge, and three runs per method for WSe2.
 
 ## Contents
 
@@ -17,9 +17,9 @@ per method for H and edge, and three HEAT runs plus one conventional run for WSe
 | `inputs/ptycho_data/` | Reconstructed experimental phase TIFF used by the WSe2 searches |
 | `parameters/` | Recorded run parameters, with embedded credentials removed |
 | `configs/` | Portable configurations derived from those recorded parameters |
-| `scripts 2/eat_genetic_scripts 2/` | HEAT code and WSe2 conventional-GA code |
-| `scripts 2/ordinary_genetic_scripts 2/` | Conventional H-sublattice and dislocation GAs |
-| `scripts 2/misc/baseline_ptycho_guided_320/` | WSe2 reference construction, source snapshot, inputs, relaxed structures, and scores |
+| `scripts/eat_genetic_scripts/` | HEAT code and WSe2 conventional-GA code |
+| `scripts/ordinary_genetic_scripts/` | Conventional H-sublattice and dislocation GAs |
+| `scripts/misc/baseline_ptycho_guided_320/` | WSe2 reference construction, source snapshot, inputs, relaxed structures, and scores |
 | `images/` | Convergence scripts, logs/metrics, and existing figure images |
 | `images/wse2/gaussian_splats/` | Additional trial structure, cropped XSF, simulated phase images, and rendering metadata |
 
@@ -35,9 +35,12 @@ plot ends at generation **352** for the conventional GA and generation **128**
 for HEAT, with filled circles marking these comparison endpoints. The HEAT line
 shows `eat/trial_002`, the run with the lowest loss by generation 128 (-0.35308);
 the band spans the minimum and maximum across all three HEAT runs. The
-conventional curve remains `ordinary/trial_001`, with final plotted loss 0.02076.
+conventional line shows `ordinary/trial_003`, with the lowest loss by generation
+352 (0.018705), and its band spans all three conventional runs.
 The other WSe2 energy/image plots and HEAT structural images still describe the
-original HEAT run (`trial_001`), whose final loss is -0.35132.
+original HEAT run (`trial_001`), whose final loss is -0.35132. The conventional
+structural image also remains from `trial_001`; updating the convergence plot
+does not replace either representative structural image.
 
 The original HEAT run used 543,767 interatomic-model evaluations through
 generation 128, compared with 544,259 for the conventional run through generation
@@ -117,7 +120,7 @@ commands for this version. Some also retain historical input paths, including
 `ptycho_data/`; the bundled experimental TIFF is under `inputs/ptycho_data/`.
 `evaluate_reference_image.py` additionally refers to a historical energy-only
 reference folder that is not bundled. The double-Gaussian fit table is
-`scripts 2/eat_genetic_scripts 2/genetic_09.30.26_wse2/element_double_gaussian_fits.csv`.
+`scripts/eat_genetic_scripts/genetic_09.30.26_wse2/element_double_gaussian_fits.csv`.
 
 ## Run new searches
 
